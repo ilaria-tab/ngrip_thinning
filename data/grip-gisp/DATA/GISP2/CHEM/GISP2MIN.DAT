@@ -1,0 +1,39 @@
+Mineralogy and Isotope Chemistry of Greenland Ice Sheet Project 2 Samples
+
+REFERENCES: 
+
+Biscaye, P.E., F.E. Grousset, M. Revel, S. Van der Gaast, G.A. Zielinski,
+A. Vaars, and G. Kukla. 1997. Asian provenance of glacial dust (stage 2) in
+the Greenland Ice Sheet Project 2 ice core, Summit, Greenland. Journal of
+Geophysical Research 102:26765-26781.
+
+DATA DESCRIPTION: 
+
+This file is contains clay mineralogy, Nd/Sm and Pb isotope data from the
+GISP2 ice core, from Biscaye et al. (1997).  Ages are calendar years
+before present (1950) on the layer-counted timescale (Meese et al., 1997,
+file countage.dat). AlSi are aluminosilicate insoluble particles. Beta is
+a dimensionless parameter related to grain-size sorting; it is the
+negative slope of the Junge distribution;  lower beta values correspond to
+higher relative abundance of coarse particles.  '999999' refers is used
+for non-measured parameters. 
+
+Data on possible dust source regions are given in the companion file
+srcmin.dat.
+
+DATA:																					
+
+Sample	Top Depth (m)	Bottom Depth (m)	Smectite	Illite	Kaolinite	Chlorite	Ca++	AlSi Concentration	AlSi Flux	Particle Size	Particle Size	87Sr/86Sr	143Nd/144Nd	epsilon ND	Age Top	Age Bottom	206Pb/204Pb	207Pb/204Pb	208Pb/204Pb	206Pb/207Pb	208Pb/206Pb
+Name	(m)	(m)	(%)	(%)	(%)	(%)	(ppb)	(mg/kg)	(mg cm^-2 kyr^-1)	(mean, mm)	Beta				(yrs BP)	(yrs BP)					
+
+G7	1984	1984.5	0	56	18	26	73	999999	999999	1.18	2.54	999999	999999	999999	23315	23365	999999	999999	999999	999999	999999
+G8	1984.5	1984.97	0	51	27	22	66	999999	999999	1.17	2.49	999999	999999	999999	23325	23375	999999	999999	999999	999999	999999
+G9	1984.97	1985.52	0	56	18	26	52	999999	999999	1.15	2.44	999999	999999	999999	23365	23415	999999	999999	999999	999999	999999
+G10	1985.52	1986	0	51	23	23	64	999999	999999	1.16	2.55	999999	999999	999999	23375	23425	999999	999999	999999	999999	999999
+G5	1994	1994.5	2	62	13	26	602	3.6	8.1	1.32	2	0.718407	999999	999999	23910	23950	18.982	15.65	38.796	1.213	2.044
+G6	1994.5	1995	0	61	15	24	673	3.44	7.74	1.31	1.9	0.718034	0.512134	-9.8	23920	23960	18.804	15.643	38.689	1.202	2.058
+G3	2005	2005.6	0	59	14	28	268	3.63	9.8	1.23	2.35	0.719012	0.51217	-9.1	24500	24540	18.647	15.626	38.306	1.193	2.054
+G4	2018	2018.75	0	63	10	28	712	2.12	3.58	1.29	2.01	0.718953	0.512132	-9.8	25330	25410	18.853	15.645	38.669	1.205	2.051
+G1	2019	2019.5	0	53	21	26	732	6.41	14.42	1.27	2.26	0.719334	0.512101	-10.4	25410	25450	18.989	15.66	38.565	1.213	2.031
+G2	2030	2030.6	0	54	17	30	229	2.1	5.67	1.23	2.28	0.711828	0.512245	-7.6	26160	26200	18.706	15.652	38.414	1.195	2.053
+G7-G10	1984	1986	0	53.5	21.5	24.25	64	0.92	1.66	1.17	2.51	0.717153	999999	999999	23315	23425	18.7	15.646	38.361	1.195	2.052

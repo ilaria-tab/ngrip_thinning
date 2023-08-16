@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="doi:10.18739/A2599Z26M" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd" system="https://doi.org">
+  <dataset>
+    <title>Reconstructions of mean-annual Greenland temperature and precipitation for the past 20,000 years and the ice-core records used to create the reconstructions 2020</title>
+    <creator id="3648812599236767">
+      <individualName>
+        <givenName>Jessica A.</givenName>
+        <surName>Badgeley</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Graduate Student</positionName>
+      <electronicMailAddress>badgeley@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3307-1588</userId>
+    </creator>
+    <creator id="3601250720588690">
+      <individualName>
+        <givenName>Eric J.</givenName>
+        <surName>Steig</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Professor</positionName>
+      <electronicMailAddress>steig@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8191-5549</userId>
+    </creator>
+    <creator id="3363421774514250">
+      <individualName>
+        <givenName>Gregory J.</givenName>
+        <surName>Hakim</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Professor</positionName>
+      <electronicMailAddress>ghakim@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8486-9739</userId>
+    </creator>
+    <creator id="1999206683005988">
+      <individualName>
+        <givenName>Tyler J.</givenName>
+        <surName>Fudge</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Research Assistant Professor</positionName>
+      <electronicMailAddress>tjfudge@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6818-7479</userId>
+    </creator>
+    <pubDate>2020</pubDate>
+    <abstract>
+      <para>This dataset provides mean-annual surface temperature and precipitation reconstructions for Greenland over the past 20,000 years and the proxy records used to create the reconstructions. For each reconstruction, ice-core records were assimilated with a transient climate simulation using the ensemble Kalman filter. The reconstructions differ by assumptions made during preparation of the ice-core records and parameters set in the assimilation process. The temperature values are anomalies with respect to the reference period, 1850-2000 CE, while the precipitation values are fractional precipitation rates with respect to the same reference period. The ice-core data was previously published except for the accumulation rate records from Dye3, Greenland Ice Core Project (GRIP), and North Greenland Ice Core Project (NGRIP). To extract the accumulation signal from layer-thickness, the layers were destrained using assumptions about the history of ice flow. Here, a one-dimensional ice-flow model was used to calculate the cumulative vertical strain the layers have experienced at each core site. Based on a range of plausible ice-flow parameters, three scenarios were developed for each site: 'low', 'moderate', and 'high', where the names reflect the relative magnitude of accumulation in the glacial and early Holocene. More information on both the reconstructions and the ice-core records is provided in the following paper: Badgeley, J. A., Steig, E. J., Hakim, G. J. and Fudge, T. J.: Greenland temperature and precipitation over the last 20,000 years using data assimilation, Climate of the Past, in press, 2020 (preprint: https://doi.org/10.5194/cp-2019-164). Please cite this paper if you use the climate reconstructions or the accumulation records for GRIP, NGRIP, or Dye3.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>air temperature reconstruction</keyword>
+      <keyword>precipitation reconstruction</keyword>
+      <keywordThesaurus>NASA Global Change Master Directory (GCMD)</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Greenland</keyword>
+      <keyword>ice core records</keyword>
+      <keyword>water isotopes</keyword>
+      <keyword>accumulation rate</keyword>
+      <keyword>data assimilation</keyword>
+      <keyword>paleoclimate</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This work is dedicated to the public domain under the Creative Commons Universal 1.0 Public Domain Dedication. To view a copy of this dedication, visit https://creativecommons.org/publicdomain/zero/1.0/.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://arcticdata.io/catalog/view/doi:10.18739/A2599Z26M</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-86.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-3.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>87.16</northBoundingCoordinate>
+          <southBoundingCoordinate>53.81</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Agassiz ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-73.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>80.7</northBoundingCoordinate>
+          <southBoundingCoordinate>80.7</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Camp Century ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-61.12</westBoundingCoordinate>
+          <eastBoundingCoordinate>-61.12</eastBoundingCoordinate>
+          <northBoundingCoordinate>77.18</northBoundingCoordinate>
+          <southBoundingCoordinate>77.18</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Dye3 ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-43.82</westBoundingCoordinate>
+          <eastBoundingCoordinate>-43.82</eastBoundingCoordinate>
+          <northBoundingCoordinate>65.18</northBoundingCoordinate>
+          <southBoundingCoordinate>65.18</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>GISP2 ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-38.8</westBoundingCoordinate>
+          <eastBoundingCoordinate>-38.8</eastBoundingCoordinate>
+          <northBoundingCoordinate>72.97</northBoundingCoordinate>
+          <southBoundingCoordinate>72.97</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>GRIP ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-37.6</westBoundingCoordinate>
+          <eastBoundingCoordinate>-37.6</eastBoundingCoordinate>
+          <northBoundingCoordinate>72.6</northBoundingCoordinate>
+          <southBoundingCoordinate>72.6</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>NEEM ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-51.06</westBoundingCoordinate>
+          <eastBoundingCoordinate>-51.06</eastBoundingCoordinate>
+          <northBoundingCoordinate>77.45</northBoundingCoordinate>
+          <southBoundingCoordinate>77.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>NGRIP ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-42.3</westBoundingCoordinate>
+          <eastBoundingCoordinate>-42.3</eastBoundingCoordinate>
+          <northBoundingCoordinate>75.1</northBoundingCoordinate>
+          <southBoundingCoordinate>75.1</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Renland ice-core site, Greenland</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-26.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-26.73</eastBoundingCoordinate>
+          <northBoundingCoordinate>71.27</northBoundingCoordinate>
+          <southBoundingCoordinate>71.27</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="6413471185054806">
+      <individualName>
+        <givenName>Jessica A.</givenName>
+        <surName>Badgeley</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Graduate Student</positionName>
+      <electronicMailAddress>badgeley@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3307-1588</userId>
+    </contact>
+    <contact id="6438535914161164">
+      <individualName>
+        <givenName>Eric J.</givenName>
+        <surName>Steig</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Professor</positionName>
+      <electronicMailAddress>steig@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8191-5549</userId>
+    </contact>
+    <contact id="8683193711907817">
+      <individualName>
+        <givenName>Tyler J.</givenName>
+        <surName>Fudge</surName>
+      </individualName>
+      <organizationName>University of Washington</organizationName>
+      <positionName>Research Assistant Professor</positionName>
+      <electronicMailAddress>tjfudge@uw.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6818-7479</userId>
+    </contact>
+    <publisher>
+      <organizationName>NSF Arctic Data Center</organizationName>
+      <electronicMailAddress>support@arcticdata.io</electronicMailAddress>
+      <onlineUrl>http://arcticdata.io</onlineUrl>
+      <userId directory="https://www.wikidata.org/">Q77285095</userId>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The following methods have been modified from Badgeley et al. (2020).</para>
+          <para>The paleoclimate reconstructions were made by assimilating oxygen isotope ratios and accumulation from ice cores with a transient climate-model simulation. In the following steps, we briefly describe the ice-core data, the climate-model simulation, the details of our paleoclimate data assimilation approach, and the rationale behind the sensitivity experiments included in this dataset. Then we describe the methods used to create the new accumulation records for GRIP, NGRIP, and Dye3.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Ice-core data:</para>
+          <para>We use proxy records from eight ice cores from the Greenland Ice Sheet and nearby ice caps (Agassiz, Camp Century, Dye3, GISP2, GRIP, NEEM, NGRIP, and Renland). As a proxy for temperature, we use previously-published measurements of oxygen isotope ratios from the ice (δ18O). Because records from the Dye3 ice core are our only source of information in southern Greenland, we extend the depth-age scale to 20 kiloannum (ka) to take advantage of the glacial portion of the δ18O record. The accumulation history has been estimated for five of these cores (Dye3, GISP2, GRIP, NEEM, and NGRIP) from layer thickness corrected for vertical ice-thinning due to dynamical strain in the ice sheet.</para>
+          <para>Where possible, we account for non-local effects on the ice-core records, including fluctuations in the global-mean δ18O and horizontal advection that brings ice from other elevations and latitudes. We do not correct δ18O or accumulation for changing elevation at the ice-core site; our goal is to reconstruct conditions at the surface, rather than at a constant reference elevation. We take the anomaly of each corrected δ18O record and the ratio of each accumulation record relative to the mean of all data in the record that falls within the time period 1850-2000 CE. We then average each record to 50-year resolution. It is these corrected, averaged records that we use in the data assimilation.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Climate-model simulation:</para>
+          <para>We use TraCE-21ka, a simulation of the last 22,000 years of climate (22 ka to -.04 ka), which was run using the fully-coupled CCSM3 at T31 resolution (approximately 3.75 degrees horizontally) with transient ice-sheet, orbital, greenhouse gas, and meltwater flux forcings (Liu et al., 2009, 2012; He et al., 2013). From TraCE-21ka, we use two-meter air temperature for temperature (T) and the sum of large-scale stable precipitation and convective precipitation for precipitation (P). To correct for model bias in TraCE-21ka, we assume that the bias is stationary in time and apply the delta-change method (Teutschbein and Seibert, 2012) by taking the anomaly of temperature and the fraction of precipitation relative to the mean of our reference period (1850-2000 CE). After the bias correction, we average the TraCE-21ka variables (which originally have monthly resolution) to 50-year resolution, as we did for the ice-core records.</para>
+          <para>References:</para>
+          <para>- He, F., Shakun, J. D., Clark, P. U., Carlson, A. E., Liu, Z., Otto-Bliesner, B. L., and Kutzbach, J. E.: Northern Hemisphere forcing of Southern Hemisphere climate during the last deglaciation, Nature, 494, 81, 2013.</para>
+          <para>- Liu, Z., Otto-Bliesner, B., He, F., Brady, E., Tomas, R., Clark, P., Carlson, A., Lynch-Stieglitz, J., Curry, W., Brook, E., et al.: Transient simulation of last deglaciation with a new mechanism for Bølling-Allerød warming, Science, 325, 310–314, 2009.</para>
+          <para>- Liu, Z., Carlson, A. E., He, F., Brady, E. C., Otto-Bliesner, B. L., Briegleb, B. P., Wehrenberg, M., Clark, P. U., Wu, S., Cheng, J., et al.: Younger Dryas cooling and the Greenland climate response to CO2, Proceedings of the National Academy of Sciences, 109, 11 10111 104, 2012.</para>
+          <para>- Teutschbein, C. and Seibert, J.: Bias correction of regional climate model simulations for hydrological climate-change impact studies: Review and evaluation of different methods, Journal of hydrology, 456, 12–29, 2012.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Paleoclimate data assimilation:</para>
+          <para>To combine the ice-core and climate-model data, we use an offline version of the ensemble Kalman filter. This data assimilation framework uses ensembles for the initial (prior) and final (posterior) estimates of the climate state, providing a probabilistic framework for interpreting and evaluating the results.</para>
+          <para>The prior ensemble is an initial estimate of possible climate states, which we form using 100 randomly-chosen 50-year averages from the TraCE-21ka simulation. States from both the glacial and the Holocene make up a prior ensemble. The same prior is used for all time steps in the reconstruction, leading to a prior that is constant in time. Proxy records are assimilated into the prior, which produces the posterior ensemble, a new estimate of possible climate states. We assimilate δ18O to reconstruct temperature and separately assimilate accumulation to reconstruct precipitation.</para>
+          <para>We repeat the data assimilation process over multiple iterations, with each iteration using one of ten different 100-member prior ensembles and excluding one proxy record. Each of the ten prior ensembles is made up of a different random selection of 50-year averages from TraCE-21ka. Each proxy record is excluded from a total of ten iterations, where each of these iterations uses a different one of the ten prior options. A reanalysis is a compilation of the 100-member posterior ensembles from these iterations, resulting in a temperature reanalysis having 8,000 ensemble members and a precipitation reanalysis having 5,000 ensemble members.</para>
+          <para>For the assimilation of each δ18O record, we use an estimated total error variance of 1.3 ‰2, which is a sum of the measurement, spatial representation, and proxy system model error variances. For the assimilation of each accumulation record, we use an estimated total error variance of 0.0038, which is a sum of the measurement and spatial representation error variances.</para>
+          <para>To remove mean bias from temperature, we subtract out the reference-period mean. For precipitation, we divide by the reference-period mean. It is these bias-corrected results that are referred to unless noted otherwise.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>δ18O proxy system model:</para>
+          <para>For our δ18O proxy system model (PSM), we use a linear relationship with temperature at the ice-core drill site (Tsite) that has a slope of 0.67. We use TraCE-21ka to estimate the site-specific effects of precipitation seasonality on the δ18O-Tsite relationship by replacing Tsite in the linear δ18O PSM with T*site, the precipitation-weighted temperature at the model grid-cell closest to the ice-core drill site. This is the PSM used in the main temperature reconstruction.</para>
+          <para>Accumulation proxy system model:</para>
+          <para>Accumulation is closely related to total precipitation at our ice-core sites, which have limited surface melting and evaporation. For this reason, and because TraCE-21ka lacks process-based ablation variables, our PSM is a direct-comparison between ice-core accumulation and simulated precipitation at the model grid-cell closest to the ice-core site.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Temperature scenarios:</para>
+          <para>To evaluate the sensitivity of our results to the choice of δ18O PSM, we produce four other reconstructions (S1-S4). The S1 scenario uses the PSM, δ18O=0.67Tsite, which is the modern (high-frequency) relationship and does not account for precipitation seasonality. The S2 scenario uses δ18O=0.5Tsite, the mean of the high-frequency and low-frequency temporal slopes. The S3 scenario uses δ18O=0.335Tsite, which is similar to published estimates of the glacial-interglacial temporal slope. The S4 scenario uses the same PSM as in the main reanalysis, δ18O=0.67T*site, but we adjust the strength of the precipitation seasonality in TraCE-21ka such that the average δ18O-Tsite slope around Greenland is approximately 0.335 ‰°C-1. The S4 scenario thus has the same spatially-variable δ18O-Tsite relationship as in the main reanalysis, but a greater influence of precipitation seasonality.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Precipitation scenarios:</para>
+          <para>To extract the accumulation signal from layer-thickness, the layers must be destrained using assumptions about the history of ice flow. Based on a range of plausible ice-flow parameters, we develop three scenarios for each site: "low", "moderate", and "high", where the names reflect the relative magnitude of accumulation in the glacial and early Holocene. We assimilate the intermediate-value ("moderate") accumulation records to produce our main precipitation reanalysis, while we assimilate the high and low accumulation records into high and low sensitivity scenarios, respectively, to provide a conservative estimate of uncertainty.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>New accumulation records:</para>
+          <para>We use a transient, one-dimensional, ice-flow model to calculate the cumulative vertical strain, termed the thinning function. We represent the vertical velocity profile using the (Dansgaard and Johnsen, 1969) formulation. We assume there is no ice thickness change and that the melt rate and the basal sliding contribution to horizontal surface velocity are constant in time with accumulation rate and kink height being functions of time.</para>
+          <para>The model is initially run with a constant accumulation history at the modern accumulation rate, and a thinning function is produced. The thinning function is then used with the measured layer thickness to infer a temporally-variable accumulation history. The model is then run with the temporally-variable accumulation history to produce an updated thinning function. This thinning function is then used with the measured layer thickness to infer the final accumulation history. The solution converges without additional iterations needed.</para>
+          <para>References:</para>
+          <para>- Dansgaard, W. and Johnsen, S.: A ﬂow model and a time scale for the ice core from Camp Century, Greenland, Journal of Glaciology, 8, 215–223, 1969.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>GRIP accumulation records:</para>
+          <para>Because GRIP is not directly beneath the ice divide and the divide position has likely not been stable, we use a vertical velocity profile that is transitional between a typical flank profile and a divide profile; this is represented with a Dansgaard-Johnsen kink height of 0.4, which we use from 5 ka to present. Prior to 5 ka, we use a typically flank flow value of 0.1 assuming that the divide position is more than one ice thickness (3 km) away. The melting term in the vertical velocity calculation is neglected. We use this as our moderate accumulation history and note that it is not sensitive to 1,000 year changes in the onset times of the divide flow. To develop the high and low scenarios, we use the divide-like kink height of 0.4 and the flank-like kink height of 0.1, respectively.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>NGRIP accumulation records:</para>
+          <para>For all scenarios, we use a melt rate of 7.7 mm a-1. We use a kink height of 0.2 for our moderate scenario, as it reproduces the thinning function inferred by Gkinis et al. (2014). For the high scenario, we use the original values of Dahl-Jensen et al. (2003), which includes a kink height of 0.45. For the low scenario, we use a kink height of 0, which is equivalent to using a basal sliding fraction of 1.</para>
+          <para>References:</para>
+          <para>- Dahl-Jensen, D., Gundestrup, N., Gogineni, S. P., and Miller, H.: Basal melt at NorthGRIP modeled from borehole, ice-core and radio-echo sounder observations, Annals of Glaciology, 37, 207–212, 2003.</para>
+          <para>- Gkinis, V., Simonsen, S. B., Buchardt, S. L., White, J., and Vinther, B. M.: Water isotope diffusion rates from the NorthGRIP ice core for the last 16,000 years–Glaciological and paleoclimatic implications, Earth and Planetary Science Letters, 405, 132–141, 2014.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Dye3 accumulation records:</para>
+          <para>To develop the thinning function, we first compute the vertical velocity profile based on the horizontal strain measured with borehole tilt observations (Gundestrup and Hansen, 1984). These produced an accumulation history with an accumulation rate at the onset of the Holocene (11.7 ka) that is less than half of the modern accumulation rate. We consider this to be a low estimate, as the current velocity profile is strongly influenced by the location of the transition between the glacial and Holocene ice. We create a moderate scenario by approximately matching the accumulation rate around 7 ka with the past 1 ka accumulation rate; this uses a kink height of 0.2 which is typical for flank sites. We create a high scenario where we set the accumulation history at 11 ka approximately equal to the past 1 ka. The resulting accumulation histories vary significantly more than those for the interior cores because of the much greater uncertainty in the flow model.</para>
+          <para>References:</para>
+          <para>- Gundestrup, N. and Hansen, B. L.: Bore-hole survey at Dye 3, south Greenland, Journal of Glaciology, 30, 282–288, 1984.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative Research: Ice sheet sensitivity in a changing Arctic system - using ice sheet observations and modeling to test the stable Greenland Ice Sheet hypothesis</title>
+      <personnel>
+        <individualName>
+          <givenName>Gregory J</givenName>
+          <surName>Hakim</surName>
+        </individualName>
+        <role>coPrincipalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Eric J</givenName>
+          <surName>Steig</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <funding>
+        <para>NSF 1503281</para>
+      </funding>
+    </project>
+    <dataTable id="urn-uuid-741c50d2-2586-4d2a-b5fb-def6a2883181" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_High_Precipitation_Scenario_Assimilated.csv</entityName>
+      <entityDescription>This file contains the accumulation rate records for Dye3, Greenland Ice Sheet Project 2 (GISP2), GRIP, North Greenland Eemian ice drilling (NEEM), and NGRIP that were assimilated into the high precipitation reconstruction. They differ from the Accumulation_Rate_Records_for_High_Precipitation_Scenario_Raw.csv records as they are fractions with respect to present accumulation rates and they are averaged to 50-year resolution.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_High_Precipitation_Scenario_Assimilated.csv</objectName>
+        <size unit="bytes">27260</size>
+        <authentication method="MD5">a49c3e19ce6b46381194b79f71d41299</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>16</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:741c50d2-2586-4d2a-b5fb-def6a2883181</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeDefinition>Ice core ages averaged to 50-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dye3 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No available high-resolution depth-age scale for the Dye3 ice core prior to 11.7 ka</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-f3dca09b-5b01-4a48-8b2f-beee192f537e" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_High_Precipitation_Scenario_Raw.csv</entityName>
+      <entityDescription>This file contains the accumulation rate records for Dye3, GISP2, GRIP, NEEM, and NGRIP that were used to derived the records assimilated into the high precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_High_Precipitation_Scenario_Raw.csv</objectName>
+        <size unit="bytes">397804</size>
+        <authentication method="MD5">7dd8330152798b1922eac5be09f569de</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>14</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:f3dca09b-5b01-4a48-8b2f-beee192f537e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>GISP2.Age</attributeName>
+          <attributeDefinition>GISP2 age</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Age</attributeName>
+          <attributeDefinition>NEEM age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Age</attributeName>
+          <attributeDefinition>GRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Age</attributeName>
+          <attributeDefinition>NGRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Age</attributeName>
+          <attributeDefinition>Dyes age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dyes snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-1772a8ca-319d-4050-81d7-311b7028cadc" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_Low_Precipitation_Scenario_Assimilated.csv</entityName>
+      <entityDescription>This file contains the accumulation rate records for Dye3, GISP2, GRIP, NEEM, and NGRIP that were assimilated into the low precipitation reconstruction. They differ from the Accumulation_Rate_Records_for_Low_Precipitation_Scenario_Raw.csv records as they are fractions with respect to present accumulation rates and they are averaged to 50-year resolution.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_Low_Precipitation_Scenario_Assimilated.csv</objectName>
+        <size unit="bytes">27247</size>
+        <authentication method="MD5">8b465814b657c64c9e6933858a502b28</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>16</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:1772a8ca-319d-4050-81d7-311b7028cadc</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeDefinition>Ice core ages averaged to 50-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dye3 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No available high-resolution depth-age scale for the Dye3 ice core prior to 11.7 ka</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-ae9996cf-53d8-4d78-8ec4-f7f280ef3794" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_Low_Precipitation_Scenario_Raw.csv</entityName>
+      <entityDescription>This file contains the accumulation rate records for Dye3, GISP2, GRIP, NEEM, and NGRIP that were used to derive the records assimilated into the low precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_Low_Precipitation_Scenario_Raw.csv</objectName>
+        <size unit="bytes">397756</size>
+        <authentication method="MD5">641ccc75ea5318faae9be45bea9248f3</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>14</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:ae9996cf-53d8-4d78-8ec4-f7f280ef3794</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>GISP2.Age</attributeName>
+          <attributeDefinition>GISP2 age</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Age</attributeName>
+          <attributeDefinition>NEEM age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Age</attributeName>
+          <attributeDefinition>GRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Age</attributeName>
+          <attributeDefinition>NGRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Age</attributeName>
+          <attributeDefinition>Dyes age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dyes snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-eb066014-3788-46de-94cd-7655ac9c05ca" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_Moderate_Precipitation_Scenario_Assimilated.csv</entityName>
+      <entityDescription>This file contains the accumulation rate records for Dye3, GISP2, GRIP, NEEM, and NGRIP that were assimilated into the main (moderate) precipitation reconstruction. They differ from the Accumulation_Rate_Records_for_Moderate_Precipitation_Scenario_Raw.csv records as they are fractions with respect to present accumulation rates and they are averaged to 50-year resolution.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_Moderate_Precipitation_Scenario_Assimilated.csv</objectName>
+        <size unit="bytes">27253</size>
+        <authentication method="MD5">020f9fbe97b61389d630827738be3e9a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>16</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:eb066014-3788-46de-94cd-7655ac9c05ca</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeDefinition>Ice core ages averaged to 50-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dye3 fractional snow accumulation rates with respect to present accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No available high-resolution depth-age scale for the Dye3 ice core prior to 11.7 ka</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-be74ad16-5382-47be-9a78-de41a39e5062" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Accumulation_Rate_Records_for_Moderate_Precipitation_Scenario_Raw.csv</entityName>
+      <entityDescription>This file contains the raw accumulation rate records for Dye3, GISP2, GRIP, NEEM, and NGRIP that were used to derive the assimilated records for the main (moderate) precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>Accumulation_Rate_Records_for_Moderate_Precipitation_Scenario_Raw.csv</objectName>
+        <size unit="bytes">397735</size>
+        <authentication method="MD5">b6aa6fc5ea46d305ea0021471b7c51c5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>14</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:be74ad16-5382-47be-9a78-de41a39e5062</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>GISP2.Age</attributeName>
+          <attributeDefinition>GISP2 age</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Accumulation.Rate</attributeName>
+          <attributeDefinition>GISP2 snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Age</attributeName>
+          <attributeDefinition>NEEM age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Accumulation.Rate</attributeName>
+          <attributeDefinition>NEEM snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Age</attributeName>
+          <attributeDefinition>GRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>GRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Age</attributeName>
+          <attributeDefinition>NGRIP age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Accumulation.Rate</attributeName>
+          <attributeDefinition>NGRIP snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Age</attributeName>
+          <attributeDefinition>Dyes age averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Accumulation.Rate</attributeName>
+          <attributeDefinition>Dyes snow accumulation rates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-31d07935-943f-4e51-baf1-f795b01f659e" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Corrections_for_Oxygen_Isotope_Records.csv</entityName>
+      <entityDescription>This file contains the corrections for the oxygen isotope (d18O) records.</entityDescription>
+      <physical>
+        <objectName>Corrections_for_Oxygen_Isotope_Records.csv</objectName>
+        <size unit="bytes">248806</size>
+        <authentication method="MD5">6ddd5a19af2bf03d213aacaf3b64e5ae</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>20</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:31d07935-943f-4e51-baf1-f795b01f659e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Sea.water.Age</attributeName>
+          <attributeDefinition>Sea water ages averaged to 100-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sea.water.Correction</attributeName>
+          <attributeDefinition>Change in sea water mean oxygen isotope ratio (d18O) through time</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.latitude.flow.Age</attributeName>
+          <attributeDefinition>NEEM latitude flow ages</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.latitude.flow.Correction</attributeName>
+          <attributeDefinition>Latitude difference between the site of snow deposition and the ice-core site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.elevation.flow.Age</attributeName>
+          <attributeDefinition>NEEM elevation flow ages</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.elevation.flow.Correction</attributeName>
+          <attributeDefinition>Elevation difference between the site of snow deposition and the ice-core site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Camp.Century.elevation.flow.Age</attributeName>
+          <attributeDefinition>Camp Century elevation flow Ages</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Camp.Century.elevation.flow.Correction</attributeName>
+          <attributeDefinition>Elevation difference between the site of snow deposition and the ice-core site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.elevation.flow.Age</attributeName>
+          <attributeDefinition>Dye3 elevation flow ages</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.elevation.flow.Correction</attributeName>
+          <attributeDefinition>Elevation difference between the site of snow deposition and the ice-core site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-b74a30b2-9c8d-4511-91b1-6cbd3fe2914c" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Oxygen_Isotope_Records_Assimilated.csv</entityName>
+      <entityDescription>This file contains the oxygen isotope (d18O) records for Agassiz, Camp Century, Dye3, GISP2, GRIP, NEEM, NGRIP, and Renland that were assimilated into the main, S1, S2, S3, and S4 temperature reconstructions. These records differ from the Oxygen_Isotope_Records_Raw.csv file as they are corrected, turned into anomalies, and averaged to a 50-year resolution.</entityDescription>
+      <physical>
+        <objectName>Oxygen_Isotope_Records_Assimilated.csv</objectName>
+        <size unit="bytes">43920</size>
+        <authentication method="MD5">898caae164366fc14f963548f90809e9</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>28</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:b74a30b2-9c8d-4511-91b1-6cbd3fe2914c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeDefinition>Ice core ages averaged to 50-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Agassiz_SMOW.d18O</attributeName>
+          <attributeDefinition>Agassiz standard mean ocean water (SMOW) oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No depth-age scale information or the corresponding raw data is missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Camp.Century_SMOW_elevflow.d18O</attributeName>
+          <attributeDefinition>Camp Century SMOW elevation flow oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No depth-age scale information or the corresponding raw data is missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3_SMOW_elevflow.d18O</attributeName>
+          <attributeDefinition>Dye3 SMOW elevation flow oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2_SMOW.d18O</attributeName>
+          <attributeDefinition>GRIP2 SMOW oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No depth-age scale information or the corresponding raw data is missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP_SMOW.d18O</attributeName>
+          <attributeDefinition>GRIP SMOW oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM_SMOW_elevflow_latflow.d18O</attributeName>
+          <attributeDefinition>NEEM SMOW elevation flow oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP_SMOW.d18O</attributeName>
+          <attributeDefinition>NGRIP SMOW oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Renland_SMOW.d18O</attributeName>
+          <attributeDefinition>Renland SMOW oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999</code>
+            <codeExplanation>No depth-age scale information or the corresponding raw data is missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-9e75bd7a-84b1-4855-8e16-e2d625ea208c" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>Oxygen_Isotope_Records_Raw.csv</entityName>
+      <entityDescription>This file contains the raw oxygen isotope (d18O) records for Agassiz, Camp Century, Dye3, GISP2, GRIP, NEEM, NGRIP, and Renland.</entityDescription>
+      <physical>
+        <objectName>Oxygen_Isotope_Records_Raw.csv</objectName>
+        <size unit="bytes">336390</size>
+        <authentication method="MD5">a7dc57fe74fe548cbcc5df5c629ea66d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>21</numHeaderLines>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:9e75bd7a-84b1-4855-8e16-e2d625ea208c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Agassiz.Age</attributeName>
+          <attributeDefinition>Agassiz ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Agassiz.d18O</attributeName>
+          <attributeDefinition>Agassiz oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Camp.Century.Age</attributeName>
+          <attributeDefinition>Camp Century ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Camp.Century.d18O</attributeName>
+          <attributeDefinition>Camp Century oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.Age</attributeName>
+          <attributeDefinition>Dye3 ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dye3.d18O</attributeName>
+          <attributeDefinition>Dye3 oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.Age</attributeName>
+          <attributeDefinition>GISP2 ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GISP2.d18O</attributeName>
+          <attributeDefinition>GISP2 oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.Age</attributeName>
+          <attributeDefinition>GRIP ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRIP.d18O</attributeName>
+          <attributeDefinition>GRIP oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.Age</attributeName>
+          <attributeDefinition>NEEM ice core ages</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NEEM.d18O</attributeName>
+          <attributeDefinition>NEEM oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.Age</attributeName>
+          <attributeDefinition>NGRIP ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NGRIP.d18O</attributeName>
+          <attributeDefinition>NGRIP oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Renland.Age</attributeName>
+          <attributeDefinition>Renland ice core ages averaged to 20-year resolution</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Renland.d18O</attributeName>
+          <attributeDefinition>Renland oxygen isotope ratios</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-c5e3fa59-7117-4fee-8163-07aae8519886" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>pr_high_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the high precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>pr_high_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237392</size>
+        <authentication method="MD5">89cbcb7db463e9f178865f97947b355f</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:c5e3fa59-7117-4fee-8163-07aae8519886</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-64b58bc8-0cf6-4e6b-95fd-7ee8d5e7d481" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>pr_low_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the low precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>pr_low_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237390</size>
+        <authentication method="MD5">e172abedba822baaff0c56e0eeed70d3</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:64b58bc8-0cf6-4e6b-95fd-7ee8d5e7d481</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-6889d480-65c8-4b21-949e-7a1f81d18c42" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>pr_main_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the main (moderate) precipitation reconstruction.</entityDescription>
+      <physical>
+        <objectName>pr_main_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237402</size>
+        <authentication method="MD5">ccb8383eb515b8178cc5815b61fb2f63</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:6889d480-65c8-4b21-949e-7a1f81d18c42</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-4a846c8d-5bd7-4e7c-a3c2-42be36ac0595" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>tas_main_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the main temperature reconstruction.</entityDescription>
+      <physical>
+        <objectName>tas_main_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237412</size>
+        <authentication method="MD5">da49b3f9fa5ea7a05d9bd784b5f4c324</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:4a846c8d-5bd7-4e7c-a3c2-42be36ac0595</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-6325a073-9554-47de-b9a1-a364a0804930" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>tas_S1_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the S1 temperature reconstruction.</entityDescription>
+      <physical>
+        <objectName>tas_S1_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237404</size>
+        <authentication method="MD5">9245f6d1e1a16ef0f492ae63b6130cad</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:6325a073-9554-47de-b9a1-a364a0804930</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-8c52f2a3-9849-4105-9ec2-61c3d6edece5" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>tas_S2_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the S2 temperature reconstruction.</entityDescription>
+      <physical>
+        <objectName>tas_S2_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237402</size>
+        <authentication method="MD5">53264ee88769cb900fab4a3d386d1691</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:8c52f2a3-9849-4105-9ec2-61c3d6edece5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-53de09a9-29f9-4fae-ba78-8b6dfe4a3856" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>tas_S3_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the S3 temperature reconstruction.</entityDescription>
+      <physical>
+        <objectName>tas_S3_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237406</size>
+        <authentication method="MD5">f5f56e17986039cd8175285bcea429c7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:53de09a9-29f9-4fae-ba78-8b6dfe4a3856</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="urn-uuid-a12e0199-f72a-430c-bf9d-46db4fe5704c" system="https://tools.ietf.org/html/rfc4122">
+      <entityName>tas_S4_Badgeley_etal_2020.nc</entityName>
+      <entityDescription>This file contains the prior (initial guess) and posterior (reconstruction) mean, 5th percentile, and 95th percentile for the S4 temperature reconstruction.</entityDescription>
+      <physical>
+        <objectName>tas_S4_Badgeley_etal_2020.nc</objectName>
+        <size unit="bytes">2237444</size>
+        <authentication method="MD5">af71c6c8db2ab6aa31bff97ad7e54d06</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF-3</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:a12e0199-f72a-430c-bf9d-46db4fe5704c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>prior_mean</attributeName>
+          <attributeDefinition>Mean over the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_5</attributeName>
+          <attributeDefinition> 5th percentile of the prior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prior_95</attributeName>
+          <attributeDefinition>95th percentile of the prior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_mean</attributeName>
+          <attributeDefinition>Mean over the posterior ensemble</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_5</attributeName>
+          <attributeDefinition>5th percentile of the posterior ensemble  </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>posterior_95</attributeName>
+          <attributeDefinition>95th percentile of the posterior ensemble </attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number of years before 1950 CE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloannum</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <metadata>
+          <unitList>
+            <unit id="kiloannum" abbreviation="ka" multiplierToSI="1000" name="kiloannum" parentSI="nominalYear" unitType="time">
+              <description>1000 years</description>
+            </unit>
+          </unitList>
+        </metadata>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,54 @@
+GRIP Carbon Dioxide
+
+REFERENCES:
+
+Anklin, M., J. Schwander, B. Stauffer, J. Tschumi, A. Fuchs, J.M. Barnola,
+and D. Raynaud. 1997. CO2 record between 40 and 8kyr B.P. from the
+Greenland Ice Core Project ice core. Journal of Geophysical Research
+102:26539-26545.
+
+Anklin, M., J.M. Barnola, J. Schwander, B. Stauffer, and D. Raynaud. 1995.
+Processes affecting the CO2 concentrations measured in Greenland ice.
+Tellus 47B:461-470.
+
+Barnola, J.M., M. Anklin, J. Porcheron, D. Raynaud, J. Schwander, and B.
+Stauffer. 1995. CO2 evolution during the last millennium as recorded by
+Antarctic and Greenland ice. Tellus 47B:264-272.
+
+DATA DESCRIPTION:
+
+These measurements of CO2 concentration have been made by gas
+chromatography on samples of about 40g or 3 cm height. The file contains
+the depth (m) (column 1) and the CO2 concentration (ppmv) (column 2) of
+each sample. Some depths were measured several times. 
+
+DATA:	
+
+Depth (m)	CO2
+Midpoint	(ppmv)
+
+1332.1	286
+1332.1	263.8
+1354.1	273.7
+1354.1	296.7
+1398.1	274
+1398.1	267.4
+1453.1	301.2
+1453.1	319.6
+1453.1	300.6
+1453.1	275.3
+1464.1	281.6
+1656.6	291.4
+1667.6	288.8
+1678.6	266
+1689.6	249.2
+1700.6	269.9
+1700.6	279
+1711.6	258.3
+1722.6	267.7
+1756.15	254.1
+1766.6	239.2
+1777.6	221.5
+1865.6	187.6
+1876.6	191.9
+2151.6	188.1

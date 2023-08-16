@@ -1,0 +1,245 @@
+GRIP Methane Data
+ 
+REFERENCES: 
+ 
+Blunier, T., J.A. Chappellaz, J. Schwander, B. Stauffer, and D. Raynaud.
+1995. Variations in atmospheric methane concentration during the Holocene
+epoch. Nature 374:46-49.
+
+Blunier, T., J.A. Chappellaz, J. Schwander, J.M. Barnola, T. Desperts, B.
+Stauffer, and D. Raynaud. 1993. Atmospheric methane record from a Greenland
+ice core over the last 1000 years. Geophysical Research Letters 20:2219
+2222.
+
+chappellaz, J.A., T. Blunier, D. Raynaud, J.M. Barnola, J. Schwander, and
+B. Stauffer. 1993. Synchronous changes in atmospheric CH4 and Greenland
+climate between 40 and 8 kyr B.P. Nature 366:443-445.
+
+Chappellaz, J.A. 1990. Etude du methane atmospherique au cours du dernier
+cycle climatique a partir d l'analyse de l'air piege dans la glace
+antarctique, PhD thesis, University of Grenoble, 214pp.
+
+Raynaud, D., J.A. Chappellaz, J.M. Barnola, Y.S. Korotkevich, and C.
+Lorius. 1988. Climatic and CH4 cycle implications of glacial-interglacial
+CH4 change in the Vostok ice core. Nature 333:655-657.
+
+DATA DESCRIPTION:
+
+The file contains two sets of five columns: 
+
+Column 1: Depth (meters below the surface). 
+Column 2: Mean age of the trapped air (calendar years before 1950). 
+Column 3: CH4 concentration (ppbv, part per billion by volume). 
+Column 4: Minimum CH4 concentration (two sigma experimental, ppbv). 
+Column 5: Maximum CH4 concentration (two sigma experimental, ppbv). 
+ 
+The depth of the sample corresponds to the depth below the surface of
+summer 1989. One sample for CH4 measurements corresponds to about 4 cm of
+core for LGGE and 2 cm for Bern, i.e.  2 cm (or 1 cm) on each side of the
+depth given in column 2. 
+ 
+The provided dating corresponds to the original publications.  The porous
+firn layer on the surface of the ice sheet is continuously exchanging air
+with the overlying atmosphere, the firn-air is a mixture of air masses
+that were last in contact with the atmosphere at different times. Air,
+which gets enclosed in bubbles, typically about 70m below the surface at
+Summit, thus has a mean age which is younger than the age of the
+surrounding ice.  Consequently two time scales have to be known 1) a time
+scale for the ice and 2) a time scale for the air. 
+ 
+The time scale for the ice is provided by the GRIP glaciological model
+(Dansgaard et al., 1993; Johnsen et al., 1992). For the Holocene period
+the time scale was modified such that the best fit on Holocene
+stratigraphic markers was obtained (S. Johnsen, personal communication). 
+ 
+For the dating of the air a semi-empirical model of firn densification was
+used to determine the age difference between the trapped air and the
+surrounding ice (Barnola et al., 1991). In addition, the depth at which
+the air becomes trapped at the firn- ice transition is made dependent on
+the firn temperature. The temperature and the accumulation rate, both
+needed by the model, are determined from the isotopic profile along the
+GRIP core (Dansgaard et al., 1993; Johnsen et al., 1992). Today's age
+difference amounts to about 210 yr (Schwander et al., 1993). The accuracy
+of the densification model strongly depends on the temperature and
+accumulation rate introduced. 
+ 
+Note that minor changes in the timescale may occur due to an update of the
+ice timescale or improved modelling for the age difference between gas and
+ice. 
+
+The measurements presented have been performed in Bern with a dry
+extraction technique (Blunier et al., 1993) and in Grenoble with a
+melting-refreezing method (Chappellaz et al., 1990b; Chappellaz et al.,
+1993; Raynaud et al., 1988). In both laboratories the extracted air is
+analysed by gas chromatography. For the wet extractions a correction is
+made based on series of blanks of the extraction system, amounting to
+18±26 ppbv. The minimum and maximum CH4 concentrations correspond to the
+experimental extrema taking into account the gas-chromatographic
+calibration uncertainty and the contamination uncertainty (both at the 95%
+confidence level). The analytical precisions, estimated from blank
+measurements with gas free ice, are ±20 and ±37 ppbv (2 Sigma) for the dry
+and wet extractions respectively (Blunier et al., 1993).  Replicate
+measurements on the same depth levels are consistent with the estimated
+analytical precision. The records from the two labs (Blunier et al., 1995)
+reveal very similar trends, but showed a systematic shift of 30 ppbv. In
+the original publication the results were thus arbitrarily corrected by
+-15 and +15 ppbv for Bern and Grenoble respectively. New analyses revealed
+that the entire 30 ppbv shift was due to a drift of the Bern standard gas
+in one container. In the dataset included here, we thus decrease the GRIP
+results of Blunier et al. (1995) by 15 ppbv. Note that the GRIP data
+presented in Chappellaz et al. (1993) remain unaffected by this correction
+and that the Bern standard drift affects only the Bern results published
+in Blunier et al. (1995).  In addition, one sample at 1398-m of depth (CH4
+concentration of 742 ppbv) is removed from the Chappellaz et al (1993)
+series, as it was shown recently to have been contaminated by the drilling
+fluid (Chappellaz et al., 1997).
+ 
+Concentrations measured by dry extraction were significantly higher than
+concentrations measured by wet extraction in the depth range 1220-1320 m.
+We attributed this to effects resulting from the air-bubble to air-hydrate
+transformation which takes place in that depth range. These data are not
+included here. 
+
+DATA:
+
+Results from LGGE					Results from Blunier et al.				
+Depth (m)	Gas Age	CH4	Min	Max	Depth (m)	Gas Age	CH4	Min	Max
+Midpoint	(yrs BP)	(ppbv)	(ppbv)	(ppbv)	Midpoint	(yrs BP)	(ppbv)	(ppbv)	(ppbv)
+122.07	175	744	708	780	111.11	129	796	776	816
+144.07	267	702	670	734	132.56	221	710	690	730
+165.58	371	710	677	743	132.56	221	724	704	744
+189.23	483	708	676	740	154.56	319	713	693	733
+209.58	564	707	671	743	176.56	425	723	703	743
+231.58	682	695	658	732	198.56	519	698	678	718
+275.98	893	701	667	735	220.56	628	717	697	737
+276.03	892	699	661	737	242.56	730	717	697	737
+320.07	1113	673	632	714	276.07	893	702	682	722
+341.58	1214	691	654	728	276.07	893	709	689	729
+341.63	1214	672	635	709	276.09	893	715	695	735
+363.58	1326	688	650	726	276.09	893	697	677	717
+385.03	1424	666	632	700	309.09	1050	670	650	690
+407.58	1561	664	629	699	309.09	1050	687	667	707
+429.58	1666	675	638	712	331.09	1171	657	637	677
+451.58	1777	679	640	718	331.09	1171	647	627	667
+473.58	1909	638	604	672	353.09	1281	673	653	693
+495.58	2013	675	640	710	353.09	1281	664	644	684
+495.62	2013	650	607	693	375.09	1379	676	656	696
+517.58	2137	636	600	672	375.09	1379	696	676	716
+539.58	2255	630	590	670	397.07	1511	663	643	683
+561.58	2380	638	598	678	397.07	1511	665	645	685
+579.17	2487	634	598	670	397.09	1511	654	634	674
+605.58	2619	620	587	653	418.56	1609	655	635	675
+627.58	2741	624	587	661	418.56	1609	656	636	676
+650.06	2872	617	576	658	441.09	1716	663	643	683
+671.58	2996	606	573	639	441.09	1716	660	640	680
+694.07	3123	628	582	674	463.09	1852	666	646	686
+730.42	3345	617	583	651	463.09	1852	686	666	706
+762.87	3536	605	571	639	485.09	1962	661	641	681
+794.72	3739	613	574	652	485.09	1962	650	630	670
+826.12	3938	618	591	645	507.05	2079	640	620	660
+856.37	4132	606	569	643	507.05	2079	645	625	665
+887.13	4347	601	558	644	507.07	2079	646	626	666
+887.09	4347	614	579	649	507.09	2079	637	617	657
+915.61	4543	622	588	656	507.09	2079	655	635	675
+943.78	4740	610	574	646	528.56	2209	642	622	662
+973.32	4954	624	587	661	528.56	2209	637	617	657
+1000.47	5148	573	543	603	551.07	2326	640	620	660
+1030.17	5380	592	559	625	551.09	2326	638	618	658
+1055.69	5564	594	555	633	575.84	2461	631	611	651
+1082.09	5771	611	580	642	575.84	2461	631	611	651
+1107.72	5965	610	573	647	595.09	2566	630	610	650
+1133.53	6181	596	554	638	595.09	2566	626	606	646
+1158.25	6386	632	595	669	617.09	2687	603	583	623
+1181.97	6582	622	586	658	617.09	2687	616	596	636
+1206.72	6789	626	594	658	638.56	2808	628	608	648
+1230.92	7000	645	611	679	638.56	2808	636	616	656
+1244.06	7124	661	629	693	661.09	2944	621	601	641
+1255.07	7223	634	601	667	661.09	2944	619	599	639
+1267.24	7320	628	594	662	683.05	3065	610	590	630
+1278.73	7427	659	628	690	683.05	3065	602	582	622
+1290.92	7530	652	620	684	746.34	3441	604	584	624
+1302.43	7647	661	609	713	746.34	3441	609	589	629
+1313.84	7746	644	607	681	779.37	3654	645	625	665
+1324.37	7844	629	590	668	779.38	3654	640	620	660
+1331.82	7915	644	608	680	779.4	3654	632	612	652
+1354.08	8104	588	551	625	779.4	3654	641	621	661
+1354.04	8104	588	543	633	812.92	3855	625	605	645
+1375.57	8325	652	609	695	812.94	3855	619	599	639
+1419.57	8762	690	651	729	812.94	3855	636	616	656
+1463.82	9202	710	666	754	842.02	4045	611	591	631
+1474.57	9308	693	656	730	842.03	4045	598	578	618
+1485.57	9421	695	659	731	901.46	4437	609	589	629
+1496.57	9528	715	676	754	901.46	4437	624	604	644
+1508.08	9653	726	685	767	930.11	4643	627	607	647
+1519.08	9773	712	676	748	930.11	4643	626	606	646
+1529.57	9891	720	678	762	959.21	4848	602	582	622
+1540.9	10013	727	684	770	959.21	4848	605	585	625
+1551.57	10141	720	679	761	986.71	5053	590	570	610
+1562.57	10296	744	708	780	986.71	5053	596	576	616
+1573.57	10447	722	684	760	1041.12	5453	591	571	611
+1584.57	10588	720	687	753	1041.14	5453	588	568	608
+1595.57	10768	691	651	731	1068.66	5665	581	561	601
+1606.57	10919	719	681	757	1068.66	5665	589	569	609
+1617.57	11093	698	658	738	1095.04	5874	607	587	627
+1625.82	11254	677	642	712	1095.04	5874	607	587	627
+1635.33	11449	726	681	771	1121.46	6086	608	588	628
+1645.23	11575	686	654	718	1121.46	6086	613	593	633
+1656.07	11893	484	452	516	1170.39	6483	623	603	643
+1667.07	12152	472	440	504	1170.39	6483	632	612	652
+1667.11	12152	471	436	506	1195.14	6700	622	602	642
+1678.07	12585	533	503	563	1195.14	6700	615	595	635
+1689.07	12757	666	626	706	1219.34	6910	663	643	683
+1700.07	13076	689	659	719	1219.34	6910	654	634	674
+1711.21	13290	685	652	718						
+1722.07	13534	673	638	708						
+1733.07	13691	660	623	697					
+1744.07	13984	656	626	686						
+1755.78	14242	633	600	666						
+1766.34	14382	653	618	688						
+1777.07	14629	536	498	574						
+1788.07	14946	464	428	500
+1799.07	15243	453	416	490
+1810.07	15649	482	451	513
+1821.07	15979	429	393	465
+1832.23	16305	416	386	446
+1843.07	16710	364	333	395
+1854.57	17048	374	334	414
+1865.07	17341	375	341	409
+1876.07	17714	359	320	398
+1887.23	18057	360	321	399
+1898.07	18461	372	336	408
+1909.07	18923	357	315	399
+1920.08	19338	374	336	412
+1931.07	19864	362	328	396
+1942.07	20298	347	308	386
+1953.62	20915	365	332	398
+1964.07	21344	402	369	435
+1975.07	21813	402	369	435
+1986.23	22506	375	337	413
+1997.07	23037	372	340	404
+2008.07	23667	378	343	413
+2018.68	24191	351	314	388
+2030.07	24904	390	357	423
+2041.62	25208	447	408	486
+2052.19	25950	423	385	461
+2063.58	26428	396	356	436
+2074.03	27046	381	347	415
+2085.62	27832	426	395	457
+2090.57	28089	382	349	415
+2095.52	28380	404	371	437
+2107.07	29116	504	470	538
+2118.07	29586	392	359	425
+2129.07	30288	498	456	540
+2140.07	30984	431	399	463
+2151.32	31697	540	507	573
+2162.1	32176	473	440	506
+2172.52	32981	453	419	487
+2184.07	33597	566	529	603
+2195.62	34174	554	518	590
+2206.62	34701	575	539	611
+2217.24	35394	450	394	506
+2227.52	36320	422	390	454
+2239.07	37028	425	388	462
+2250.07	37817	505	471	539
+2260.62	38622	412	375	449
+2272.17	39408	509	468	550

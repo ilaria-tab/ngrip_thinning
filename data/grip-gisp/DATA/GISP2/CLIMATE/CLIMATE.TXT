@@ -1,0 +1,84 @@
+GISP2 Automatic Weather Station Data Files
+
+REFERENCES: 
+
+Stearns, C.R., and G.A. Weidner. 1990. Snow temperature profiles and heat
+fluxes measured on the Greenland crest by automatic weather stations.
+Proceedings of the International Conference on the Role of Polar Regions on
+climate Change, Vol. 1:223-226. June 11-15, Fairbanks, Alaska.
+
+Stearns, C.R., and G.A. Weidner. 1990. The polar automatic weather station
+project of the University of Wisconsin. Proceedings of the International
+Conference on the Role of Polar Regions on climate Change, Vol. 1:58-62.
+June 11-15, Fairbanks, Alaska.
+
+DATA DESCRIPTION: 
+
+The data files in the Climate directory Automated Weather Station (AWS)
+data from 1987 - 1995 for stations distributed on and around the GISP2
+site.  This data is received by satellite and accumulated by Service ARGOS
+before being transmitted to the Data Processing group at the University of
+Wisconsin - Madison.  The data comes in several forms.  The three-hourly
+data for Greenland (detailed below) are corrected; that is, an effort has
+been made to removed bad data points. The data are arranged in columns as 
+follows:
+
+temperature (degrees C)	
+pressure (mb)	
+wind speed (m/s)	
+wind direction (azimuth degrees)	
+relative humidity (%)	
+vertical temperature difference (degrees C)
+
+The vertical temperature difference is measured from 3.0m to 0.5m minus
+the zero calibration.  Missing data are represented as 999999.  The 3 hour
+original data files have been combined into one file for each station and
+are a continuous record beginning at the time the AWS became active. 
+Also, daily average files have been created from the original 3 hour
+files.  No average is given if there were any bad 3hr data for a
+particular day.  There were some changes in station location from year to
+year, as detailed below. 
+
+File names are identified by the latitude and longitude of the original
+station location with an extension indicating either daily (.day) files or
+3 hour (.3hr) files.  The original ARGOS identifier numbers (e.g. 8922)
+and other details are as follows: 
+
+Cathy:	8922 from May 1987 to May 1989.
+	Note: Cathy moved 0.8 degrees west in May 1989
+Kenton: 8922 from June 1989 to Jan 1995.
+	Note: Kenton move 0.02 degrees in Jan 1991.	 
+GISP2:	8936 from June 1989 to Sep 1991, 8925 from Oct 1991 to May 1992,	
+	then back to 8936 from June 1992 to Jan 1995.	
+Klinck: 8938 from Aug 1990 to May 1994, 8909 from June 1994 to Jan 1995.
+	Note: Klinck moved from 72.58N, 40.50W to 72.31N,40.48W on Jan. 
+	1, 1991.  The station filename is 72584050.3hr and .day.	
+Barber: 8939 from July 1990 to June 1994, 8928 from July 1994 to Jan 1995.
+	Note:  Barber station changes locations in Jan 1991 from 71.68N,
+	38 deg.  20 min. W to 71.67N, 38.17W.  The filename is still
+	71683820.3hr, and .day. 
+ Julie: 8928 from Aug 1991 to June 1994, 8986 from June 1994 to Jan 1995. 
+	Note:  station # 8986 and 8928 overlap by one month for the
+	station named Julie.  Data for the daily averages for Julie used
+	the data from station #8928.  The June 1994 file from # 8986 is
+	available as a separate one month file.	
+Matt:	8929 from Aug 1991 to May 1992, 8989 from June 1992 to Jan 1995. 
+
+Filenames are as follows:
+
+72303800.day---------------Cathy Station daily averages
+72303800.3hr---------------Cathy Station three hour data
+72283880.day---------------Kenton Station daily averages
+72283880.3hr---------------Kenton Station three hour data
+72583846.day---------------GISP2 Station daily averages
+72583846.3hr---------------GISP2 Station three hour data
+72354050.day---------------Klinck Station daily averages
+72354050.3hr---------------Klinck Station three hour data
+71683820.day---------------Barber Station daily averages
+71683820.3hr---------------Barber Station three hour data
+72573463.day---------------Julie Station daily averages
+72573463.3hr---------------Julie Station three hour data
+73483762.day---------------Matt Station daily averages
+73483762.3hr---------------Matt Station three hour data
+
+

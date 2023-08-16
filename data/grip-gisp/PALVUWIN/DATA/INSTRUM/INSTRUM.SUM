@@ -1,0 +1,123 @@
+VARIABLES=7:
+"Date":"Date":TRUE:F:-999:BASE:
+"p_mb":"barometric pressure (millibars)":TRUE:F:-999:NONRECON:
+"rel-hp":"relative humidity (percent)":TRUE:F:-999:NONRECON:
+"T_degC":"temperature (degrees Celcius)":TRUE:F:-999:NONRECON:
+"Tvdiff_degC":"vertical temperature difference (degrees Celcius)":TRUE:F:-999:NONRECON:
+"wind_dir":"wind direction (degrees)":TRUE:F:-999:NONRECON:
+"wind_m_s":"wind velocity (meters/second)":TRUE:F:-999:NONRECON:
+FILES=14:
+Climate Data - 71.68N 38.20W (3h):awsbar03.aws:
+LAT=71.68:LON=-38.20:ELEV=3170.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Date":TRUE:F=90.54 95.07:
+"Tvdiff_degC":TRUE:F=-4.20 11.10:
+Climate Data - 71.68N 38.20W (24h):awsbar24.aws:
+LAT=71.68:LON=-38.20:ELEV=3170.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=90.56 95.01:
+"p_mb":TRUE:F=637.20 696.60:
+"T_degC":TRUE:F=-60.90 -3.60:
+"wind_m_s":TRUE:F=0.00 24.40:
+"wind_dir":TRUE:F=0.00 344.90:
+"rel-hp":TRUE:F=32.80 95.30:
+"Tvdiff_degC":TRUE:F=-1.50 11.00:
+Climate Data - 72.30N 38.00W (3h):awscat03.aws:
+LAT=72.30:LON=-38.00:ELEV=3210.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=87.34 89.41:
+"p_mb":TRUE:F=624.80 696.30:
+"T_degC":TRUE:F=-65.40 3.00:
+"wind_m_s":TRUE:F=0.00 18.40:
+"wind_dir":TRUE:F=0.00 360.00:
+"rel-hp":TRUE:F=3.00 99.00:
+"Tvdiff_degC":TRUE:F=-4.20 11.10:
+Climate Data - 72.30N 38.00W (24h):awscat24.aws:
+LAT=72.30:LON=-38.00:ELEV=3210.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=87.34 89.41:
+"p_mb":TRUE:F=628.30 695.30:
+"T_degC":TRUE:F=-63.60 -3.00:
+"wind_m_s":TRUE:F=0.00 13.00:
+"wind_dir":TRUE:F=0.00 347.30:
+"rel-hp":TRUE:F=25.00 86.90:
+"Tvdiff_degC":TRUE:F=-2.70 11.10:
+Climate Data - 72.58N 38.46W (3h):awsgis03.aws:
+LAT=72.58:LON=-38.46:ELEV=3205.00:CONTRIB="GISP2/GRIP":
+VARIABLES=6:
+"Date":TRUE:F=89.44 95.08:
+"p_mb":TRUE:F=627.60 701.50:
+"T_degC":TRUE:F=-67.30 -1.10:
+"wind_m_s":TRUE:F=0.00 30.00:
+"wind_dir":TRUE:F=0.00 360.00:
+"rel-hp":TRUE:F=0.00 100.00:
+Climate Data - 72.58N 38.46W (24h):awsgis24.aws:
+LAT=72.58:LON=-38.46:ELEV=3205.00:CONTRIB="GISP2/GRIP":
+VARIABLES=6:
+"Date":TRUE:F=89.44 95.08:
+"p_mb":TRUE:F=631.00 711.00:
+"T_degC":TRUE:F=-61.50 -4.20:
+"wind_m_s":TRUE:F=0.00 20.50:
+"wind_dir":TRUE:F=0.00 350.40:
+"rel-hp":TRUE:F=8.80 100.00:
+Climate Data - 72.57N 34.63W (3h):awsjul03.aws:
+LAT=72.57:LON=-34.63:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Date":TRUE:F=91.59 95.08:
+"T_degC":TRUE:F=-65.30 -1.20:
+Climate Data - 72.57N 34.63W (24h):awsjul24.aws:
+LAT=72.57:LON=-34.63:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Date":TRUE:F=91.59 95.08:
+"T_degC":TRUE:F=-60.40 -4.40:
+Climate Data - 72.28N 38.80W (3h):awsken03.aws:
+LAT=72.28:LON=-38.80:ELEV=3185.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=89.44 95.08:
+"p_mb":TRUE:F=626.00 701.30:
+"T_degC":TRUE:F=-68.50 2.40:
+"wind_m_s":TRUE:F=0.00 22.40:
+"wind_dir":TRUE:F=0.00 360.00:
+"rel-hp":TRUE:F=3.00 99.00:
+"Tvdiff_degC":TRUE:F=-4.20 11.10:
+Climate Data - 72.28N 38.80W (24h):awsken24.aws:
+LAT=72.28:LON=-38.80:ELEV=3185.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=89.44 95.07:
+"p_mb":TRUE:F=628.60 697.80:
+"T_degC":TRUE:F=-62.80 -3.80:
+"wind_m_s":TRUE:F=0.00 16.70:
+"wind_dir":TRUE:F=0.00 338.40:
+"rel-hp":TRUE:F=27.40 89.30:
+"Tvdiff_degC":TRUE:F=-1.90 11.10:
+Climate Data - 72.35N 40.50W (3h):awskli03.aws:
+LAT=72.35:LON=-40.50:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=90.60 95.02:
+"p_mb":TRUE:F=644.60 708.90:
+"T_degC":TRUE:F=-69.40 -1.60:
+"wind_m_s":TRUE:F=0.00 27.70:
+"wind_dir":TRUE:F=0.00 360.00:
+"rel-hp":TRUE:F=7.00 97.00:
+"Tvdiff_degC":TRUE:F=-4.10 11.20:
+Climate Data - 72.35N 40.50W (24h):awskli24.aws:
+LAT=72.35:LON=-40.50:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=7:
+"Date":TRUE:F=90.60 94.29:
+"p_mb":TRUE:F=646.20 706.20:
+"T_degC":TRUE:F=-67.70 -5.40:
+"wind_m_s":TRUE:F=0.00 21.50:
+"wind_dir":TRUE:F=0.00 323.50:
+"rel-hp":TRUE:F=29.90 91.80:
+"Tvdiff_degC":TRUE:F=-1.70 11.20:
+Climate Data - 73.48N 37.62W (3h):awsmat03.aws:
+LAT=73.48:LON=-37.62:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Date":TRUE:F=91.60 95.08:
+"T_degC":TRUE:F=-67.60 -0.60:
+Climate Data - 73.48N 37.62W (24h):awsmat24.aws:
+LAT=73.48:LON=-37.62:ELEV=3100.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Date":TRUE:F=91.60 95.08:
+"T_degC":TRUE:F=-65.80 -5.00:
+EOF

@@ -1,0 +1,239 @@
+# Greenland Ice Sheet Holocene Ice Mass Loss Simulations and Climate Reconstructions 
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/30172 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/gcmoutput/briner2020/briner2020holocene-ice-loss.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Data Type: Paleoclimate Modeling
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: other model 
+#--------------------
+# Contribution_Date
+#	Date: 2020-07-20
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2020-07-20
+#--------------------
+# Title
+#	Study_Name: Greenland Ice Sheet Holocene Ice Mass Loss Simulations and Climate Reconstructions 
+#--------------------
+# Investigators
+#	Investigators: Briner, J.P.; Cuzzone, J.K.; Badgeley, J.A.; Steig, E.J.; Morlighem, M.; Schlegel, N.-J.; Larour, E.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Greenland ice sheet mass loss simulations from an ensemble (n=9) spanning 12,000 years ago to 1850 CE. 
+#	It also includes Gt/yr data from an ensemble of simulations from 1850 to 2012 CE, and Gt/yr data from an ensemble of 
+#	simulations from 2000-2100 CE following representative concentration pathway climates as part of CMIP6/ISMIP6.  
+#	Gridded temperature and precipitation reconstructions for the past 20,000 years are also included in netCDF file format. 
+#	Greenland gridded temperature and precipitation reconstructions are from data assimilation of ice-core data and a transient climate model.
+#	
+#	Provided Keywords: ice sheet model, Holocene, Greenland Ice Sheet, Ice mass loss, mass loss rate, 2100, RCP, Paleoclimate, climate change
+#
+#--------------------
+# Publication 
+#	Authors: Jason P. Briner, Joshua K. Cuzzone, Jessica A. Badgeley, Nicol·s E. Young, Eric J. Steig, Mathieu Morlighem, Nicole-Jeanne Schlegel, Gregory J. Hakim, Joerg M. Schaefer, Jesse V. Johnson, Alia J. Lesnek, Elizabeth K. Thomas, Estelle Allan, Ole Bennike, Allison A. Cluett, Beata Csatho, Anne de Vernal, Jacob Downs, Eric Larour, Sophie Nowicki 
+#	Published_Date_or_Year: 2020-10-01   
+#	Published_Title: Rate of mass loss from the Greenland Ice Sheet will exceed Holocene values this century
+#	Journal_Name: Nature
+#	Volume: 586
+#	Edition: 
+#	Issue: 7827
+#	Pages: 70-74
+#	Report_Number: 
+#	DOI: 10.1038/s41586-020-2742-6
+#	Online_Resource: https://www.nature.com/articles/s41586-020-2742-6
+#	Full_Citation: 
+#	Abstract: The Greenland Ice Sheet (GIS) is losing mass at a high rate. Given the short-term nature of the observational record, it is difficult to assess the historical importance of this mass-loss trend. Unlike records of greenhouse gas concentrations and global temperature, in which observations have been merged with palaeoclimate datasets, there are no comparably long records for rates of GIS mass change. Here we reveal unprecedented mass loss from the GIS this century, by placing contemporary and future rates of GIS mass loss within the context of the natural variability over the past 12,000 years. We force a high-resolution ice-sheet model with an ensemble of climate histories constrained by ice-core data. Our simulation domain covers southwestern Greenland, the mass change of which is dominated by surface mass balance. The results agree favourably with an independent chronology of the history of the GIS margin. The largest pre-industrial rates of mass loss (up to 6,000 billion tonnes per century) occurred in the early Holocene, and were similar to the contemporary (ad 2000-2018) rate of around 6,100 billion tonnes per century. Simulations of future mass loss from southwestern GIS, based on Representative Concentration Pathway (RCP) scenarios corresponding to low (RCP2.6) and high (RCP8.5) greenhouse gas concentration trajectories, predict mass loss of between 8,800 and 35,900 billion tonnes over the twenty-first century. These rates of GIS mass loss exceed the maximum rates over the past 12,000 years. Because rates of mass loss from the southwestern GIS scale linearly with the GIS as a whole, our results indicate, with high confidence, that the rate of mass loss from the GIS will exceed Holocene rates this century.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: 1504267
+#------------------
+# Site_Information 
+#	Site_Name: Greenland Ice Sheet
+#	Location: North America>Greenland
+#	Country: Greenland
+#	Northernmost_Latitude: 87.16
+# 	Southernmost_Latitude: 53.81
+# 	Easternmost_Longitude: -3.75
+# 	Westernmost_Longitude: -86.25
+# 	Elevation:  
+#------------------
+# Data_Collection   
+#	Collection_Name: Briner2020HoloceneIceLoss 
+#	Earliest_Year: 12000
+#	Most_Recent_Year: 100
+#	Time_Unit: Cal. Year BP
+#	Core_Length: 
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age	age, , , calendar year before present, , paleoclimatic modeling, , ,N,
+## sim1	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 1
+## sim2	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 2
+## sim3	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 3
+## sim4	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 4
+## sim5	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 5
+## sim6	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 6
+## sim7	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 7
+## sim8	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 8
+## sim9	ice mass loss, , , gigaton per century, ,paleoclimatic modeling,,,N,simulation 9
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age	sim1	sim2	sim3	sim4	sim5	sim6	sim7	sim8	sim9
+-12450	-250	-1203	-1148	-168	-248	-102	-109	-1041	-1005
+-12350	-235	-1009	-966	-216	-282	-167	-124	-950	-931
+-12250	-237	-870	-836	-232	-297	-194	-135	-801	-803
+-12150	-246	-830	-795	-351	-295	-328	-188	-750	-764
+-12050	-317	-826	-750	-685	-497	-699	-217	-728	-756
+-11950	-231	-712	-716	-886	-906	-927	-143	-547	-611
+-11850	5	-596	-788	-1414	-1259	-1390	-193	-571	-1074
+-11750	8	-931	-1276	-3150	-1557	-3159	-117	-489	-1573
+-11650	-4035	-7003	-9444	-3038	-5263	-6428	429	220	-1245
+-11550	-2688	-4516	-6223	-1652	-1001	-3291	963	1199	-1123
+-11450	166	-959	-1575	1239	869	824	961	1245	357
+-11350	-3130	-4637	-5886	-1390	-1103	-2769	921	488	264
+-11250	-2003	-3098	-4026	-532	-866	-1960	823	131	-375
+-11150	-1139	-2589	-3700	-545	-239	-1694	590	256	-741
+-11050	-1081	-2300	-3463	-784	-665	-1793	453	148	-450
+-10950	-489	-1545	-2820	-662	-933	-1380	99	-85	-159
+-10850	-3585	-4884	-6016	-2231	-2178	-3127	-474	-784	-1045
+-10750	-4100	-5787	-6588	-2779	-2810	-3316	-446	-866	-1125
+-10650	-2279	-3534	-4899	-589	-725	-1478	607	669	-92
+-10550	-2789	-4481	-5560	-834	-571	-1402	943	681	407
+-10450	-1512	-3024	-4336	-1021	-1141	-1670	848	724	105
+-10350	-1757	-3623	-4194	-1290	-1228	-1928	419	234	-618
+-10250	-2953	-4664	-5329	-1393	-1502	-1913	398	212	-433
+-10150	-4167	-6045	-6466	-2752	-3737	-3265	-1403	-1291	-2474
+-10050	-8124	-9410	-10282	-879	-2869	-6259	-1920	-1992	-2980
+-9950	-6573	-7450	-8604	-808	-4669	-5056	-2154	-2258	-4051
+-9850	-4651	-4769	-6463	-834	-4460	-5334	-2285	-2450	-3840
+-9750	-6269	-7402	-7249	-524	-3399	-4307	-1303	-1410	-2827
+-9650	-4825	-6256	-5955	-1884	-3860	-5067	-2720	-2646	-3662
+-9550	-2872	-4096	-4252	-397	-3885	-4023	-1033	-966	-4484
+-9450	-4647	-5451	-5747	-2052	-2524	-3441	-3306	-3391	-2226
+-9350	-928	-2142	-2093	1453	-1019	-1050	1015	809	-1029
+-9250	-2032	-2094	-2762	524	-1717	-1010	-316	68	-3478
+-9150	-5552	-5422	-5782	-3748	-3751	-4556	-3935	-4356	-3995
+-9050	-2960	-4012	-3709	-2363	-4694	-3481	-3293	-3420	-5143
+-8950	-4982	-5216	-5330	-2144	-2957	-2757	-2915	-2655	-4005
+-8850	-1694	-1453	-1720	1354	-1006	-479	-47	98	-314
+-8750	-2136	-2015	-1367	-1534	-2450	-1172	-861	-1876	-2556
+-8650	-3294	-2784	-2504	-3028	-3022	-2654	-3480	-3606	-3861
+-8550	-1917	-1698	-1046	-1454	-2091	-1251	-2199	-1511	-3202
+-8450	-2503	-2177	-1326	-1099	-1371	-888	-1325	-598	-1093
+-8350	-705	-45	548	533	-648	695	2564	1217	448
+-8250	7524	7452	7927	6321	5044	3936	-38	-296	3970
+-8150	-1998	-475	145	-4463	-4379	-1953	-2859	-1336	-4493
+-8050	-5392	-7348	-6206	-5714	-4561	-5225	-4860	-6073	-8776
+-7950	-5111	-2907	-2192	-1791	-2546	-1892	-4740	-4550	-2638
+-7850	-3433	-3794	-3346	-1733	-1646	-1549	-3236	-3417	-3134
+-7750	-2466	-2371	-1199	-2582	-2161	-1517	-4325	-4416	-4198
+-7650	624	760	578	147	-258	332	-1130	-1185	-1329
+-7550	1409	1084	2015	-516	711	1179	-1691	-1718	-1948
+-7450	685	1293	2014	983	564	665	-791	-832	-777
+-7350	389	590	1327	-742	-946	524	-1896	-1941	-2000
+-7250	474	1512	2212	-1018	-186	-227	-2421	-2476	-2413
+-7150	2545	2816	3202	965	1028	1761	-3	-173	421
+-7050	1290	1195	2730	557	525	1651	716	550	-434
+-6950	405	1364	2222	1680	958	1040	307	299	-297
+-6850	829	673	1311	-616	1059	1273	-1290	-1197	-378
+-6750	1579	1979	2269	818	875	1260	-43	-305	43
+-6650	2541	2637	3272	595	1416	1715	134	285	-194
+-6550	1717	1607	2344	1254	691	1592	-374	-399	-150
+-6450	1347	1478	2092	471	661	995	-413	-524	-417
+-6350	2677	3123	3870	2011	2264	2357	1679	1250	833
+-6250	3035	2455	2679	1838	991	2255	-131	365	910
+-6150	2146	2101	2163	178	1342	1017	-844	-1190	-1089
+-6050	2383	2357	3631	2686	1978	2212	108	790	573
+-5950	1412	1737	1610	601	1274	1546	690	-180	456
+-5850	1748	1593	1769	1489	1760	2512	904	1214	1990
+-5750	828	815	1809	1593	1299	1518	1260	1192	916
+-5650	525	1531	1491	170	548	718	-392	-609	377
+-5550	1005	1252	1526	933	1034	1996	196	228	647
+-5450	2714	2922	2824	1943	1775	1905	1289	1185	1385
+-5350	2148	2820	3277	1950	2680	2511	1320	1332	1959
+-5250	845	970	1170	412	1846	1750	191	-465	707
+-5150	1670	1501	1895	2266	1786	2213	897	1568	1004
+-5050	626	531	751	933	1263	892	1144	470	702
+-4950	-1208	-128	-416	-1916	-861	-279	-2892	-2980	-434
+-4850	2400	2203	3066	1668	792	1513	182	833	-531
+-4750	1539	2218	2071	749	1935	1547	974	819	1926
+-4650	814	1260	1349	-175	435	870	-700	-775	-161
+-4550	425	800	952	-341	133	767	-1347	-1860	-1274
+-4450	989	1256	1657	0	150	644	-1553	-1123	-497
+-4350	1557	1884	1409	851	1154	1537	-489	-451	210
+-4250	263	756	1259	925	1416	1672	1734	1197	1995
+-4150	1027	1306	1417	945	1680	1830	940	1257	1876
+-4050	1654	1918	2107	1349	1977	2074	565	486	1366
+-3950	2234	2789	2780	1704	2024	2289	869	1233	1502
+-3850	1503	1863	2938	969	2042	1936	190	-8	1137
+-3750	674	1443	1893	675	1904	1659	380	159	847
+-3650	1747	2319	1333	1588	1892	2651	1193	1380	2138
+-3550	751	1551	2376	933	1670	1973	676	416	1623
+-3450	1063	1100	1330	545	905	1279	84	-110	711
+-3350	594	1639	1547	1212	1640	1698	835	1122	2393
+-3250	1068	1417	1738	1476	2292	2409	2233	1898	2407
+-3150	861	1602	1765	17	1165	1105	107	561	1653
+-3050	543	1104	1533	188	1410	1420	424	-102	1209
+-2950	1054	1219	1461	1868	1453	1818	1403	2210	1414
+-2850	840	1591	1484	0	852	1293	642	-145	1532
+-2750	1358	1424	1563	753	682	1209	-286	80	922
+-2650	-822	1119	1246	-1080	607	336	-843	-1500	-492
+-2550	208	23	612	-182	635	281	58	822	1286
+-2450	-560	373	620	-24	353	1279	782	415	1283
+-2350	467	750	735	-657	217	415	-1863	-1348	-902
+-2250	440	936	1166	-296	316	269	-452	-1014	-211
+-2150	-514	662	479	-98	374	793	329	656	1014
+-2050	-215	151	148	-353	290	305	-363	-1151	169
+-1950	-952	-504	-208	-1700	-761	-1060	-3154	-2622	-2078
+-1850	1072	1370	1029	340	146	834	795	703	1159
+-1750	503	1028	1397	217	813	872	989	722	1781
+-1650	-474	681	326	-43	474	902	134	481	984
+-1550	1386	1080	1358	1051	1001	960	302	232	670
+-1450	975	1400	1676	415	1178	1140	868	1018	1110
+-1350	-19	130	500	-161	243	442	544	62	867
+-1250	-707	224	441	-1465	-21	-475	-1586	-1287	-328
+-1150	33	27	346	55	-172	272	-143	-191	-98
+-1050	-774	-614	-232	-660	-292	-179	-955	-1109	-514
+-950	893	1233	687	-80	441	238	-247	-496	-417
+-850	586	612	1313	1156	1145	1081	599	882	1628
+-750	83	1050	756	-523	325	436	-79	-110	43
+-650	1368	1573	1367	1630	949	1836	1405	1755	1715
+-550	1389	1450	1628	1437	1498	1603	1178	1034	1669
+-450	920	1313	1302	714	1038	1159	520	543	682
+-350	996	813	1064	51	623	965	128	-113	177
+-250	465	639	932	392	465	837	249	179	388
+-150	68	547	311	401	780	164	875	1025	1271

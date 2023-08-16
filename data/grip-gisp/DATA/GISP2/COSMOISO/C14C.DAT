@@ -1,0 +1,33 @@
+GISP2 14-C (radiocarbon) measurements (Table 3).					
+
+REFERENCES:					
+
+Lal, D., A.J.T. Jull, G.S. Burr, and D.J. Donahue. 1997. Measurements of in
+situ 14C concentrations in Greenland Ice Sheet Project 2 ice covering a 17
+kyr time span: Implications to ice flow dynamics. Journal of Geophysical
+Research 102:26505-26510.
+
+DATA DESCRIPTION:					
+
+This file contains calculated accumulation rates from 14C data (Table 3 in
+Lal and Jull (1997) compared with glaciological flow-model estimates
+(Cutler et al., 1995).
+
+Depth: Mean sample depth in meters.	
+Age:   Approximate age of ice in years.	
+Fraction:  Approximate fraction 14C from in-situ production during storage.	
+Constant:  Accumulation rates are model estimates of Cutler et al. (1995). Constant thickness.	
+Variable:  Accumulation rates are model estimates of Cutler et al. (1995). Variable thickness.	
+Accumulation: Accumulation rates (cm/yr) required to correspond to measured in-situ 14C.	
+
+DATA:					
+
+Depth	Age	Fraction	Constant	Variable	Accumulation	+/-
+
+125.8	375	0.12	25.4	25.3	27.1	1.7
+126.2	375	0.12	25.4	25.3	29.5	2.6
+1518.5	9470	0.13	22.6	20.5	7.8	1.4
+1623.4	10770	0.24	19.2	16.5	16.1	1.7
+1698.5	12390	0.29	7.97	6.67	16.6	2.2
+1749.4	13750	0.29	15	12.4	14	2.0
+1837.4	16200	0.26	8.8	7	8.3	1.0

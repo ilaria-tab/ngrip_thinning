@@ -1,0 +1,72 @@
+GRIP Depth Age by Stratigraphy
+
+REFERENCES:
+
+Hammer, C.U., K.K. Andersen, H.B. Clausen, D. Dahl-Jensen, C.S. Hvidberg,
+and P. Iversen. 1997. The stratigraphic dating of the GRIP ice core.
+Special Report of the Geophysical Department, Niels Bohr Institute for
+Astronomy, Physics and Geophysics, University of Copenhagen.
+
+Johnsen, S.J., H.B. Clausen, W. Dansgaard, N.S. Gundestrup, C.U. Hammer, U.
+Andersen, K.K. Andersen, C.S. Hvidberg, D. Dahl-Jensen, J.P. Steffensen, H.
+Shoji, A.E. Sveinbjörnsdóttir, J.W.C. White, J. Jouzel, and D. Fisher.
+1997. The d18O record along the Greenland Ice Core Pproject deep ice core
+and the problem of possible Eemian climatic instability. Journal of
+Geophysical Research 102:26397-26410.
+
+Johnsen, S.J., H.B. Clausen, W. Dansgaard, N.S. Gundestrup, C.U. Hammer,
+and H. Tauber. 1995. The Eem stable isotope record along the GRIP ice core
+and its interpretation. Quaternary Research 43:117-124.
+
+Dahl-Jensen, D., S.J. Johnsen, C.U. Hammer, H.B. Clausen, and J. Jouzel.
+1993. Past accumulation rates derived from observed annual layers in the
+GRIP ice core from Summit, Central Greenland. NATO Advanced Sciences
+Institutes Series 1:12. Springer-Verlag, Berlin, Heidelberg.
+
+DATA DESCRIPTION:
+
+This file shows ages and depths and average accumulation rates related to
+significant climatic changes over the past 60 ka in the GRIP ice core. 
+The ages and the names of climate intervals are based on stratigraphy
+(Hammer et al., 1997), rather than the flow-model of Johnsen et al.
+(1997).  The latter timescale is presented in gripage.dat.  Ages are BP
+1950. 
+
+DATA:
+
+depth	depth	average accumulation	length of	age	age	name of interval
+top (m)	bottom (m)	rate (cm/yr)	interval (yr)	top (m)	bottom (m)	
+
+1616.45	1623.60	6.79	109	11402	11511	Preboreal
+1623.60	1662.65	3.27	1194	11511	12705	Younger Dryas
+1662.65	1718.20	3.88	1432	12705	14137	Allerod
+1718.20	1752.85	4.71	736	14137	14873	Bolling (IS1)
+1752.85	1940.40	2.15	8743	14873	23616	C1
+1940.40	1951.95	2.44	474	23616	24090	IS2 (a+b)
+1951.95	2017.95	1.63	4041	24090	28131	C2
+2017.95	2025.65	2.11	365	28131	28496	IS3
+2025.65	2037.75	1.33	912	28496	29408	C3
+2037.75	2046.00	2.10	392	29408	29800	IS4
+2046.00	2090.00	1.19	3691	29800	33491	C4
+2090.00	2099.90	2.14	463	33491	33954	IS5
+2099.90	2111.45	1.17	983	33954	34937	C5
+2111.45	2118.60	2.29	312	34937	35249	IS6
+2118.60	2131.80	1.46	904	35249	36153	C6
+2131.80	2149.40	2.17	812	36153	36965	IS7
+2149.40	2162.60	1.16	1134	36965	38099	C7
+2162.60	2200.55	2.17	1748	38099	39847	IS8
+2200.55	2220.90	1.28	1596	39847	41443	C8
+2220.90	2223.65	1.95	141	41443	41584	IS9
+2223.65	2234.10	1.35	775	41584	42359	C9
+2234.10	2243.45	1.89	496	42359	42855	IS10
+2243.45	2252.25	1.38	638	42855	43493	C10
+2252.25	2270.95	1.89	990	43493	44483	IS11
+2270.95	2297.35	1.02	2590	44483	47073	C11
+2297.35	2324.30	1.33	2029	47073	49102	IS12
+2324.30	2343.55	0.95	2024	49102	51126	C12
+2343.55	2350.70	1.23	581	51126	51707	IS13
+2350.70	2380.95	1.13	2676	51707	54383	C13
+2380.95	2421.10	1.37	2937	54383	57320	IS14
+2421.10	2431.00	0.92	1081	57320	58401	C14
+2431.00	2435.95	1.22	407	58401	58808	IS15
+2435.95	2441.45	0.82	667	58808	59475	C15

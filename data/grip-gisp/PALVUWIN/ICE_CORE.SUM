@@ -1,0 +1,802 @@
+VARIABLES=133:
+"Depth":"Depth":TRUE:F:-999:BASE:
+"i10Be-katoms_g":"10-Be concentration (10^3 atoms/g)":TRUE:F:-999:NONRECON:
+"i15N14N":"15N/14N ratio in N2 gas (per mille)":TRUE:F:-999:NONRECON:
+"i18O16O":"18O/16O ratio in O2 gas (per mille)":TRUE:F:-999:NONRECON:
+"i18O16Orel":"18O/16O ratio in O2 gas relative to present (per mille)":TRUE:F:-999:NONRECON:
+"Acetate-ppb":"Acetate concentration (ppb)":TRUE:F:-999:NONRECON:
+"GasAge":"Age of gas (years before 1950)":TRUE:F:-999:NONRECON:
+"Layer-den":"Annual layer density (g/cc)":TRUE:F:-999:NONRECON:
+"Layer-ie-m":"Annual layer thickness (ice-equivalent m)":TRUE:F:-999:NONRECON:
+"Layer-m":"Annual layer thickness (m)":TRUE:F:-999:NONRECON:
+"Layer-corr":"Annual layer thickness, corrected (eqv-m/yr)":TRUE:F:-999:NONRECON:
+"Layer-thin":"Annual layer thinning factor":TRUE:F:-999:NONRECON:
+"ArN":"Ar/N2 ratio (per mille)":TRUE:F:-999:NONRECON:
+"Ar_cc_kg":"Argon concentration (cc/kg)":TRUE:F:-999:NONRECON:
+"Beta":"Beta":TRUE:F:-999:NONRECON:
+"BoreAzim":"Borehole azimuth (deg clockwise from N)":TRUE:F:-999:NONRECON:
+"BoreDmax":"Borehole diameter maximum (UC logger) (mm)":TRUE:F:-999:NONRECON:
+"BoreDmin":"Borehole diameter minimum (UC logger) (mm)":TRUE:F:-999:NONRECON:
+"BoreIncl":"Borehole inclination (deg)":TRUE:F:-999:NONRECON:
+"BoreTemp":"Borehole temperature (C)":TRUE:F:-999:NONRECON:
+"CH4-ppbv":"CH4 concentration (ppbv)":TRUE:F:-999:NONRECON:
+"CH4-ppmv":"CH4 concentration (ppmv)":TRUE:F:-999:NONRECON:
+"CH4max-ppbv":"CH4 maximum concentration (ppbv)":TRUE:F:-999:NONRECON:
+"CH4min-ppbv":"CH4 minimum concentration (ppbv)":TRUE:F:-999:NONRECON:
+"CO2-ppmv":"CO2 concentration (ppmv)":TRUE:F:-999:NONRECON:
+"CO2N":"CO2/N2 ratio (per mille)":TRUE:F:-999:NONRECON:
+"Ca-nmoles":"Ca concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"Ca-ppb":"Ca ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"Ca-t-ppb":"Calcium, terrestrial, concentration (ppb)":TRUE:F:-999:NONRECON:
+"calen_year":"Calendar Year":TRUE:F:-999:NONRECON:
+"Carbonates":"Carbonates, percent":TRUE:F:-999:NONRECON:
+"Chloride-ppb":"Chloride concentration (ppb)":TRUE:F:-999:NONRECON:
+"Cl_Na":"Chlorine/Sodium ratio":TRUE:F:-999:NONRECON:
+"Chlorite":"Chlorite, percent":TRUE:F:-999:NONRECON:
+"Cl-ppb":"Cl ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"Xtal-horz-mm":"Crystal diameter, horizontal (millimeters)":TRUE:F:-999:NONRECON:
+"Xtal-vert-mm":"Crystal diameter, vertical (millimeters)":TRUE:F:-999:NONRECON:
+"Density":"Density kg/m^3":TRUE:F:-999:NONRECON:
+"delD":"Deuterium (per mille)":TRUE:F:-999:NONRECON:
+"ECM-ueq":"Electrical conductivity (microeq/kg)":TRUE:F:-999:NONRECON:
+"ECM-uM":"Electrical conductivity (uMoles/l)":TRUE:F:-999:NONRECON:
+"ECM-uA":"Electrical conductivity microamps":TRUE:F:-999:NONRECON:
+"Feldspars":"Feldspars, percent":TRUE:F:-999:NONRECON:
+"Fluoride-ppb":"Fluoride concentration (ppb)":TRUE:F:-999:NONRECON:
+"HCHO-ppb":"Formaldehyde concentration (micrograms/kilogram)":TRUE:F:-999:NONRECON:
+"Format-ppb":"Formate concentration (ppb)":TRUE:F:-999:NONRECON:
+"GlycProp-ppb":"Glyconate + propylate concentration (ppb)":TRUE:F:-999:NONRECON:
+"H2O2-mumoles":"H2O2 concentration (mu-moles/l)":TRUE:F:-999:NONRECON:
+"H2O2-ppbv":"H2O2 concentration (ppbv)":TRUE:F:-999:NONRECON:
+"Accum-100km":"Ice accumulation rate (for 100 km retreat) (meters/year)":TRUE:F:-999:NONRECON:
+"Accum-200km":"Ice accumulation rate (for 200 km retreat) (meters/year)":TRUE:F:-999:NONRECON:
+"Accum-50km":"Ice accumulation rate (for 50 km retreat)  (meters/year)":TRUE:F:-999:NONRECON:
+"Accum-m_yr":"Ice accumulation rate (meters/year)":TRUE:F:-999:NONRECON:
+"Accum-del18O":"Ice accumulation rate based on del18O (g/cm^2/yr)":TRUE:F:-999:NONRECON:
+"Debris":"Ice debris content":TRUE:F:-999:NONRECON:
+"Ice-eqv_m":"Ice-Equivalent Depth":TRUE:F:-999:NONRECON:
+"Illite":"Illite, percent":TRUE:F:-999:NONRECON:
+"Julian":"Julian date":TRUE:F:-999:NONRECON:
+"Julian-start":"Julian date, start":TRUE:F:-999:NONRECON:
+"Julian-stop":"Julian date, stop":TRUE:F:-999:NONRECON:
+"Julian-mean":"Julian date, mean":TRUE:F:-999:NONRECON:
+"K-nmoles":"K concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"K-ppb":"K ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"Kaolin":"Kaolinite, percent":TRUE:F:-999:NONRECON:
+"LLS":"Laser light scattering (relative intensity)":TRUE:F:-999:NONRECON:
+"i206Pb_204Pb":"Lead 206 / Lead 204 ratio":TRUE:F:-999:NONRECON:
+"i206Pb_207Pb":"Lead 206 / Lead 207 ratio":TRUE:F:-999:NONRECON:
+"i207Pb_204Pb":"Lead 207 / Lead 204 ratio":TRUE:F:-999:NONRECON:
+"i208Pb_204Pb":"Lead 208 / Lead 204 ratio":TRUE:F:-999:NONRECON:
+"i208Pb_206Pb":"Lead 208 / Lead 206 ratio":TRUE:F:-999:NONRECON:
+"MSA-nmoles":"MSA concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"MSA-ppbv":"MSA concentration (ppbv)":TRUE:F:-999:NONRECON:
+"Mafics":"Mafics, percent":TRUE:F:-999:NONRECON:
+"Mg-t-ppb":"Magnesium, terrestrial, concentration (ppb)":TRUE:F:-999:NONRECON:
+"Mass-kg":"Mass of sample (kilograms)":TRUE:F:-999:NONRECON:
+"Dust-mm":"Mean particle size (mm)":TRUE:F:-999:NONRECON:
+"Mg-nmoles":"Mg concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"Mg-ppb":"Mg ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"Micas":"Micas, percent":TRUE:F:-999:NONRECON:
+"Minerals":"Minerals, other (percent)":TRUE:F:-999:NONRECON:
+"NH4-nmoles":"NH4 concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"NH4-ppb":"NH4 ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"NO3-nmoles":"NO3 concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"NO3-ppb":"NO3 ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"Na-nmoles":"Na concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"Na-ppb":"Na ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"i143Nd_144Nd":"Neodymium 143 / Neodymium 144 ratio":TRUE:F:-999:NONRECON:
+"Npct":"Nitrogen percent":TRUE:F:-999:NONRECON:
+"nsSO4-ppb":"Non-sea salt sulfate concentration (ppb)":TRUE:F:-999:NONRECON:
+"Non-silicates":"Non-silicates, total (percent)":TRUE:F:-999:NONRECON:
+"Oar":"O2/Ar ratio (per mille)":TRUE:F:-999:NONRECON:
+"O2N2":"O2/N2 ratio (per mille)":TRUE:F:-999:NONRECON:
+"Oxalate-ppb":"Oxalate concentration (ppb)":TRUE:F:-999:NONRECON:
+"Oxides":"Oxides and hydroxides, percent":TRUE:F:-999:NONRECON:
+"O2pct":"Oxygen percent":TRUE:F:-999:NONRECON:
+"Dust-n":"Particle concentration (number/ml)":TRUE:F:-999:NONRECON:
+"Dust-ppb":"Particle concentration (ppb)":TRUE:F:-999:NONRECON:
+"Quartz":"Quartz, percent":TRUE:F:-999:NONRECON:
+"SO4-EOF5":"SO4 concentration (based on EOF-5)":TRUE:F:-999:NONRECON:
+"SO4-nmoles":"SO4 concentration (nmoles/m^3)":TRUE:F:-999:NONRECON:
+"SO4-ppb":"SO4 ion concentration (ppb)":TRUE:F:-999:NONRECON:
+"SigmaInf":"Sigma infinity (microsiemens/meter)":TRUE:F:-999:NONRECON:
+"Silica-Al":"Silicates, aluminum (percent)":TRUE:F:-999:NONRECON:
+"Silica-Other":"Silicates, other (percent)":TRUE:F:-999:NONRECON:
+"Silica-Ttl":"Silicates, total (percent)":TRUE:F:-999:NONRECON:
+"Size-mu":"Size (microns)":TRUE:F:-999:NONRECON:
+"Smectite":"Smectite, percent":TRUE:F:-999:NONRECON:
+"Na-m-ppb":"Sodium, marine, concentration (ppb)":TRUE:F:-999:NONRECON:
+"i87Sr_86Sr":"Strontium 87 / Strontium 86 ratio":TRUE:F:-999:NONRECON:
+"GasCont":"Total Gas Content":TRUE:F:-999:NONRECON:
+"AirVol-cm3":"Trapped air volume (cm^3 air/l sample)":TRUE:F:-999:NONRECON:
+"TVD":"True vertical depth (m)":TRUE:F:-999:NONRECON:
+"VA-yr":"Volcanic acid (years)":TRUE:F:-999:NONRECON:
+"VAD":"Volcanic acid deposition (kg/km^2)":TRUE:F:-999:NONRECON:
+"VA-back":"Volcanic acid, background concentration (\065eq/kg)":TRUE:F:-999:NONRECON:
+"VA-mean":"Volcanic acid, mean concentration (\065eq/kg)":TRUE:F:-999:NONRECON:
+"VA-peak":"Volcanic acid, peak concentration (\065eq/kg)":TRUE:F:-999:NONRECON:
+"Volc-Mtons":"Volcanic eruption magnitude (Mtons of H2SO4)":TRUE:F:-999:NONRECON:
+"bp_year":"Year BP":TRUE:F:-999:NONRECON:
+"silica-Al_mg_kg":"aluminum silicates concentration (mg/kg)":TRUE:F:-999:NONRECON:
+"silica-Al_mg_cm2_kyr":"aluminum silicates flux (mg/cm^2/kyr)":TRUE:F:-999:NONRECON:
+"d132Xe_36Ar":"delta 132Xe/36Ar ratio":TRUE:F:-999:NONRECON:
+"del18O":"delta 18-O":TRUE:F:-999:NONRECON:
+"del18O-gisp2":"delta 18O (GISP2) per mille":TRUE:F:-999:NONRECON:
+"del18O-all":"delta 18O (GRIP and GISP2 cores) per mille":TRUE:F:-999:NONRECON:
+"del18O-gripavg":"delta 18O (GRIP average) per mille":TRUE:F:-999:NONRECON:
+"del18O-grip891":"delta 18O (GRIP core 891) per mille":TRUE:F:-999:NONRECON:
+"del18O-grip892":"delta 18O (GRIP core 892) per mille":TRUE:F:-999:NONRECON:
+"del18O-grip893":"delta 18O (GRIP core 893) per mille":TRUE:F:-999:NONRECON:
+"del18O-grip912":"delta 18O (GRIP core 912) per mille":TRUE:F:-999:NONRECON:
+"del18O-grip913":"delta 18O (GRIP core 913) per mille":TRUE:F:-999:NONRECON:
+"d84Kr_36Ar":"delta 84Kr/36Ar ratio":TRUE:F:-999:NONRECON:
+"eNd":"epsilon Neodymium":TRUE:F:-999:NONRECON:
+FILES=77:
+Aerosol Concentrations (1993):gispt931.ice:
+LAT=72.97:LON=-38.77:ELEV=3205.00:CONTRIB="GISP2/GRIP":
+VARIABLES=11:
+"Julian-mean":TRUE:F=145.61 194.65:
+"Julian-start":TRUE:F=145.39 194.36:
+"Julian-stop":TRUE:F=126.01 194.93:
+"MSA-nmoles":TRUE:F=0.01 0.28:
+"NO3-nmoles":TRUE:F=0.06 6.47:
+"SO4-nmoles":TRUE:F=0.63 11.70:
+"Na-nmoles":TRUE:F=0.03 8.34:
+"NH4-nmoles":TRUE:F=0.04 10.70:
+"K-nmoles":TRUE:F=0.05 0.97:
+"Mg-nmoles":TRUE:F=0.07 1.65:
+"Ca-nmoles":TRUE:F=0.16 2.65:
+Aerosol Concentrations (1994):gispt942.ice:
+LAT=72.00:LON=-38.00:ELEV=0.00:CONTRIB="GISP2/GRIP":
+VARIABLES=11:
+"Julian-mean":TRUE:F=128.65 222.67:
+"Julian-start":TRUE:F=128.36 222.28:
+"Julian-stop":TRUE:F=128.93 223.06:
+"MSA-nmoles":TRUE:F=0.01 2.81:
+"NO3-nmoles":TRUE:F=0.15 8.88:
+"SO4-nmoles":TRUE:F=0.09 19.70:
+"Na-nmoles":TRUE:F=0.02 25.20:
+"NH4-nmoles":TRUE:F=0.03 3.76:
+"K-nmoles":TRUE:F=0.01 1.38:
+"Mg-nmoles":TRUE:F=0.08 0.99:
+"Ca-nmoles":TRUE:F=0.23 1.03:
+Ions- B (Shallow) Core (Detailed):gisp2_b3.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=12:
+"Depth":TRUE:F=4.99 189.98:
+"bp_year":TRUE:F=-29.89 659.16:
+"calen_year":TRUE:F=1290.83 1979.89:
+"Na-ppb":TRUE:F=0.00 141.40:
+"NH4-ppb":TRUE:F=0.40 542.30:
+"K-ppb":TRUE:F=0.00 119.90:
+"Mg-ppb":TRUE:F=0.00 28.57:
+"Ca-ppb":TRUE:F=0.07 109.20:
+"Cl-ppb":TRUE:F=0.34 280.70:
+"NO3-ppb":TRUE:F=0.05 302.75:
+"SO4-ppb":TRUE:F=0.31 1313.22:
+"H2O2-ppbv":TRUE:F=0.00 209.82:
+Ions- B (Shallow) Core:gisp2_b5.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=11:
+"Depth":TRUE:F=0.00 199.61:
+"bp_year":TRUE:F=-37.30 678.85:
+"calen_year":TRUE:F=1271.15 1987.30:
+"Na-ppb":TRUE:F=1.15 29.66:
+"NH4-ppb":TRUE:F=1.44 52.04:
+"K-ppb":TRUE:F=0.23 55.72:
+"Mg-ppb":TRUE:F=0.06 3.03:
+"Ca-ppb":TRUE:F=1.60 27.05:
+"Cl-ppb":TRUE:F=5.67 51.41:
+"NO3-ppb":TRUE:F=35.96 199.66:
+"SO4-ppb":TRUE:F=12.01 305.46:
+Ions- D (Deep) Core (Detailed):gisp2_d4.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=11:
+"Depth":TRUE:F=96.03 3041.99:
+"bp_year":TRUE:F=258.95 100449.20:
+"calen_year":TRUE:F=-98500.20 1691.05:
+"Na-ppb":TRUE:F=0.25 1242.40:
+"NH4-ppb":TRUE:F=0.70 630.60:
+"K-ppb":TRUE:F=0.08 322.00:
+"Mg-ppb":TRUE:F=0.02 3575.90:
+"Ca-ppb":TRUE:F=0.08 3764.40:
+"Cl-ppb":TRUE:F=0.32 2132.60:
+"NO3-ppb":TRUE:F=3.17 274.89:
+"SO4-ppb":TRUE:F=6.26 7728.40:
+Ions- D (Deep) Core:gisp2_d6.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=11:
+"Depth":TRUE:F=2.59 3040.20:
+"bp_year":TRUE:F=-35.30 555488.00:
+"calen_year":TRUE:F=-998050.00 1985.30:
+"Na-ppb":TRUE:F=1.00 144.34:
+"NH4-ppb":TRUE:F=0.40 171.00:
+"K-ppb":TRUE:F=0.03 31.30:
+"Mg-ppb":TRUE:F=0.43 323.23:
+"Ca-ppb":TRUE:F=1.28 1465.00:
+"Cl-ppb":TRUE:F=1.04 252.00:
+"NO3-ppb":TRUE:F=33.20 211.07:
+"SO4-ppb":TRUE:F=12.06 985.90:
+Mineralogy and Isotope Chemistry Samples:gisp2_d7.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=20:
+"Depth":TRUE:F=1984.00 2030.00:
+"bp_year":TRUE:F=23340.00 26180.00:
+"calen_year":TRUE:F=-24231.00 -21391.00:
+"Ca-ppb":TRUE:F=52.00 732.00:
+"Beta":TRUE:F=1.90 2.55:
+"Kaolin":TRUE:F=10.00 27.00:
+"Illite":TRUE:F=51.00 63.00:
+"Chlorite":TRUE:F=22.00 30.00:
+"Smectite":TRUE:F=0.00 2.00:
+"Dust-mm":TRUE:F=1.15 1.32:
+"i87Sr_86Sr":TRUE:F=0.71 0.72:
+"i206Pb_204Pb":TRUE:F=18.65 18.99:
+"i207Pb_204Pb":TRUE:F=15.63 15.66:
+"i208Pb_204Pb":TRUE:F=38.31 38.80:
+"i206Pb_207Pb":TRUE:F=1.19 1.21:
+"i208Pb_206Pb":TRUE:F=2.03 2.06:
+"silica-Al_mg_kg":TRUE:F=0.92 6.41:
+"silica-Al_mg_cm2_kyr":TRUE:F=1.66 14.42:
+"i143Nd_144Nd":TRUE:F=0.51 0.51:
+"eNd":TRUE:F=-10.40 -7.60:
+D Core Methane Sulfonic Acid Concentrations:gisp2_d9.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=94.35 1654.13:
+"bp_year":TRUE:F=253.50 11239.00:
+"calen_year":TRUE:F=-9290.00 1696.50:
+"MSA-ppbv":TRUE:F=0.00 9.49:
+F Core Methane Sulfonic Acid Concentrations:gisp_f10.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=2:
+"Depth":TRUE:F=0.00 100.00:
+"MSA-ppbv":TRUE:F=0.91 4.64:
+Concentration of H2O2 in Atmosphere:gisp9311.ice:
+LAT=72.97:LON=-38.77:ELEV=3205.00:CONTRIB="GISP2/GRIP":
+VARIABLES=2:
+"Julian":TRUE:F=154.02 189.69:
+"H2O2-ppbv":TRUE:F=0.11 2.61:
+H2O2 Snow Pit Data - ADG 1995:adgp9512.ice:
+LAT=72.00:LON=-38.00:ELEV=0.00:CONTRIB="GISP2":
+VARIABLES=5:
+"Depth":TRUE:F=0.01 1.68:
+"bp_year":TRUE:F=-45.41 -42.93:
+"calen_year":TRUE:F=1992.93 1995.41:
+"del18O":TRUE:F=-44.98 -27.16:
+"H2O2-mumoles":TRUE:F=0.29 13.59:
+H2O2 Snow Pit Data - Kenton ADG 1995:kent9513.ice:
+LAT=72.00:LON=-38.00:ELEV=0.00:CONTRIB="GISP2":
+VARIABLES=5:
+"Depth":TRUE:F=0.01 1.35:
+"bp_year":TRUE:F=-45.44 -43.21:
+"calen_year":TRUE:F=1993.21 1995.44:
+"del18O":TRUE:F=-48.50 -26.32:
+"H2O2-mumoles":TRUE:F=2.18 17.15:
+H2O2 Snow Pit Data - Thermocouple 1995:ther9514.ice:
+LAT=72.00:LON=-38.00:ELEV=0.00:CONTRIB="GISP2":
+VARIABLES=5:
+"Depth":TRUE:F=0.00 0.62:
+"bp_year":TRUE:F=-45.30 -44.53:
+"calen_year":TRUE:F=1994.53 1995.30:
+"del18O":TRUE:F=-45.93 -26.59:
+"H2O2-mumoles":TRUE:F=3.03 22.09:
+Concentration of H2O2 in Atmosphere:gisp9315.ice:
+LAT=72.97:LON=-38.77:ELEV=3205.00:CONTRIB="GISP2":
+VARIABLES=2:
+"Julian":TRUE:F=147.40 201.67:
+"H2O2-mumoles":TRUE:F=9.38 32.00:
+Volcanic Markers:gispbd16.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"bp_year":TRUE:F=-35.26 110345.00:
+"calen_year":TRUE:F=-108396.00 1985.26:
+"SO4-ppb":TRUE:F=12.06 985.90:
+"SO4-EOF5":TRUE:F=0.00 801.00:
+Be10 Concentration, 719 - 2253 m:gisp_d17.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=719.00 2251.01:
+"bp_year":TRUE:F=3298.00 39995.00:
+"calen_year":TRUE:F=-38046.00 -1349.00:
+"i10Be-katoms_g":TRUE:F=12.23 70.17:
+Radiocarbon Measurements (Table 1):gispbd18.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=5:
+"Depth":TRUE:F=16.00 1837.00:
+"bp_year":TRUE:F=50.00 16200.00:
+"calen_year":TRUE:F=-14251.00 1900.00:
+"Mass-kg":TRUE:F=0.58 3.40:
+"AirVol-cm3":TRUE:F=4.30 136.50:
+B Core Depth Age Scale:gisp_b21.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=0.42 193.99:
+"bp_year":TRUE:F=-38.00 680.00:
+"calen_year":TRUE:F=1270.00 1988.00:
+"Layer-m":TRUE:F=0.02 0.78:
+Layer Counted Timescale:gisp_d22.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=3:
+"Depth":TRUE:F=1.51 3037.00:
+"bp_year":TRUE:F=-39.00 163164.00:
+"calen_year":TRUE:F=-161215.00 1989.00:
+Meese/Sowers Timescale:gispbd23.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=89.23 2808.00:
+"bp_year":TRUE:F=232.00 110977.00:
+"calen_year":TRUE:F=-109028.00 1718.00:
+"GasAge":TRUE:F=9.00 110570.00:
+Laser Light Scattering (LLS) 1 Meter and 1/2 Meter Averages:gisp_d24.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=1700.00 3037.90:
+"bp_year":TRUE:F=12437.00 110977.00:
+"calen_year":TRUE:F=-109028.00 -10488.00:
+"LLS":TRUE:F=12.10 3451.40:
+Insoluble Microparticles:gispbd26.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=7:
+"Depth":TRUE:F=0.00 773.43:
+"bp_year":TRUE:F=-40.00 3612.50:
+"calen_year":TRUE:F=-1663.50 1990.00:
+"Dust-ppb":TRUE:F=13.00 2322.00:
+"Dust-n":TRUE:F=8250.00 339000.00:
+"Beta":TRUE:F=1.32 3.77:
+"Size-mu":TRUE:F=0.79 1.96:
+Electrical Conductivity Measurements (Combined):gispbd31.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=4.11 3040.55:
+"bp_year":TRUE:F=-33.80 110932.00:
+"calen_year":TRUE:F=-108983.00 1983.80:
+"ECM-uA":TRUE:F=0.02 81.61:
+CO2 concentrations:gisp_d32.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=2:
+"Depth":TRUE:F=1583.00 2603.52:
+"CO2-ppmv":TRUE:F=148.10 327.10:
+Isotope Concentrations in Trapped Air:gispbd33.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=10:
+"Depth":TRUE:F=72.80 2235.00:
+"bp_year":TRUE:F=169.82 38642.60:
+"calen_year":TRUE:F=-36693.60 1780.19:
+"i15N14N":TRUE:F=0.02 0.64:
+"i18O16O":TRUE:F=-0.04 2.31:
+"i18O16Orel":TRUE:F=-0.40 1.20:
+"ArN":TRUE:F=-28.80 53.50:
+"Oar":TRUE:F=-38.40 21.50:
+"CO2N":TRUE:F=-299.50 2595.20:
+"O2N2":TRUE:F=-56.00 43.20:
+Isotope Extraction Methods - Transferred to Ampoules:gisp_b34.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=72.90 164.10:
+"i15N14N":TRUE:F=0.24 0.37:
+"i18O16O":TRUE:F=0.60 0.77:
+"i18O16Orel":TRUE:F=-0.03 0.16:
+"Oar":TRUE:F=-17.80 -2.80:
+"CO2N":TRUE:F=-17.30 501.40:
+Isotope Extraction Methods - 3 Month Storage:gisp_b35.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=72.90 197.50:
+"i15N14N":TRUE:F=0.28 0.36:
+"i18O16O":TRUE:F=0.56 0.75:
+"i18O16Orel":TRUE:F=-0.11 0.09:
+"Oar":TRUE:F=-15.70 1.80:
+"CO2N":TRUE:F=60.50 783.50:
+Isotope Extraction Methods - 7 Month Storage:gisp_b36.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=72.90 197.50:
+"i15N14N":TRUE:F=0.23 0.36:
+"i18O16O":TRUE:F=0.56 0.73:
+"i18O16Orel":TRUE:F=-0.10 0.17:
+"Oar":TRUE:F=-17.40 0.40:
+"CO2N":TRUE:F=43.80 638.30:
+Isotope Extraction Methods - Check Extraction:gisp_b37.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=94.20 334.20:
+"i15N14N":TRUE:F=0.24 0.36:
+"i18O16O":TRUE:F=0.49 0.87:
+"i18O16Orel":TRUE:F=-0.01 0.21:
+"Oar":TRUE:F=-22.50 1.30:
+"CO2N":TRUE:F=-35.00 1015.00:
+Methane Concentrations:gispbd38.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=5:
+"Depth":TRUE:F=116.30 2808.00:
+"bp_year":TRUE:F=337.00 112545.00:
+"calen_year":TRUE:F=-110596.00 1613.00:
+"CH4-ppmv":TRUE:F=356.00 769.00:
+"GasAge":TRUE:F=133.00 110399.00:
+Ar, Kr, and Xe Data:gisp_d39.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=2321.11 3052.00:
+"Ar_cc_kg":TRUE:F=0.37 0.93:
+"d84Kr_36Ar":TRUE:F=7.85 109.72:
+"d132Xe_36Ar":TRUE:F=-8.55 57.08:
+Oxygen Isotope Data (1 Year Averages):gispbd40.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=2.04 299.90:
+"bp_year":TRUE:F=-37.00 1132.00:
+"calen_year":TRUE:F=818.00 1987.00:
+"del18O":TRUE:F=-38.69 -31.45:
+Bidecadal Oxygen Isotope Data:gispbd41.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=6.04 1844.42:
+"bp_year":TRUE:F=-30.00 16490.00:
+"calen_year":TRUE:F=-14541.00 1980.00:
+"del18O":TRUE:F=-42.30 -33.42:
+Stable Isotopes (Deuterium, Annual Averages):gisp_b42.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=2.55 187.97:
+"bp_year":TRUE:F=-34.52 650.35:
+"calen_year":TRUE:F=1299.65 1984.52:
+"delD":TRUE:F=-294.60 -245.21:
+Stable Isotopes (Deuterium):gisp_b43.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=1.11 199.00:
+"bp_year":TRUE:F=-36.79 679.94:
+"calen_year":TRUE:F=1270.06 1986.79:
+"delD":TRUE:F=-347.89 -204.03:
+Oxygen Isotopes - Snowpit Site 13:bolz1344.ice:
+LAT=72.89:LON=-39.16:ELEV=3167.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 16.22:
+"bp_year":TRUE:F=-37.69 0.32:
+"calen_year":TRUE:F=1949.68 1987.69:
+"Density":TRUE:F=292.84 602.20:
+"del18O":TRUE:F=-43.98 -26.84:
+"Ice-eqv_m":TRUE:F=0.00 8.36:
+Oxygen Isotopes - Snowpit Site 15:bolz1545.ice:
+LAT=72.98:LON=-37.70:ELEV=3188.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 16.64:
+"bp_year":TRUE:F=-37.64 10.44:
+"calen_year":TRUE:F=1939.56 1987.64:
+"Density":TRUE:F=276.32 595.68:
+"del18O":TRUE:F=-42.27 -30.16:
+"Ice-eqv_m":TRUE:F=0.00 8.59:
+Oxygen Isotopes - Snowpit Site 31:bolz3146.ice:
+LAT=72.35:LON=-40.21:ELEV=3115.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 16.45:
+"bp_year":TRUE:F=-37.64 -7.79:
+"calen_year":TRUE:F=1957.79 1987.64:
+"Density":TRUE:F=286.42 591.20:
+"del18O":TRUE:F=-44.04 -27.45:
+"Ice-eqv_m":TRUE:F=0.00 8.61:
+Oxygen Isotopes - Snowpit Site 37:bolz3747.ice:
+LAT=72.64:LON=-35.94:ELEV=3160.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 14.20:
+"bp_year":TRUE:F=-37.46 -2.10:
+"calen_year":TRUE:F=1952.10 1987.46:
+"Density":TRUE:F=308.45 550.80:
+"del18O":TRUE:F=-43.66 -28.84:
+"Ice-eqv_m":TRUE:F=0.00 7.18:
+Oxygen Isotopes - Snowpit Site 44:bolz4448.ice:
+LAT=72.29:LON=-37.92:ELEV=3215.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 8.55:
+"bp_year":TRUE:F=-37.44 -3.22:
+"calen_year":TRUE:F=1953.22 1987.44:
+"Density":TRUE:F=312.12 559.98:
+"del18O":TRUE:F=-44.80 -28.12:
+"Ice-eqv_m":TRUE:F=0.00 8.55:
+Oxygen Isotopes - Snowpit Site 51:bolz5149.ice:
+LAT=71.93:LON=-39.84:ELEV=3112.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 16.50:
+"bp_year":TRUE:F=-37.42 -9.04:
+"calen_year":TRUE:F=1959.04 1987.42:
+"Density":TRUE:F=294.68 626.27:
+"del18O":TRUE:F=-42.29 -25.52:
+"Ice-eqv_m":TRUE:F=0.00 8.49:
+Oxygen Isotopes - Snowpit Site 57:bolz5750.ice:
+LAT=71.92:LON=-35.96:ELEV=3090.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 11.01:
+"bp_year":TRUE:F=-37.85 -13.58:
+"calen_year":TRUE:F=1963.58 1987.85:
+"Density":TRUE:F=279.07 743.58:
+"del18O":TRUE:F=-40.96 -27.73:
+"Ice-eqv_m":TRUE:F=0.00 5.59:
+Oxygen Isotopes - Snowpit Site 571:bolz7151.ice:
+LAT=72.21:LON=-35.67:ELEV=3087.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 14.82:
+"bp_year":TRUE:F=-37.68 -1.50:
+"calen_year":TRUE:F=1951.50 1987.68:
+"Density":TRUE:F=279.07 563.65:
+"del18O":TRUE:F=-41.35 -29.00:
+"Ice-eqv_m":TRUE:F=0.00 7.55:
+Oxygen Isotopes - Snowpit Site 73:bolz7352.ice:
+LAT=71.60:LON=-38.14:ELEV=3168.00:CONTRIB="GISP2":
+VARIABLES=6:
+"Depth":TRUE:F=0.00 16.93:
+"bp_year":TRUE:F=-37.67 -5.66:
+"calen_year":TRUE:F=1955.66 1987.67:
+"Density":TRUE:F=290.09 583.86:
+"del18O":TRUE:F=-42.10 -24.53:
+"Ice-eqv_m":TRUE:F=0.00 8.75:
+Stable Isotopes (Oxygen):gispbd53.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=2.13 3038.00:
+"bp_year":TRUE:F=-37.00 110977.00:
+"calen_year":TRUE:F=-109028.00 1987.00:
+"del18O":TRUE:F=-43.26 -31.63:
+Stable Isotopes Stacked Record:staced54.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GRIP/GISP2":
+VARIABLES=10:
+"bp_year":TRUE:F=-36.00 178.00:
+"calen_year":TRUE:F=1772.00 1986.00:
+"del18O-grip891":TRUE:F=-39.52 -32.45:
+"del18O-grip892":TRUE:F=-37.37 -32.24:
+"del18O-grip912":TRUE:F=-38.84 -32.47:
+"del18O-gisp2":TRUE:F=-38.04 -32.24:
+"del18O-all":TRUE:F=-37.44 -33.04:
+"del18O-grip893":TRUE:F=-38.60 -32.87:
+"del18O-grip913":TRUE:F=-38.87 -32.43:
+"del18O-gripavg":TRUE:F=-37.68 -33.16:
+Accumulation Rate History:gispbd55.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=5:
+"bp_year":TRUE:F=-37.50 49972.50:
+"calen_year":TRUE:F=-48023.50 1987.50:
+"Accum-50km":TRUE:F=0.04 0.51:
+"Accum-100km":TRUE:F=0.04 0.52:
+"Accum-200km":TRUE:F=0.05 0.50:
+D Core Borehole Diameter:gisp_d56.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=3:
+"TVD":TRUE:F=74.32 3045.90:
+"BoreDmax":TRUE:F=181.11 191.39:
+"BoreDmin":TRUE:F=180.62 191.35:
+D Core Borehole Geometry:gisp_d57.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=0.00 3056.48:
+"TVD":TRUE:F=0.00 3047.78:
+"BoreIncl":TRUE:F=0.00 6.92:
+"BoreAzim":TRUE:F=92.00 322.90:
+Stratigraphy:gisp_d58.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=7:
+"bp_year":TRUE:F=247.00 1266.00:
+"calen_year":TRUE:F=684.00 1703.00:
+"Layer-m":TRUE:F=0.10 0.55:
+"Layer-den":TRUE:F=0.88 0.92:
+"Layer-ie-m":TRUE:F=0.09 0.50:
+"Layer-thin":TRUE:F=1.03 1.12:
+"Layer-corr":TRUE:F=0.10 0.53:
+D Core Temperature:gisp_d59.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=2:
+"TVD":TRUE:F=100.00 3048.00:
+"BoreTemp":TRUE:F=-32.10 -9.20:
+Visual Stratigraphy:gispbd61.ice:
+LAT=72.60:LON=-38.50:ELEV=3200.00:CONTRIB="GISP2":
+VARIABLES=4:
+"Depth":TRUE:F=285.42 1867.00:
+"bp_year":TRUE:F=1058.00 17441.00:
+"calen_year":TRUE:F=-15492.00 892.00:
+"Accum-m_yr":TRUE:F=0.03 0.47:
+Calcium Concentrations:grip62.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=1300.47 2999.98:
+"bp_year":TRUE:F=7800.60 248190.50:
+"calen_year":TRUE:F=-246241.50 -5851.60:
+"Ca-ppb":TRUE:F=2.80 958.80:
+Acidity:grip63.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=9:
+"Depth":TRUE:F=2.66 802.73:
+"bp_year":TRUE:F=-34.00 3995.00:
+"calen_year":TRUE:F=-2046.00 1984.00:
+"VA-yr":TRUE:F=0.10 9.50:
+"VA-mean":TRUE:F=1.66 16.66:
+"VA-back":TRUE:F=0.76 2.02:
+"VA-peak":TRUE:F=2.09 49.47:
+"VAD":TRUE:F=1.00 261.00:
+"Volc-Mtons":TRUE:F=1.00 375.00:
+Ion Concentrations:grip64.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=25:
+"Depth":TRUE:F=25.00 3016.00:
+"bp_year":TRUE:F=329.00 52050.00:
+"calen_year":TRUE:F=-50101.00 1621.00:
+"del18O":TRUE:F=-42.89 -31.71:
+"Na-ppb":TRUE:F=2.46 166.59:
+"NH4-ppb":TRUE:F=1.32 107.02:
+"K-ppb":TRUE:F=0.38 33.44:
+"Mg-ppb":TRUE:F=0.77 39.38:
+"Ca-ppb":TRUE:F=2.06 566.00:
+"NO3-ppb":TRUE:F=47.98 120.83:
+"SO4-ppb":TRUE:F=14.75 1194.22:
+"Layer-m":TRUE:F=0.00 0.25:
+"MSA-ppbv":TRUE:F=0.77 6.80:
+"Accum-del18O":TRUE:F=0.07 0.36:
+"Fluoride-ppb":TRUE:F=0.01 101.12:
+"Acetate-ppb":TRUE:F=2.97 20.72:
+"GlycProp-ppb":TRUE:F=0.00 38.20:
+"Format-ppb":TRUE:F=0.60 256.32:
+"Chloride-ppb":TRUE:F=6.58 210.23:
+"Oxalate-ppb":TRUE:F=0.00 27.00:
+"Ca-t-ppb":TRUE:F=1.95 562.81:
+"Mg-t-ppb":TRUE:F=0.04 32.05:
+"nsSO4-ppb":TRUE:F=14.02 1174.06:
+"Na-m-ppb":TRUE:F=-18.43 97.37:
+"Cl_Na":TRUE:F=1.33 11.38:
+Hydrogen Peroxide Concentrations:grip65.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=1300.47 1753.12:
+"bp_year":TRUE:F=7800.60 14487.00:
+"calen_year":TRUE:F=-12538.00 -5851.60:
+"H2O2-ppbv":TRUE:F=0.00 138.65:
+Formaldehyde Concentrations:grip66.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=1303.78 2817.93:
+"bp_year":TRUE:F=7831.70 120658.00:
+"calen_year":TRUE:F=-118709.00 -5882.70:
+"HCHO-ppb":TRUE:F=0.06 14.40:
+Mineralogy of Atmospheric Micro-particles (Detailed):grip67.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=15:
+"Depth":TRUE:F=1766.50 2860.55:
+"Quartz":TRUE:F=5.45 49.28:
+"Kaolin":TRUE:F=1.15 44.71:
+"Illite":TRUE:F=1.18 20.34:
+"Chlorite":TRUE:F=0.88 10.71:
+"Micas":TRUE:F=3.53 38.71:
+"Feldspars":TRUE:F=1.43 21.74:
+"Mafics":TRUE:F=0.88 31.75:
+"Carbonates":TRUE:F=1.37 13.51:
+"Oxides":TRUE:F=1.39 47.62:
+"Silica-Other":TRUE:F=0.24 23.20:
+"Minerals":TRUE:F=0.35 33.84:
+"Silica-Ttl":TRUE:F=34.12 79.03:
+"Silica-Al":TRUE:F=4.99 67.80:
+"Non-silicates":TRUE:F=2.83 57.86:
+Ammonium Concentrations:grip69.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=102.03 3021.43:
+"bp_year":TRUE:F=307.90 248190.50:
+"calen_year":TRUE:F=-246241.50 1642.10:
+"NH4-ppb":TRUE:F=0.76 76.83:
+Depth Age Scale from Flow Modeling:grip70.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=3:
+"Depth":TRUE:F=0.00 2983.20:
+"bp_year":TRUE:F=-39.00 248763.00:
+"calen_year":TRUE:F=-246814.00 1989.00:
+Dielectric Profiling and ECM Data (Averaged):grip72.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=5:
+"Depth":TRUE:F=138.05 3021.70:
+"bp_year":TRUE:F=466.00 247618.00:
+"calen_year":TRUE:F=-245669.00 1484.00:
+"SigmaInf":TRUE:F=7.01 46.69:
+"ECM-uM":TRUE:F=0.00 9.68:
+Electrical Conductivity:grip73.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=0.00 999.35:
+"bp_year":TRUE:F=-39.00 5348.00:
+"calen_year":TRUE:F=-3399.00 1989.00:
+"ECM-ueq":TRUE:F=0.18 6.48:
+Oxygen-18 of Atmospheric Oxygen:grip74.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=987.25 2949.10:
+"del18O":TRUE:F=-0.37 1.07:
+Basal Ice Gas Concentrations:grip75.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=6:
+"Depth":TRUE:F=3022.28 3028.52:
+"CO2-ppmv":TRUE:F=410.00 131100.00:
+"CH4-ppmv":TRUE:F=0.57 6100.00:
+"GasCont":TRUE:F=0.05 0.10:
+"O2pct":TRUE:F=3.38 20.81:
+"Npct":TRUE:F=79.14 86.89:
+Carbon Dioxide:grip76.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=1332.10 2151.60:
+"CO2-ppmv":TRUE:F=187.60 319.60:
+Total Air Content:grip77.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=122.07 2909.60:
+"bp_year":TRUE:F=167.00 40851.00:
+"calen_year":TRUE:F=-38902.00 1783.00:
+"GasCont":TRUE:F=0.08 0.10:
+Carbon Dioxide - IRLS:grip78.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=1320.90 2277.61:
+"CO2-ppmv":TRUE:F=178.00 308.70:
+Methane Data - Grenoble:grip79.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=6:
+"Depth":TRUE:F=122.07 2272.17:
+"bp_year":TRUE:F=175.00 39408.00:
+"calen_year":TRUE:F=-37459.00 1775.00:
+"CH4-ppbv":TRUE:F=347.00 744.00:
+"CH4min-ppbv":TRUE:F=308.00 708.00:
+"CH4max-ppbv":TRUE:F=386.00 780.00:
+Methane Data - Bern:grip80.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=6:
+"Depth":TRUE:F=111.11 1219.34:
+"bp_year":TRUE:F=129.00 6910.00:
+"calen_year":TRUE:F=-4961.00 1821.00:
+"CH4-ppbv":TRUE:F=581.00 796.00:
+"CH4min-ppbv":TRUE:F=561.00 776.00:
+"CH4max-ppbv":TRUE:F=601.00 816.00:
+Basal Ice Oxygen-18 of Atmospheric Oxygen:grip81.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=2781.35 2910.05:
+"del18O":TRUE:F=-0.59 0.85:
+Oxygen Isotopes:grip82.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=4:
+"Depth":TRUE:F=0.00 2983.20:
+"bp_year":TRUE:F=-39.00 248763.00:
+"calen_year":TRUE:F=-246814.00 1989.00:
+"del18O":TRUE:F=-44.31 -31.55:
+Stable Isotope Data from Basal Ice:grip83.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=3:
+"Depth":TRUE:F=3022.27 3028.63:
+"del18O":TRUE:F=-36.99 -25.04:
+"delD":TRUE:F=-287.60 -192.50:
+C-Axis Orientations:grip84.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=5:
+"Depth":TRUE:F=109.08 3022.25:
+"bp_year":TRUE:F=375.00 111000.00:
+"calen_year":TRUE:F=-109051.00 1575.00:
+"Xtal-horz-mm":TRUE:F=1.61 33.30:
+"Xtal-vert-mm":TRUE:F=1.36 4.19:
+Basal Ice- Debris Content:grip85.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=3022.28 3028.53:
+"Debris":TRUE:F=0.01 0.30:
+Accumulation Rates:grip87.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=5:
+"Depth":TRUE:F=0.00 2983.20:
+"bp_year":TRUE:F=-39.00 248763.00:
+"calen_year":TRUE:F=-246814.00 1989.00:
+"Layer-m":TRUE:F=0.00 0.26:
+"Accum-del18O":TRUE:F=0.05 0.27:
+Temperature Profile:grip88.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=1.10 3027.60:
+"BoreTemp":TRUE:F=-32.35 -8.40:
+Basal Ice- Crystal Sizes:grip89.ice:
+LAT=72.57:LON=-37.62:ELEV=0.00:CONTRIB="GRIP":
+VARIABLES=2:
+"Depth":TRUE:F=3022.26 3028.28:
+"Xtal-horz-mm":TRUE:F=2.60 33.30:
+EOF

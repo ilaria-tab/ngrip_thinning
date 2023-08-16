@@ -1,0 +1,28 @@
+GISP2-D Borehole Depth
+
+REFERENCES:
+ 
+50, 51
+
+DATA DESCRIPTION:
+
+The length of the 3-km borehole at the GISP2 site was measured by two
+completely independent geophysical logging systems, the University of
+Copenhagen system (UCPH) and the U.S. Geological Survey's temperature
+system (USGS).  Both systems utilized steel logging cables.  The depth
+calibration factor for the UCPH system was determined from the measured
+length of the GRIP ice core while the USGS system was calibrated using a
+fiberglass tape measure with a low coefficient of thermal expansion.  The
+accuracy of the depth measurements for both systems is estimated to be 2-3
+m at a depth of 3 km. 
+
+Inclination/azimuth measurements from the UCPH logger have been used to
+calculate the true vertical depth of the borehole from the measured total
+slant length. 
+
+DATA:
+
+logger used	true vertical depth (m)	slant length (m) 
+
+UCPH	3047.8	3056.5
+USGS	3047.9	3056.6

@@ -1,0 +1,85 @@
+GRIP Basal Ice: Debris Content	
+	
+REFERENCES:	
+
+Souchez, R. 1997. The buildup of the ice sheet in central Greenland.
+Journal of Geophysical Research 102:26317-26323.
+
+Tison, J.L., T. Thorsteinsson, R.D. Lorrain, and J. Kipfstuhl. 1994. Origin
+and development of textures and fabrics in basal ice at Summit, Central
+Greenland. Earth and Planetary Science Letters 125:421-437.
+
+DATA DESCRIPTION:	
+
+This file contains the debris content data for the basal ice (bottom
+meters) of the GRIP ice core.  Refer to Tison et al. (1994) for details.
+Isotopic data from the basal ice are presented in the file isobas.dat. 
+
+DATA:	
+
+Depth (m)	Debris content
+Midpoint	(fraction by weight)
+
+3022.28	0.024
+3022.35	0.055
+3022.41	0.092
+3022.49	0.014
+3022.56	0.045
+3022.62	0.016
+3022.69	0.063
+3022.76	0.021
+3022.85	0.027
+3022.91	0.084
+3022.98	0.082
+3023.06	0.017
+3023.14	0.048
+3023.23	0.025
+3023.31	0.01
+3023.39	0.049
+3023.71	0.032
+3023.78	0.112
+3023.86	0.055
+3023.95	0.063
+3024.04	0.072
+3024.12	0.065
+3024.21	0.104
+3024.31	0.096
+3024.4	0.107
+3024.5	0.136
+3024.58	0.06
+3024.74	0.046
+3024.82	0.055
+3024.89	0.061
+3025.05	0.089
+3025.13	0.131
+3025.32	0.155
+3025.41	0.217
+3025.6	0.112
+3025.7	0.108
+3025.8	0.196
+3025.89	0.065
+3025.98	0.064
+3026.06	0.068
+3026.25	0.141
+3026.34	0.119
+3026.43	0.121
+3026.68	0.09
+3026.74	0.071
+3026.81	0.059
+3026.88	0.139
+3026.96	0.088
+3027.02	0.149
+3027.09	0.207
+3027.16	0.143
+3027.34	0.12
+3027.43	0.096
+3027.52	0.106
+3027.61	0.179
+3027.7	0.121
+3027.8	0.205
+3027.89	0.157
+3027.98	0.163
+3028.07	0.206
+3028.16	0.153
+3028.35	0.206
+3028.53	0.302

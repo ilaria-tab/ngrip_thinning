@@ -1,0 +1,91 @@
+<html>
+<title>Data Formats for the Greenland Summit Ice Cores CD-ROM</title>
+<body background="../image/backice.gif">
+<center>
+<table width=100% cellpadding=10 cellspacing=0 bgcolor ="#000080">
+<tr>
+<td align=center><h2><font color="#FFFFFF">Data Formats for the Greenland Ice Cores CD-ROM</font></td>
+</h2></tr>
+</table>
+</center>
+<p>
+<hr size=3>All data files related to the ice cores on this CD-ROM are in a consistent format, designed to be easily readable in commercial text editors. The name of the data file and its directory name can help you decipher what the data file is.  For example, the data file detiond.dat is in the directory "data/
+gisp2/chem". This file refers to the GISP2 ions from the deep "D" ice core.  The exception to this format are the files related to atmospheric variables (directories "climate" and "traject") which have their own format. Please refer to the data file descr
+
+iption associated with each of these data sets.<p>
+
+When reading the data file one will first see the title (eg. "GISP2 Ions: 
+Deep ("D") Core (Detailed)").  Next there will be a reference list, a
+detailed data description, and finally data values.  Most data values will
+have an associated depth (either top or midpoint depth, as noted in the
+file).  All data are TAB delimited ASCII characters.  An example is given
+below.<p>
+
+<b>NOTE:</b> The data description and data record have been truncated for
+use in the example only.  Please refer to the data file on this CD-ROM to
+acquire the entire data record.<p>
+
+<center><h4><i>FORMAT EXAMPLE</i>
+<br>Data file gispd18o.dat in the directory 
+"data/gisp/isotopes"</center></h4> <p>GISP2 Oxygen Isotope Data
+<p>
+REFERENCES: 
+<p>
+Grootes, P.M. 1997. 18O/16O Variability in Greenland snow and ice with
+10-3 to 105 yr time resolution. Journal of Geophysical Research Special
+Issue on The GISP2/GRIP Ice Cores. 
+<p>
+Stuiver, M., P.M. Grootes, and T.F. Braziunas. 1995. The GISP2 18O climate
+record of the past 16,500 years and the role of the sun, ocean and
+volcanoes. Quaternary Research 44:341-354. 
+<p>
+Meese, D.A., R.B. Alley, R.J. Fiacco, M.S. Germani, A.J. Gow, P.M.
+Grootes, M. Illing, P.A. Mayewski, M.C. Morrison, M. Ram, K.C. Taylor, Q.
+Yang, and G.A. Zielinski. 1994. Preliminary depth-agescale of the GISP2
+ice core. Special CRREL Report 94-1, US. 
+<p>
+Grootes, P.M., M. Stuiver, J.W.C. White, S.J. Johnsen, and J. Jouzel.
+1993. Comparison of oxygen isotope records from the GISP2 and GRIP
+Greenland ice cores. Nature 366:552-554. 
+<p>
+<p>
+DATA DESCRIPTION: 
+<p>
+This file contains the GISP2 delta 18O 2 meter data set, measured at the
+University of Washington's Quaternary Isotope Laboratory, as of February
+1st, 1997.  The timescale (down to 2808 meters) includes revisions by D.
+A. Meese as of September 1994. The GISP2 depths below 167 meters are those
+of the D core; above 167 meters the core depths are those of the B core +
+1.09 meters.  See the file depthage.dat for further information on the
+timescale. 
+<p>
+The data columns represent:
+<p>
+(1) top depths of intervals (in meters)
+<p>
+(2) mean delta 18-O values (in per mil) over 2 meter intervals starting at
+top depths.  Standard deviation in a single delta 18-O measurement is 0.14
+per mil. Multiple measurements (such as for the ones below) reduce the
+standard deviation to the 0.05 to 0.1 per mil range.
+<p>
+(3) layer count ages at top depths (in yr BP) where 0 BP represents AD
+1950 SUMMER to AD 1949 SUMMER
+<p>
+DATA:
+<p>
+<pre>
+Depth	d18O	 Age Top
+Top (m)	(permil) (yr BP)
+
+2.13	-34.73	-37
+4	-35.90	-34
+6	-35.40	-30
+8	-34.67	-26
+10	-35.00	-22
+12	-34.20	-17
+14	-33.59	-12
+16	-35.71	-8
+</pre>
+</body>
+</html>
+

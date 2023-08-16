@@ -1,0 +1,459 @@
+Greenland Ice Core Project
+An ESF Research Programme
+
+Final Report
+
+
+Introduction:
+
+One of the great challenges in climate research is to investigate the principal mechanisms that control global climate changes. And an effective way to learn more about the complex mechanisms involved is by reconstructing past climate changes. 
+
+One way of doing this is by analysing polar ice cores, which contain well defined layers that indicate levels of precipitation during the last several hundred thousand years. This allows a very detailed reconstruction of the climate to be made, and also provides valuable information on important environmental factors like the composition of the atmosphere and volcanic eruptions
+
+Europe has a number of influential glaciological laboratories which lead the world in important aspects of ice core analyses.  It also has agencies with the logistic infrastructure and expertise for polar operations. These laboratories and agencies asked the European Science Foundation to help improve collaboration between them by funding an umbrella programme. The general assembly of the European Science Foundation agreed in the Autumn of 1988 to fund the "European Glaciological Programme" as a "European Science Foundation Associate Programme".
+
+It was decided that the first project within this programme would  be the "Greenland Ice Core Project" (GRIP) with the objective of investigating the climatic and environmental changes of the past 250,000 years by drilling and analysing an ice core in the central part of the Greenland ice sheet. This involved 20 laboratories from eight European nations (Denmark, Switzerland, France, Germany, United Kingdom, Italy, Iceland and Belgium).
+
+The project was guided by an international Steering Committee advised by a Management Group. In the beginning, funding was only provided by the national funding agencies of the participating nations. However, this was not sufficient to finance all the necessary activities. Therefore, the GRIP Steering Committee decided in 1989 to submit a proposal to the European Commission for support under the EPOCH programme. The proposal was accepted and the financial support from the European Commission covered the missing 20% of the total costs. Due to this support, the project could go ahead without delays and according to the original plans.
+
+The logistics (transport, camp construction and maintenance) and the drilling operations were contracted to the "GRIP Operation Centre" (GOC) which was established for this purpose at the Geophysical Institute of the University of Copenhagen. Fieldwork at Summit (72°37'33"N, 37°37'37"W) started in summer 1989 with the construction of the camp infrastructure. The drilling started in summer 1990 and continued during the summer field  seasons 1991 and 1992. In July 1992, the core drilling was stopped  close to bedrock at a depth of 3028.8 m below surface.
+
+One characteristic feature of GRIP was that a whole sequence of analyses on the ice cores had been performed already in the field before sending samples to the laboratory. Measurements in the field are made to select samples for special and very urgent analyses and to exclude the risk of contamination, such as from formaldehyde, ammonium and organic acids. Continuous measurements along the core included dielectric properties and electrical conductivity (related to the concentration of total neutral salt and hydrogen ions) and the concentration of microscopic amounts of ammonium, nitrate, hydrogen peroxide, formaldehyde and calcium.
+
+Many of these parameters indicate seasonal climatic variations, which in turn allows annual layers to be identified down into the core well back into the last period of major glaciation. These analyses in the field had the additional advantage of enabling scientists from the various laboratories to work very closely together.  
+
+Collaboration between the young, active scientists was also stimulated by annual workshops. During these workshops, scientists were given the opportunity to compare their results and to prepare joint publications.
+
+The US partner project GISP-2 was carrying out a core drilling with similar objectives to GRIP 32 km west of Summit. Collaboration between the two projects in the field was very good and helped to save costs for both projects. To ensure good collaboration between the scientists  for the ice core analyses and interpretation of results, the steering bodies of the two projects decided to organise two common workshops. The first was held in April 1993 in Annecy (France) and the second in September 1995 in Wolfeboro (New Hampshire, USA).
+
+The scientific results have been published as individual articles in international scientific journals. Several of these articles have attracted a good deal of attention from a large scientific community.
+
+The workshop in Wolfeboro brought the official phase of the GRIP, more or less, to an end. The Steering Committee elected a small group to be responsible for ensuring that the remaining ice cores, stored in a cold room in the Geophysical Institute of the University of Copenhagen, are used according to GRIP guidelines. The results of the joint GISP-2 / GRIP workshop will be published in a special issue of the "Journal of Physical Research". This special issue will give a comprehensive overview of the results of both ice core projects. In addition, it is planned to publish later in collaboration between GRIP and GISP-2 a book more in the style of a monograph for a wider scientific community.
+
+GRIP was in every respect a very successful project. All the investigators and participants are proud that the original goal was reached without serious accident and within the planned time-scale and budget.  For all of us, it was a very interesting project, producing interesting new results and new and promising collaborations.  And we would like to thank all funding agencies for their support. 
+
+Bernhard Stauffer
+Physikalisches Institut
+Universität Bern
+
+
+Activities of the GRIP Operation Centre:
+
+One task of the GRIP Steering Committee, established in late 1988, was to establish the "GRIP Operation Centre" (GOC) at the Geophysical Institute of the University of Copenhagen, with the Greenland headquarters in Kangerlussuaq, 800 km Southwest of Summit. One of GOC's tasks was to make arrangements with the US Air Force to transport heavy cargo by chartered ski-equipped Hercules aeroplanes. Another agreement with the US Greenland Ice Sheet Program (GISP-2), which was drilling 32 km west of Summit, ensured optimal use of the aircrafts. An important contribution to day-to-day GRIP logistical activities was made by small Twin Otter aeroplanes from the British Antarctic Survey, and later by Flugfelag Nordurlands.
+
+The Summit Camp 
+The preparations for deep drilling began as early as 1989 with the erection of three dome-shaped buildings each two storeys high. The advantage of the hemispherical shape is that the wind blows around it so that the snowdrifts settle 3-4 m from the buildings without affecting them. The idea is not new – the Eskimos have known about it for millennia and exploited it building their igloos.
+
+The largest building contained a 65 kW generator – the heart of the camp – and also sanitary installations, a radio room, a meeting room, kitchen and dining room. The second building was used for supplies, and, outside the field season, as a garage for the camp vehicles, sledges etc. The third building covered an excavation in which the drill, ISTUK, was set up. This drilling trench was linked by tunnels to the underground laboratories and packing room etc. with a total length of 80 m, all excavated to a depth of up to 7 m below snow surface to ensure a temperature low enough (-15°C) to prevent the physical properties of the ice from changing.
+
+The long row of large tents on the snow surface served partly as laboratories, and partly as bedrooms for the camp's scientists, students, technicians, a doctor and two cooks - as many as 45 people in total. At the end of the row of tents a landing strip was prepared, 3 km long and 60 m wide. This constantly had to be smoothed out and cleared of bumps and snowdrifts that would otherwise have been dangerous to landing aeroplanes.
+
+The drilling operation
+ISTUK is an electromechanical drill, 11 m long. During drilling, it hangs on a thin steel cable. The drill hole has to be filled with a thin oil of the same density as the ice to counteract the hydrostatic pressure, which would otherwise quickly close the hole. The functions of the drill are controlled by electrical signals transmitted through thin wires in the cable to a microprocessor in the drill itself. During hoisting and lowering the drill (which takes 50 min each way at the greater depths) a charging current is sent through the same wires to the batteries in the drill. These batteries carry the power needed for the actual drilling. This arrangement allows a cable of only 7.2 mm in diameter to be used. Once the drill has been brought up again, it is tilted into horizontal position for easy maintenance and removal of the ice core.
+
+Usually, drilling took place 24 hours a day using three drill-teams working in 8-hour shifts. The average rate of progress was 150 m a week, and the core came up in sections of 2.4 m at a time. In the 1990 field season, ISTUK reached a depth of 710 m, where the ice is 3840 years old. In 1991, it reached 2320 m depth, where the ice is approximately 40,000 years old, and on 12 July 1992, drilling was finally stopped at a depth of 3028.8 m depth, because the cutting knives were destroyed by hitting gravel and stones close to the bottom. The last core sections were yellow with bedrock material.
+
+Activities after the drilling
+After termination of the deep drilling in 1992, the field season of 1993 was used to obtain more information for interpretation of the ice core data. The deep hole was logged for temperature, inclination, diameter and azimuth. Several shallow cores were drilled in order to study the glaciological noise, and to provide more information on the atmosphere/snow interaction. During the Eurocore programme in 1989, the core quality below 150 m was not as good as wanted. In 1993, a modified shallow drill, working in a liquid filled hole was tested with good results. This drill later evolved into the EPICA deep drill, to be constructed and used in the EPICA deep drilling in Antarctica. In collaboration with the University of Lincoln, Nebraska a new type of ice sampling equipment, the pendulum probe was tested. The strain nets around GRIP were remeasured, and the position and gravity at GRIP referenced to an international geodetic point in Kangerlussuaq. A heavy traverse took off towards North from Summit. For the following 3 years, this traverse mapped the rate of accumulation, geodetic high, and ice properties in North Greenland. 
+
+In addition to all these scientific programmes, a total of 47 tons of equipment was returned to Kangerlussuaq as a result of a thorough clean-up of the camp.
+
+In 1994, the strain net was measured again. This improved the accuracy of the results. An improvement was required, because an analysis revealed that the data from 1990 and 1991 was influenced by the ionospheric maximum and a non optimal satellite configuration. 
+
+The pendulum probe was tested again, and the automatic weather stations stopped and retrograded. A new experiment attempted to measure the distance between the bottom of the deep bore hole and the bedrock. An additional 9.8 tons of material was moved back to Kangerlussuaq, and 4 tons to Station North. The cargo at Station North was staged over winter to be used in the EPICA drill test in 1995. The GRIP and GISP deep holes were logged, and the North Greenland traverse continued to provide data from this badly mapped region, for comparison with the GRIP data. At the end of the season, the casing was extended to 6 m above the surface, and the Drill Dome was opened to be filled with snow. 
+
+1995 was the final GRIP field season, and only a few field activities were performed. The GISP and GRIP drill holes were measured in a joint US-European collaboration, and the traverse finished its travel 300 km North of Summit. 
+
+Many shallow cores were collected during the traverse. 5.6 tons of ice were moved directly by Twin Otter to Kangerlussuaq, or by Twin Otter to GISP-2, and from there by C130 aeroplanes to Kangerlussuaq.
+
+
+Contributions by participating nations:
+
+Denmark
+
+During the GRIP drilling seasons 1990-1992, the Danish in situ sampling and measurement programme concentrated on isotopic composition of the ice, ECM continuous profiling, and high resolution measurements of the nitrate and dust concentrations in the ice. In addition, some 5000 IC samples were obtained to discover which ions were present in special sections of the core.
+
+The Danish activities included a topographical survey around the Dome and logging down the borehole. The various measurements were made both in situ, and in the laboratory in order to obtain information on the specific issues described below. Some of the data was used for various theoretical modelling of ice flow etc. 
+
+The isotopic record - d18O
+Measurements of d18O isotope levels were made along the entire core length. These measurements were made on a seasonal basis over the last 4k years, but with progressively poorer resolution further back in time at increasing ice core depths. The seasonal resolution stopped around 4k years back because diffusion of the water molecule made it impractical to trace variations in d18O levels over such a short time scale at greater depths. 
+
+The seasonal d18O profile was used as the basis for stratigraphical dating back to 4k years. The general d18O profile has been published and received world-wide attention, especially in the two papers: Dansgaard et al., 1993 and GRIP members, 1993 in the same issue of NATURE. 
+
+The main results of these papers concerned the observed significant and rapid climatic changes and the peculiar climatic instabilities during the Eemian interglacial. The latter finding is still a controversial matter, but both papers provided a strong stimulus to research on climatic changes. 
+
+The ECM record-acidity 
+The direct electrical current was measured along the entire cleaned surface of the GRIP core. The profile was obtained "in situ" and was used by all in-field researchers to infer unusual events which had marked the core, such as volcanic eruptions, neutral or alkaline ice sequences, and the rapid climatic oscillations a/o. The in situ use of this ECM profile thus kept the researchers informed about important climatic or environmental changes in the past and facilitated an early and practical chemical sampling of the core. 
+
+
+Over the Holocene, the ECM profile provided a volcanic acidity record, which subsequently was sampled for IC chemical measurements. Information relating to the past 1450 years of volcanic eruptions has been published (H.B. Clausen et al., 1995), and the past 4000 years will be published in the planned GRIP/GISP-2 issue of JGR. The entire Holocene record will probably be finished in 1996 or 1997.
+
+The last glacial was clearly depicted by the low currents of the ECM profile caused by the high amounts of alkaline atmospheric loess concentrations. The past 40k years of the ECM profile show many similarities both in general and in detail to the South Greenland Dye 3, ECM profile.
+
+Ion-chromatographic measurements - IC
+During the three summer field seasons, some 5000 IC samples were taken from the core over interesting sequences. Approximately 3500 have been measured in the laboratory and a high fraction have also been analysed for distribution of micro particles. Some data were used in the GRIP members' paper in NATURE and others will be - or have been - used as appropriate in other papers.
+
+Theoretical work 
+Several theoretical studies of ice flow, accumulation, dating, etc. have been undertaken and several papers have already been published. Many of the papers involve collaboration between both GRIP researchers and GISP/GRIP researchers.
+
+Surface survey and logging activities
+The surface topography around the Summit was mapped in detail in collaboration with the Danish Cadastre and the group on Geodesy (Geophysical Department, University of Copenhagen). The borehole was logged with a special device to infer length, inclination and temperature of the ice: the latter reveals the important temperature profile of the ice sheet, which can be used to infer a fairly direct temperature history of the Summit site. 
+
+
+Switzerland 
+
+The Swiss contribution for GRIP included support of general field work, participation in core drilling, and analyses performed both in the field and laboratory. Beside the group of Climate and Environmental Physics of the University of Bern the ETH Zürich (Federal Institute for Environmental Research and Technology) collaborated by 10Be and 36Cl analyses. The main scientific contribution can be divided into three areas:   
+gas analyses 
+isotope analyses on extracted gases 
+continuous chemical analyses with a newly developed Continuous Flow Analysis (CFA) technique.
+
+Gas analyses
+The reconstruction of the atmospheric concentration of CO2 and CH4 was one of the main goals of GRIP. The two components are measured by our laboratory in collaboration with the "Laboratoire de Glaciologie et Géophysique de l'Environnement" in Grenoble.
+
+Because there was close collaboration involved in this project, we will summarise only the CO2 results here, while the CH4 esults are discussed briefly in the French section. 
+
+Since earlier CO2 records obtained from Greenland deep ice cores from Dye 3 and Camp Century are influenced by melt layers, which changed the CO2 concentration in the occluded air bubbles, the new deep ice core (Summit) was drilled at a place where summer melting is extremely rare. 
+
+Greenland (Summit) and Antarctic CO2 records show the same pre-industrial CO2 value in the 18th century of 280 ppmv. Before the 18th century the CO2 profile from Summit is up to 20 ppmv higher than the corresponding values from the Antarctic records. 
+
+This difference is too large to represent a real inter hemispheric difference between high northern and southern latitudes. The general trend of the CO2 profile from Summit covering the time from 40'000 to 10'000 years BP is in good agreement with the records from Antarctica and show an increase of the CO2 concentration from 200 to 280-300 ppmv during the last climatic transition. 
+
+The beginning of the increasing CO2 concentration towards Holocene values is determined at about 17'700 (± 4'000). CO2 measurements obtained from Greenland ice show a larger scatter than those obtained from Antarctic ice. Furthermore, the Summit CO2 record is very similar to that from Dye 3 and shows elevated values during mild periods (Dansgaard-Oeschger-events) of the last glaciation. Such fast CO2 variations during the glaciation have not been found in the Byrd (Antarctic) deep core. 
+
+We conclude that the major trend in the CO2 record from Summit represents the trend of the atmospheric CO2 concentration but that acid-carbonate reactions are the most probable source for elevated CO2 concentrations in Greenland ice during mild phases.
+
+To test the hypothesis of an acid-carbonate reaction, we measured along several core sections in parallel to the CO2 concentration, the acidity and the Ca++ concentration assuming that Ca is to a great part enclosed as CaCO3 in the ice.
+
+This assumption that Ca is present mainly as carbonate turned out to be not necessarily true, and the results were therefore not conclusive. Therefore, we developed as a next step a new method to measure the carbonate concentration directly based on a Flow Injection Analysis (FIA). The results obtained support partly the hypothesis of an acid carbonate reaction, but further measurements are needed. 
+
+Isotope analyses on extracted gases
+The d18O value of global ocean water was higher during glacial times because of increased storage of d18O depleted water as ice on the continents. The isotopic signal is transferred from the ocean water to atmospheric O2 via photosynthesis. The analyses of d18O in O2  extracted from the bubbles of ice samples thus provide a record of global ice volume. 
+
+Such records are global and well suited for synchronising time scales between ice cores from different sites and between ice cores and deep sea sediment cores. Records on the Summit core have been measured for the time interval 5 - 40k years and 100 - 200k years. 
+
+The record of the more recent time period confirms the results found earlier and contributes to the synchronisation of the time scales between the GRIP and GISP-2 ice cores. The d18O results on O2  for the 100 - 200k years period are more puzzling. They show fast transitions which cannot be interpreted as atmospheric signals, suggesting that there might have been stratigraphic disturbances in this depth interval. 
+
+The planned measurements of d13C  values on CO2 extracted from ice samples have been postponed because of the uncertainties over a possible CO2 surplus due to an acid-carbonate reaction. 
+
+Continuous chemical analyses
+We developed a new analytical technique by combining a continuous contamination free melting technique on a small subcore with a Continuous Flow Analysis (CFA) system. A prismatic ice core of 18 mm * 18 mm was used to measure the H2O2-, HCHO-, NH4+- and Ca++- concentrations.
+
+The four components have been measured with a depth resolution of about 10 mm from 1,300 to 3,000 m depth below surface. H2O2 in the gas phase acts as reservoir species of OH radicals, while  in the liquid form it plays a key role in the oxidation of SO2 to H2SO4 in clouds. H2O2 in firn and ice are well correlated with the local atmospheric H2O2 concentration. Below 130 m depth, thin layers of low H2O2 concentration start to develop due to reactions with impurities in the ice. 
+
+HCHO in the polar atmosphere is mainly produced by oxidation of methane. If records of both CH4 and HCHO concentrations of the atmosphere were available, the oxidation capacity of the atmosphere could be reconstructed. There is a good correlation between the concentration in annual snow layers and the measured atmospheric HCHO concentration at present, but there are some doubts that the same correlation is valid for earlier climatic epochs. NH4+ concentrations along the ice core show very clear seasonal variations with high values in summer and values close to the detection limit in winter layers.
+
+The seasonal variations, which make it possible to identify and count annual layers, are generally between 1 - 20 ng NH4+/(g ice) but with some sporadic high peak values up to 600 ng/(g ice). The source for the NH4+ concentrations between 0 - 20 ng/(g ice) is mainly terrestrial bioactivity and we assume that NH4+ is mainly present in the form of ammonium sulphate and ammonium nitrate. 
+
+The very high NH4+ peaks above 20 ng/(g ice) coincide with high concentrations of formiate, acetate, oxalate and glycolate. The high peaks were most probably caused by large forest and grassland fires. 
+
+The Ca++ concentration also shows seasonal variations and again makes it possible to count annual layers. The concentration is well correlated with the bulk dust concentration. In glacial times the Ca++ concentration in the ice was higher, by up to a factor of 10, than Holocene values. 
+
+The general trend is that the Ca++ concentration runs in parallel with the d18O record. However, the detailed record, for example during Dansgaard/Oeschger events, shows surprising differences which could be caused by a changing source region for Ca++ and possibly also for water vapour.
+
+
+France 
+
+Contribution of the LGGE Grenoble to GRIP
+
+Gas analyses  
+One of the main goals of GRIP is to reconstruct the past atmospheric concentration of greenhouse trace-gases such as CO2 and CH4. These two trace gases are measured both in our lab and in the "Physikalisches Institut" in Bern. 
+
+The two sides have contributed equally to this fruitful joint effort. For this reason, only the results about methane are summarised in this section, while the CO2 results have been summarised in the Swiss section.
+
+Methane is the second most important atmospheric greenhouse gas (excluding water vapour) after CO2. Of special interest are the increase over time of anthropogenic influences, the natural variability in the atmospheric concentration of methane before this epoch, and especially the link of variations with global changes of the climate.
+
+The atmospheric methane concentration changes in step with the observed temperature variations during the last glacial period.  This correlation shows up particularly strongly in the record of the methane concentration during the transition from the glacial time to the Holocene including the "Younger Dryas" period.  During this cold period there was a drastic reduction of methane concentration. Methane sources at this time were wetlands in low latitudes. Therefore, the fact that the level of atmospheric methane concentration runs in parallel with this temperature fluctuation (and also parallel to earlier fluctuations!) indicates that a greater area than just the North Atlantic and its immediate surroundings were affected by such climatic fluctuations. 
+
+At the end of the last glaciation at about 10,000 years BP, atmospheric methane concentration reached a first maximum of about 700 ppbv. This high concentration lasted only about 500 years. Between 9,500  years and 5,000  years BP, the concentration decreased to about 600 ppbv. A possible reason for this decrease is an increasing aridity in tropical regions, especially in Africa. Methane measurements on ice cores are very reproducible and accurate. Therefore, it is possible to reconstruct inter hemispheric concentration differences by measuring the concentrations in Greenland and Antarctic ice cores, and comparing the two. 
+
+The air content of polar ice (V) formed under dry conditions (in the absence of seasonal melting) depends on the atmospheric pressure and temperature prevailing at the formation site as well as on the ice porosity when the air bubbles close off. Under present-day conditions, the ice porosity at close-off appears in turn to depend on the site temperature. The currently available results cover mainly the last 40,000 years and indicate long-term trends on which shorter term variations of much higher frequency are superimposed. The high frequency variability generally accounts for less than 10% of the variation, but there are some more dramatic "events" (variability up to 15%). 
+
+
+The main features of the long-term V trend are:
+a decrease of approximately 13% between the Last Glacial Maximum (LGM) and the earliest part of the Holocene;
+an increase of about 8% during the Holocene. 
+
+The main conclusion is that the V record does provide a very significant indication of past changes in ice thickness and possibly also of past atmospheric pressure patterns.  It indicates a significant thinning through the Holocene and suggests both thicker ice and lower mean atmospheric pressure conditions at constant elevation during the early Holocene than during the LGM.  The V results allow us to provide ranges for these changes.
+During the periods of unstable climatic regime (LGM-Holocene transition, Dansgaard / Oeschger events) the V signal seems to be modulated by non-thermal fluctuations of the close-off porosity.
+
+Finally, we also measured air content in the GRIP ice older than 110k years BP.  The results indicate V values approximately in the same range as for the last 40,000 years with, generally, higher air content corresponding to isotopically warmer ice.
+
+Chemistry
+Concerning the chemistry of the GRIP core, the main contribution of the LGGE was to achieve a discontinuous study of the soluble impurities present in the core.  Along the entire core, 160 depth levels down to 2200 m depth (35,000 years BP) and 85 depth levels between 2200 and 3015 m depth were studied.  On each sample, we performed in the field a comprehensive study of the soluble part of impurities (Na+, NH4+, K+, Mg++, Ca++, F-, CH3COO-, C2H3O3-, HCOO-, CH3SO3-, CI-, NO3-, NO2-, SO4—, and C2O4—) using ion chromatography 
+
+The continuous depth profiles of formate, acetate, oxalate, and glycolate content of Greenland snow deposited over the last two centuries show that forest fires from boreal regions contribute in average from a fifth to a quarter of the budget of formate, oxalate and glycolate in Greenland precipitation.  In contrast, the contribution of forest fires to the acetate and nitrate budgets remains insignificant.  The use of ammonium formate and oxalate content to trace back inputs from forest fires in Greenland ice is established, whereas nitrate and non sea salt potassium are ambiguous tracers of such events.  High latitude vegetation emissions are important sources of carboxylic acids for Greenland ice as suggested by large changes of concentrations in response to changing climatic conditions in the past (Legrand and De Angelis, 1995).
+
+It is suggested that the configuration of the Laurentide ice sheet was rather unchanged between 70,000 years BP and 20,000 years BP (i.e. its maximum extent). In contrast, the Laurentide ice sheet experienced two decays in its western flank at 75,000-80,000 and 100,000 years BP. Although being weaker, acetate concentrations also exhibit a reduction during the very cold (15,000 to 30,000 years BP) stage.
+
+This conclusion is in agreement with those from Fuhrer et al. [in press] based on the study of ammonium, another species originating in biogenic continental emissions. Such moderate variations of acetate over the last climatic cycle suggest that another source of acetate, possibly related to marine biogenic production of hydrocarbons, existed even during the cold climate.
+
+Ice deposited during the last interglacial (Eemian) stage exhibits formate concentrations significantly higher than the mean Holocene ones, corresponding to a warmer climate than at present over North America. Similarly, a maximum of formate concentrations occurred over the Holocene stage at 4,000-6,000 years BP reflects better climatic conditions for vegetation in Eastern Canada than at present. 
+
+Our study of fluoride in Greenland ice shows that the Greenland atmosphere has been very often disturbed by HF volcanic input originating from Iceland, which is close to the Greenland ice cap. On the other hand, some large explosive eruptions of volcanoes located far away from Greenland, which eject a large amount of gas into the stratosphere including large amounts of HF, are not able to influence the Greenland budget after several months transport of debris within the stratosphere because of a very efficient scavenging by ash particles (De Angelis and Legrand, 1994). 
+
+During non volcanic time periods, we show that the Greenland fluoride budget is mainly modulated by soil dust input, whereas the sea salt particle contribution remains insignificant.
+
+Trace metals
+The climatic changes have resulted in strong variations in concentration level of natural Pb, Cu, Zn and Cd contained in the high-latitude troposphere of the Northern Hemisphere. The enhancement factors for concentration between the glacial and interglacial periods amount to about 320 for Pb, 100 for Cu, 36 for Zn, and 13 for Cd, respectively. 
+
+Most Pb and Cu is estimated to have originated from the wind-blown dust during both the glacial and interglacial periods. On the other hand, continental biogenic emissions became important as a main source of Cd and to a lesser extent Zn aerosols contained in the Arctic troposphere during the warm Eemian and pre boreal to Holocene transition periods, whereas wind-blown dust was the only predominant source during the cold glacial climatic stages.  
+
+After the Young Dryas event ended, a remarkable increase of Cd/Al and Zn/Al ratios is observed during the time period spanning from 11,400 to 9,300 yrs B.P., which is consistent with the progressive expansion of vegetation following the retreat of the massive continental ice sheets. Over the period corresponding to the Greek, Roman, Medieval and Renaissance times, lead is present at levels four-fold above natural values from ± 2500 to 1700 years ago (500 B.C. to 300 A.D.). These results establish that Greek and Roman lead-silver mining and smelting activities polluted the middle troposphere of the Northern Hemisphere on a hemispheric scale two millennia ago, long before the Industrial Revolution. 
+
+Pronounced lead pollution is also observed during Medieval and Renaissance times (S. Hong, J.P. Candelone, C. Patterson and C. Boutron, 1994). Finally, the isotopic composition and concentration of lead has been measured in samples of the GRIP core up to 150k years old. The results show a significant depression in the 206Pb/207Pb ratio near 2k years BP reflecting anthropogenic emissions earlier mentioned. 
+
+Between 12k years and 150k years BP the ratio varies within the range 1.20 - 1.23 which is similar to that found in sediments from the North Atlantic Ocean.
+
+Contribution of LMCE Saclay to GRIP
+
+The contribution of LMCE Saclay (Laboratoire de Modélisation du Climat et de l'Environnement) to GRIP has been twofold:
+Acquisition and interpretation of isotopic data
+Contribution to the climatic interpretation of the oxygen 18 record
+
+Data acquisition and interpretation
+The main expected contribution of LMCE was to obtain a continuous deuterium profile along the GRIP core at a 55 cm resolution (bag samples) to complement the oxygen 18 record measured in the Copenhagen laboratory and to extract additional climatic information through the deuterium excess parameter.  LMCE was also expected to provide higher resolution deuterium profiles along selected parts of the core.
+
+This goal has now been reached as far as measurements are concerned (the number of deuterium data available is over 6000).  Bag deuterium data are available all along the core.  Figure 8 shows the deuterium – excess profile, d = dD - 8 * d18O, with respect to depth.  Detailed deuterium measurements have been performed around events 1 and 2 (GRIP project members, 1993); we will now pursue such a detailed approach on Dansgaard/Oeschger events that occurred during the last glacial period.  The climatic interpretation of the excess profile has not yet been performed because we want to look at those data in full collaboration with our GISP-2 colleagues who are now in the process of resampling their core to obtain an excess profile of an accuracy comparable to the one we have on GRIP (i.e. around 25 mm).  Such a high accuracy is required given the relatively small amplitude of the signal.
+
+We have also measured the deuterium content of the silty ice. dD and d18O are well related by an equation very close from the Meteoric Water Line (MWL) and the deuterium excess is identical to that observed at continental, high elevation sites for Arctic precipitation. The alignment of the samples on a MWL with the absence of any trend in the deuterium excess profile are arguments for isotopically unmodified solid precipitation. These isotopic results indicate that this silty ice formed at the ground surface in the absence of the ice sheet and is a remnant  of a growing stage of this ice sheet, possibly the original build up (Souchez et al., 1994).
+
+Climatic interpretation
+LMCE scientists have contributed to the climatic interpretation of the d18O record. This includes the confirmation of the existence of interstadial episodes during the late glacial (Johnsen et al., 1992), the finding that such interstadials occurred during the entire glacial period (Dansgaard et al., 1993) and discussion of the instability revealed during the Last Interglacial period (GRIP Project Members, 1993). 
+
+One of the problems posed by the temperature interpretation of the d18O record is the use of the spatial isotope/Temperature slope as a surrogate of the temporal slope which should be used for proper interpretation of the isotopic record. We have examined the validity and limits of this assumption through the use of isotopic models. 
+
+A second series of papers dealt with comparisons between the GRIP d18O profile and other records. The comparison with records of sea-surface temperature from North Atlantic deep-sea sediments  revealed a close match with the GRIP record. This indicated a link between Heinrich and Dansgaard/Oeschger events and thus between ice-sheet behaviour and ocean-atmosphere temperature change (Bond et al., 1993). The comparison with GISP-2 (Grootes et al., 1993) indicates that the correlation observed for the 90% upper part of the cores no longer holds deeper down, showing that ice flow may have altered the chronological sequences of the stratigraphy for the bottom part of one or both of the cores. 
+
+Comparison with continental data (Thouveny et al., 1994), suggested that rapid climatic changes may have occurred during the Last Interglacial.
+
+Due to the involvement of our laboratory in the study of Vostok ice (East Antarctica), we have focused on the comparison between Greenland and Antarctic records. From visual inspection of the data, we suggested that the most prominent of the interstadials observed in Greenland during the glacial can also be identified in the Vostok record. On the other hand, the less pronounced interstadials in Greenland did not appear to have occurred in Antarctica (Jouzel et al., 1994), a finding later confirmed by isotopic measurements in entrapped air. Investigation of the spectral properties of the Vostok and GRIP time series showed that the signals behave in a similar way in the high frequency part of their spectra, suggesting that there is a climatic connection between the two hemispheres (Yiou et al., 1995).
+
+
+Germany
+
+Germany contributed to GRIP mainly through the involvement of the Geophysics/Glaciology section at the Alfred Wegener Institut (AWI) für Polar- und Meeresforschung, Bremerhaven (H. Miller, J. Kipfstuhl, Th. Thorsteinsson, F. Pauer). 
+
+Since this group was only established in 1987, it had little experience in ice core analysis prior to its participation in the activities at Summit. Co-operation with other GRIP laboratories has been very fruitful and the AWI department has now gained considerable experience in the study of ice textures, fabrics and stratigraphy in deep ice cores. Interesting new results are also emerging from the study of ice clathrates. In addition, instruments for electric conductivity as well as density measurements on ice cores were built at the department and deployed both at GRIP and on shallow cores drilled during the North Greenland Traverse, which was carried out by AWI as a GRIP associated programme in the years 1993-1995.
+
+Textures and fabrics
+The GRIP core offers a unique possibility for studying the growth, rotation and recrystallization of polar ice at an ideal location. This information is achieved by the study of crystal size and shape (texture) and the c-axis orientations of the crystals (fabric). Several hundred thin sections have been cut from the core for these purposes and a comprehensive study has both confirmed basic, earlier observations on deep ice cores and led to important new insights.
+
+In the upper 700 m of the core, the average area of ice crystals increases linearly with time, in accordance with a well-known grain-growth law. This is the regime of normal grain growth. Below 700 m, grain size does not increase any further and keeps a nearly constant average diameter of 4 mm. The stop in grain growth is probably due to the fragmentation of crystals under increasing strain (polygonization). The polygonization regime covers the lower part of the Holocene and the entire Wisconsin ice (1625-2790 m), but crystals are smaller in the Wisconsin ice (typically 2-3 mm). The difference is probably due to higher impurity content in the ice age ice. The impurities tend to segregate to grain boundaries and slow their migration, and thereby the grain-growth rate. In the Eemian ice, a continuous record of crystal size has revealed a surprisingly strong correlation of this parameter with various climatic parameters measured on the core, like isotopes, impurity content and electric conductivity (Thorsteinsson et al., 1995). Large crystals (1-2 cm) are found in ice from warm periods, small crystals (3-4 mm) in ice from cold stages. Although several studies have now suggested that the Eemian sequence might not be in stratigraphic order, we believe that the result described here will prove to be a valid one: that outlines of past climatic variation can be inferred from a study of crystal size changes. 
+
+Closer to the bottom, the relatively high temperatures near the bottom (-10°C) lead to extensive recrystallization and the growth of very large grains is observed. The crystal size-isotope-impurity covariation disappears in the lowest 100 m of the core. The results from the crystal fabric measurements indicate a remarkably stable ice flow regime, as expected from the position of Summit at the top of a dome, on the Central Greenland ice divide. The c-axis orientation changes from a random pattern near the surface to a strong vertical single maximum fabric, which is attained at 2200 m depth. This evolution of the fabric is steady and regular, and a rapid strengthening is not observed at the Holocene-Wisconsin transition. Enhanced flow of Wisconsin ice is thus not expected at Summit. The formation mechanism of the preferred fabric is believed to be through c-axis rotation by intracrystalline dislocation glide, under the influence of vertical compressive stress. In the coarse grained ice within and below the Eemian, the fabric weakens, due either to recrystallization mechanisms and/or different stress conditions in the lowest part of the ice sheet.
+
+Stratigraphy  
+Systematic observations of the visual stratigraphy in the ice core were carried out in the field in 1991 and 1992, and further studies have been carried out in the storage facility in Copenhagen. Visible cloudy bands are the most important stratigraphic tool. These are layers varying in thickness from < 1 mm to a few cm, with high concentrations of microscopic inclusions scattering light. From these studies it had already become evident in 1992 that the ice had undergone significant flow distortion below 2850 m depth, including the lowest 1/4 of the Eemian sequence. Further study did not reveal any disturbances within the Eemian ice, but a single disturbance was found at 2757 m depth, 33 m above the Eemian. Here, layers dipping 10°-20° from the horizontal were found in a 1 m increment of the core, but layering appeared to return to a horizontal, undisturbed state below this. 
+
+Thin section study on the inclined layering and on other flow distortions revealed that these features exert a marked influence on the ice fabric, by rotating c-axes out of the vertical position.
+
+Continuous physical properties
+AWI developed a new device to measure both density and AC conductivity continuously and in a non-destructive way. For the first time, a gamma ray absorption technique was used to determine density continuously. The gamma density technique proved to be a very valuable method, especially in the uppermost part of the ice core where the variations in density are high . 
+
+AC conductivity was measured at a high resolution (a few millimetres). Like the two other conductivity methods (DEP and ACM) it contributed preview information to other researchers. At present these AC conductivity measurements are a more qualitative method. However, comparison with the Ammonium record shows that this method is able to identify Ammonium events.    
+
+Air inclusions and clathrates
+Reconstruction of the composition of the atmosphere was one of the main goals of GRIP. Air trapped in the ice is transformed into air clathrates at depths between 700 and 1300 m. Microscopic observations on air clathrates were already started in the field.
+
+Gas volume in the ice estimated from number and size of the clathrates and the occupancy in the clathrate cages seems fairly constant despite the fact that the number of clathrates varies from about 200 up to more than 1200 per cm3. Raman spectroscopic analysis carried out on air clathrates show that the N2/O2 ratio in the gas inclusions is close to that in the atmosphere. 
+
+Fractionation effects in the ice do not seem to play a dominant role during the transformation and thinning processes. The presence of the cloudy bands as well as the behaviour of the microscopic inclusions causing the cloudy bands was unexpected. From less than 1 mm in size immediately after the core was recovered these inclusions grew up to sizes of more than 100 mm in diameter. These inclusions, up to several 1000 per cm3, do not seem to contribute much to the gas content in the ice.
+
+North Greenland Traverse
+In 1993, AWI started a traverse to North Greenland. This ran from Summit to 80°N at 36°W and then followed the ice divide south to 75°N/42°W 12 ice and more than 35 firn cores were drilled. 
+
+The main interest of the traverse was in the accumulation rate distribution of the central parts of the ice sheet north of Summit and the input of chemical tracers during the past 500 to 1000 years to document the anthropogenic influence in high arctic latitudes. First results show that the area of low accumulation (100 - 200 mmWE/year) is much larger than previously thought.
+
+
+United Kingdom
+
+The UK has been involved in GRIP primarily through the Ice and Climate Division of the British Antarctic Survey (BAS) (Dr. D. Peel, Dr. E. Wolff, Dr J. Moore), with a small involvement from the Rock and Ice Physics Laboratory of University College, London (UCL) (Prof. S. Murrell, Dr. P. Sammonds, D. Raistrick).
+
+In the years leading up to GRIP, BAS developed a new electrical technique for studying ice cores.  This method (called dielectric profiling, DEP) measures the capacitance and conductance of an ice core at a range of frequencies up to 300 kHz.  Various electrical parameters can be derived from this, of which the high-frequency limit of the conductivity has proved to be the most useful.  DEP has the advantage that it can be used on whole (uncut) cores, and is totally non-destructive. 
+
+An improved DEP instrument was developed for GRIP. A new electrode set was built to measure cores up to 2.4 m long at 2 cm resolution.  It takes about 20 minutes to measure a core this length at 20 frequencies.  Longer cores can also be measured (although the core has to be moved half way through).  Programmes were written to process the data in real time, so that displays of the electrical parameters could be presented and printed as soon as the core was measured.
+
+The instrument was set up in the GRIP core processing line from 1990 to 1992, so that all the core from 138 m to 3028 m was measured.  For most of the period, the DEP was the first instrument in the core processing line, and was able to offer researchers further down the line a preview of interesting core sections that they might wish to pay special attention to in their analysis or cutting procedure. 
+
+The DEP high-frequency conductivity was already, from previous work, known to respond, in a rather linear way, to acidity and to chloride.  As well as confirming these relationships, the GRIP data have shown that it also responds to ammonium.  In this respect, it provides a useful complement to the ECM technique, which responds only to acidity, and gives troughs over large ammonium events.  It was possible to construct a calibration for the DEP, based on these three ions alone, and it seems that all peaks in the GRIP core can be explained by just this chemical model (a temperature correction was applied to all the data at an early stage in processing). There is no sign that the response changes with depth, even though factors such as crystal size and fabric do vary dramatically with depth. 
+
+This is important ice physics information (for interpreting micro physical incorporation of ions), and gives good confidence in the use of electrical methods to derive chemical information from this and other cores.  The total of nearly 150,000 GRIP DEP data points increases many times the amount of dielectric data available from other natural ice. 
+
+A second instrument was also developed to look at features at higher resolution (HRDEP). The HRDEP was designed to operate at up to 2 mm resolution on cut cores at the end of the core processing line.  It operated at only one (higher) frequency, but  was capable of seeing the major features recorded by the main instrument, and was a useful addition to other methods for annual layer counting. 
+
+The DEP and ECM data together were used to study major chemical trends in the core.  Volcanic eruption events have been studied mainly by the Copenhagen group.  The electrical data have been particularly useful for studying the background (excluding large volcanic eruptions) acidity of the ice, since no other technique for measuring acidity has been used routinely on the ice.  
+
+There is a strong contrast between acidic ice in warm climatic periods, and alkaline ice in cold periods, controlled by neutralisation by (especially calcareous) dust.  When Ca is low, the background acidity is fairly constant throughout the core, suggesting a fairly stable combination of source emissions, transport and uptake during these periods.  This conclusion is tempered by difficulties in understanding the air/snow relationship for acidic species (e.g. nitric acid) in particular.  Ca has only to rise slightly to completely neutralise the available acidity.  This means that acidity (which affects ecological systems and cloud condensation nuclei properties) is a highly non-linear reflection of other climate parameters.  This is particularly obvious around major climatic transitions, and during the Dansgaard-Oeschger events (interstadials) of the last glaciation. 
+
+The DEP signal is the best available input for attempts to reconstruct internal layer profiles generated by radar.  This work, to firmly establish the meaning of radar profiles, will be carried out shortly, and may allow extension of core-derived information over a wider spatial area.  Plans are also underway to use scanning electron microscopy with X-ray microanalysis on the ice to study the locations of impurities and microparticles in the ice. 
+
+One other study undertaken by BAS has been high-resolution chemical analysis.  Major chemical studies have been made by French, Danish and Swiss colleagues.  For the current work, short sections of ice from various climatic periods have been cut into 2 mm slices, and analysed by ion-chromatography.  This has enabled us to see clear seasonal signals in many species in the last glacial maximum (LGM), and at other time periods.  In the LGM, it looks as if most species are in phase, perhaps controlled by atmospheric transport. 
+
+There is a strong dynamic range between maxima and minima, confirming that modelling attempts will have to account for seasonality if they want to explain the major atmospheric circulation changes that the chemical profiles are recording. 
+
+The high-resolution chemical data have been used to help interpret electrical data, and can also act as support for annual layer counting in some sections of ice. 
+
+UCL have made mechanical tests on various sections of GRIP ice, and have operated in collaboration with other members of the GRIP mechanical properties group. Their technique differs from other mechanical tests in that they use triaxial testing, where the ice can be tested under simulated downhole conditions of temperature and confining pressure.  
+
+Significant modifications were made to existing equipment in order to accommodate relatively small GRIP ice samples.  P-wave velocities and acoustic emissions (to detect ice cracking) were measured during the deformation tests. The results of tests carried out at constant strain rate show a significant strengthening of the ice with depth, with particularly strong samples from the Wisconsin period.  Much weaker ice near the bed is at least partly related to the much higher temperature at this depth (both in the ice sheet and in the simulated conditions used in the laboratory). 
+
+These data, when combined with data from the other laboratories, provide information essential to better modelling of the ice flow.
+
+
+Italy 
+
+The Italian contribution to GRIP concerned the study of the composition of dust particles (V. Maggi, University of Milano) and the analyses of trace elements (G. Ghermandi and P. Laj, University of Modena). As an associate programme the atmospheric CO concentration was measured by E. Corazza (CNR, Pisa).
+
+Analysis of dust mineralogy along the GRIP ice core has revealed important information linked to the past fluctuations of the earth's climatic system. The mineral composition of dust significantly changed during the different climatic stages, from the Eemian to the LGM. Low latitude mineralogical indicators are encountered during warm stages and particularly during the Eemian. On the contrary, cold stages, and particularly the Wisconsin and LGM, are characterised by the presence of desertic particle types. 
+
+In addition, the various stages of the Eemian are clearly characterised by different climatic indicators with warm (low latitude) indicators present during the first part and disappearing rapidly at the onset of sub stage 5e1 to 5e4. The pattern of climatic indicators along the GRIP core cold periods seems to be linked to the presence of large source areas on the border of the large ice sheets, characterised by reduced vegetation and cold desertic particles types. On the contrary, warmer climates allowed the development of tropical vegetation and soil types in the mid-latitudes, increasing the probability of tropical aerosol types to be lifted up and transported by mid-latitude storms to the polar regions. 
+
+An original methodology coupling analyses with PIXE  (Particle Induced  X-ray Analysis) and  SEM-EDAX  (Scanning Electron Microscope/X-Ray Dispersive Analysis) has been developed. Coupling of these two complementary techniques permits the characterisation of insoluble/soluble phase partitioning for several elements such  as K, Ca, Fe, S, etc. in addition to providing concentration levels of other elements such as Na, Si, Al, etc. 
+
+The aim of the study is to connect the presence of given mineral typologies to the chemistry of the particles in the atmosphere. Such a speciation provides information not only on the sources of particles but also on their behaviour in the atmosphere as well as their changing role in global geo-chemical cycling. 
+
+This is of fundamental importance for elements such as Ca and Fe, for which their relative fraction in the soluble phase will  not only lead to very different behaviour in the biosphere but also could alter other ice-core records.
+
+In fact, these results are also of importance in calibrating other techniques specific to an analysis in a given phase.
+
+
+Iceland
+
+The Icelandic contribution was related to drill development and drilling, core processing, stable isotope analysis, data analysis, flow modelling, d18O to temperature calibration and analysis of volcanic ash shards, all in close co-operation with the Copenhagen group.
+
+Due to the high precision of the d18O analysis made in Iceland, special sections of the core were analysed for deuterium excess and for the study of diffusional processes. Unpublished results show that diffusional processes, other than self diffusion, are present in the ice. These processes are probably related to recrystallisation and might therefore also affect high resolution chemistry data.  All d18O working standards used by the project have been calibrated in Iceland on a routine basis. Analysis of the GRIP borehole temperature profile has shown that, during the last glacial maximum temperatures, in Greenland were at least 20°C colder than today and that there has been a steady cooling going on in Greenland during the past 8k years of the Holocene (Johnsen et al. 1995). 
+
+Several volcanic ash layers have been analysed for elemental composition by the Nordic Volcanologic Institute in Reykjavik. One of these layers corresponds to the so-called Settlement ash layer found in Iceland and since it is absolutely dated it has helped clarify an important event in the history of Iceland. Other layers which are also found in ocean and lake sediments have been identified, thus providing absolute correlation between the GRIP records and other important paleoenvironmental records.
+
+
+Belgium
+
+The GRIP core was drilled into silty ice, close to bedrock, after having penetrated 3022.54 m of ice. About 6 m of basal ice were recovered. The "Dept. des Sciences de la Terre et de l'Environnement, Université Libre de Bruxelles" was responsible for co-ordinating the measurements of this deepest part of the core. 
+
+A striking discontinuity exists at the top of the silty ice. The upper part of the silty ice shows interbedding of silty ice layers and clear ice layers while the lower part, about 5 m thick, shows more homogeneous ice with only diffuse banding. The stress conditions under the central part of an ice dome render very unlikely the formation, at its base, of silty ice with debris originating from the ice-bedrock interface. A different ice sheet geometry is required to allow such an occurrence. Thus, this deepest ice can provide information on how the ice sheet developed.  One hypothesis, involving feedback, is that the ice dome started developing after snowfall. A small change in energy input leads to the persistence of a snow cover to the end of the summer. Then, large areas become covered with snow banks because of the albedo feedback mechanism. These snow banks coalesce and thicken into ice domes. 
+
+By contrast, in another hypothesis, that of "highland origin and windward growth", mountainous valley glaciers form piedmont glaciers outside the upland region. These piedmont glaciers coalesce into a large ice dome that expands toward the accumulation source.
+
+The geological record on the origin of the Greenland Ice Sheet is scarce however: it mainly comprises ice rafted debris (IRD) in the marine sediment record. These IRD deposits, although essential for reconstructing the history of ice sheet fluctuations, do not contain information on how the ice sheet originated. The information gained by the study of the basal ice from the GRIP core is worth considering within that context.
+
+The isotopic composition of the basal ice from the GRIP core, both in dD and in d18O, indicates that local ice formed on the bedrock was preserved in the absence of the Greenland Ice Sheet.  This ice was mixed with ice from the ice sheet during a growing phase, so that the isotopic trend displayed in the basal ice is the result of deformational processes and does not represent depositional features.
+
+The gas composition in the basal ice is very different from that of the atmosphere. Concentrations up to 130000 ppmv for carbon dioxide, 6000 ppmv for methane and down to 3% for oxygen are reached at the base. Now, a general decrease in CO2 and CH4 concentrations and a general increase in O2 concentration is observed from the bottom of the profile towards the top of the silty ice. It is accompanied by a general increase in total gas content. If the total gas content and the oxygen concentration are plotted on an reverse scale, then there is a great similarity between the different profiles, including the d18O profile, with peaks and troughs at the same level.
+
+There is for instance a very good negative correlation between O2 and CO2 (correlation coefficient -0.91 for 19 samples) (Figure 5). This seems to indicate an oxidation reaction of organic matter which, by using oxygen, is converted into carbon dioxide.  If the reaction occurred within the ice, the sum [O2] + [CO2] must remain close to 21%. In fact, this sum is far from 21% in the basal ice and decreases to a minimal value of 13% at the bottom of the profile. The in-situ oxidation of organic matter within the ice is thus not a likely process to explain the CO2 and O2 distribution in the basal ice.
+
+Is diffusion of CO2 and CH4 from the sub glacial ground, where they are produced, to the ice, and of O2 from the ice to the sub glacial ground , where it is consumed, the process which could explain the profiles? Taking into account reasonable values for diffusion coefficients in the ice, it can be computed that diffusion will only take place over a distance of less than 2 m in 2.4 106 years, the most often quoted date for the origin of the Greenland Ice Sheet. A shorter time interval will of course reduce the distance over which the diffusion could have been active. Clearly, diffusion is unable to explain the situation. 
+
+The similarity between gas parameters (CO2, CH4, O2 concentrations) and ice parameters (d18O, dD ) is a strong argument in favour of an explanation based on a mixing process.  In such a process, ice formed locally at the ground surface in the absence of the ice sheet with high d-values, low total gas content, low concentration in O2 and high concentrations in CO2 and CH4 is mixed with glacier ice from a growing ice sheet having lower d-values, normal total gas content for polar ice and nearly atmospheric gas composition (the uppermost values  of the profiles). 
+
+Such a mixing process is consistent with the general decreasing trends upwards of d-values and of CO2 or CH4 concentrations together with the general increasing trend of oxygen concentration since the probability of incorporating some local ice formed at the ground surface into the ice sheet diminishes with the distance from the bed. 
+
+A mixing model was developed in order to estimate the d18O, the concentration in CO2 and CH4 and the total gas content of the local ice component in the mixing process. A very good match exists between mixing theory and measurements if the following values are chosen for the local ice end-member : 135000 ppmv for CO2, 6,300 ppmv for CH4, 0.046 cm3/g for the total gas content and -24.7°/00 as d18O  value. Theoretical mixing  curves will also fit the data for oxygen if a very low concentration, between 0% and 2%, is chosen for the local ice component.
+
+All the characteristics of the local ice component fit with the idea that the ice was formed in a marshy environment, possibly within a peat deposit in a permafrost environment. In situ oxidation of organic matter can provide a gas composition at the level of 135,000 ppmv CO2 if the ground ice contains about 3 mg carbon/g of ice which is quite possible. The lack, or very low concentration, of oxygen is, in itself, an indication of limited access to the atmospheric source. Anaerobic conditions are required to explain for the high methane content. A present-day analogue of the situation described can be found in Alaska where ice has developed in a peaty deposit.
+
+The preservation of this kind of ice at the base of the GRIP core, more or less mixed with glacier ice, implies that permafrost was present at the site before development of the ice sheet. This is of great significance in ice sheet development studies, as will be now indicated.
+
+This situation is, in itself, a strong argument against in situ growth of the Greenland Ice Sheet from local snow banks. The glacier ice involved in the mixing process which is the glacier ice just above the basal silty ice has d-values implying temperatures intermediate between that of the last Glacial Maximum and of the Holocene for a well-developed ice sheet. Such isotope properties show that the glacier ice progressing on the site is part of an extensive ice cover probably having its origin in the eastern mountainous region of Greenland. The highland origin and windward growth hypothesis seems to be best in agreement with the compositional properties of the basal ice at Summit.
+
+The marine sediment record indicates that the Greenland Ice Sheet probably originated about 2.4 million years ago. As suggested by a comparison of the isotopic profiles of the GISP-2 and of the GRIP cores, the ice sheet was developed in the Summit region during the Eemian and beyond although no precise dating can yet be obtained on this older ice. Particularly, dating of the ice present in the GRIP core under the 54 m increment below 2900m displaying disturbed stratigraphy is very difficult. However, the uncertainty on the age of the oldest glacier ice just above the silty ice does not affect the interpretation of the basal ice from the GRIP core as given here. It can be assumed that the Greenland Ice Sheet was also developed during the interglacials preceding the Eemian since the climate during these periods was less warm than that of the Eemian. Therefore, the basal ice possibly represents the original build-up of the Greenland Ice Sheet.
+
+
+Some highlights and remaining open questions:
+
+ The d18O records confirm that large and rapid temperature oscillations have occurred through most of the last 110,000 year period. They are of a scale that has not been experienced during the past 10,000 years in which human society mainly developed.  
+
+A few of these stadial/interstadial oscillations such as the "Younger Dryas" cold period have been known already from pollen and other records. Many more were found in previous Greenland ice cores (Camp Century, Dye3) but most of the data indicating that oscillations had occurred had come from ice close to bedrock where stratigraphic disturbances could not be excluded. 
+
+In the Summit ice core the past 110,000 years are represented in ice far enough above bedrock to rule out such disturbances. The perfect agreement of the records of the GRIP and the GISP-2 ice cores down to this depth provides further evidence for the climatic character indicated by the d18O records.
+
+Especially astonishing are the very short times needed for major warmings. A temperature increase of 5°C can occur in a few decades. 
+
+The d18O and d2H values of water vapour and water in air masses are depleted when moving to colder regions. In Greenland and in Antarctica a linear relationship between the delta values of an annual snow layer and the local mean annual surface temperature is observed. 
+
+This empirical linear relationship observed at present for locations with different surface temperature is the basis for reconstructing past temperature. The linear relationship can be explained qualitatively through simple Rayleigh type isotopic models, but there is no guarantee that exactly the same empirical relationship was valid in earlier climatic epochs. With the two ice cores from Summit, it is possible, for the first time, to make a kind of calibration of the delta records. Borehole temperatures lack the high time resolution of isotopic records, but they are relatively insensitive to any factors other than surface temperature at the time of snow deposition. 
+
+The idea of this calibration is not new but it can only be applied with accuracy when the transition from the last glaciation to the Holocene occurs far above bedrock. Two independent calibrations, using separate data sets and different techniques, agree closely in yielding much larger glacial-interglacial temperature changes than can be assumed purely on the basis of the delta records and the present relationship between delta values and temperature. The temperature increase from the coldest part of the last glaciation to the Holocene is about 21°C, about double the value that can be assumed based on a constant relationship between d18O values and temperature. 
+
+The question of whether only the long term variations follow a changed relation or whether the fast climatic variations are also larger than hitherto assumed remains open.
+
+The fast climatic variations observed in the d18O record of Greenland ice cores would attract only limited attention if they were only local in character. However, there is ample evidence that these fast climatic fluctuations are also affecting regions far away from Greenland. Indeed, there is good correlation between some of the fast climatic variations observed in the Greenland ice cores and variations observed in deep sea sediment cores from the North Atlantic. 
+
+Therefore, it is assumed that the deep water formation in the North Atlantic plays a key role in the fast climatic variations.  However, the climatic signal is not only seen in the North Atlantic region. The fact that methane levels correlate well with the variations, with high methane concentrations in mild periods, shows that low latitude regions (the main source for methane at this time) were also influenced by these fast variations. 
+
+After the d18O analyses performed on O2 extracted from air bubbles, which allow time scales of Greenland ice cores and Antarctic ice cores to be synchronised, it became evident that the major events are also recorded in the isotopic temperature record from the Vostok core. However, the events in Antarctica were  apparently of smaller amplitude and more ramped appearance than in Greenland.
+
+Methane with its main source in low latitude wetlands during the last glacial period and the early Holocene is an indicator of bioactivity, in this special case of the bioactivity of wetlands in low latitudes. More parameters which are bioindicators have been measured on the GRIP ice core, such as ammonium and organic acids. 
+
+The comparison of records of these parameters is still quite puzzling at present. The records deviate considerably from each other, indicating that each parameter is sensitive to other characteristics of bioactivity or influenced by a different region. While methane shows a distinct concentration minimum during the "Younger Dryas" period, NH4+ shows rather a maximum. 
+
+The source for methane is assumed to be all wetlands in low latitudes, while the source for NH4+ the soil bioactivity of parts of North America. The interpretation of these parameters is still at an early stage, but the investigations on the GRIP ice core show clearly that ice cores have the potential also to give information about the biosphere in the past.
+
+The GRIP ice core data suggested that rapid climatic oscillations like the ones during the ice age persisted during the previous warm period (the Eemian period). The GISP-2 core also shows rapid oscillations during that period, but with different timing and character. 
+
+Therefore, the question arose whether one or both cores are affected by stratigraphic disturbances. Careful physical examinations of both cores showed that significant structural disturbances occurred in both cores above the depth where differences between the two cores started (about 2,800 m below snow surface corresponding to an age of about 110,000 years). 
+
+The results from methane and d18O measurements on O2 from bubbles and their comparison with results from Antarctic ice cores show that the ice at least partly represents the Eemian period.  However they also give evidence of stratigraphic disturbances affecting at least some of the fast variations. 
+
+However, the role of stratigraphic disturbances cannot be settled until ice flow modellers can explain the kind and the mechanisms of such disturbances.
+
+This will be a difficult task, especially for the very short cold periods where the ice layer with completely different characteristics is only about 0.2 m thick. Hope remains that much can be learned about the Eemian climate from the existing two cores. Ultimately, just as these cores were needed to validate the rapid oscillations already observed in the Camp Century and Dye3 cores, a new core, where the Eemian period is farther above bedrock, will be needed to give a final answer.
+
+
+Publications:
+
+
+Publications are listed in reverse chronological order (starting with the most recent) and alphabetically.
+
+Alley, R.B., Gow, A.J., Johnsen, S.J., Kipfstuhl, J., Meese, D.A. & Thorsteinsson, T. 1995. Comparison of deep ice cores. Nature, 373, 393-394.
+ Anklin, M., Barnola, J.-M., Schwander, J., Stauffer, B. & Raynaud, D. 1995. Processes affecting the CO2 concentrations measured in Greenland ice. Tellus, 47B, 461-470. 
+Barnola, J.M., Anklin, M., Porcheron, J., Raynaud, D., Schwander, J. & Stauffer, B. 1995. CO2 evolution during the last millenium as recorded by Antarctic and Greenland ice. Tellus, 47B, 264-272. 
+Blunier, T., Chappellaz, J., Schwander, J., Stauffer, B. & Raynaud, D. 1995. Variations in atmospheric methane concentration during the Holocene epoch. Nature, 374, 46-49. 
+Clausen, H.B., Hammer, C.U., Christensen, J., Schott Hvidberg, C., Dahl-Jensen, D., Legrand, M. & Steffensen, J.P. 1995. 1250 years of global volcanism as revealed by central Greenland ice cores. In Delmas, R.J., ed. Ice core studies of global biogeochemical cycles. Berlin etc.: Springer, 175-194. 
+Corazza, E. & Tesi, G. 1995. Tropospheric hydrogen and carbon oxides in Antarctica and Greenland. The Science of the Total Environment, 160/161, 803-809. 
+Fronval, T., Jansen, E., Bloemendal, J. & Johnsen, S. 1995. Oceanic evidence for coherent fluctuations in Fennoscandian and Laurentide ice sheets on millenium timescales. Nature, 374, 443-446. 
+Gronvold, K., Oskarsson, N., Johnsen, S.J., Clausen, H.B., Hammer, C.U., Bond, G. & Bard, E. 1995. Ash layers from Iceland in the Greenland GRIP ice core correlated with oceanic and land sediments. Earth and Planetary Science Letters, 135, 149-155. 
+Johnsen, S.J., Clausen, H.B., Dansgaard, W., Gundestrup, N.S., Hammer, C.U. & Tauber, H. 1995. The Eem stable isotope record along the GRIP ice core and its interpretation. Quaternary Research, 43, 117-124.
+Johnsen, S.J., Dahl-Jensen, D., Dansgaard, W. & Gundestrup, N. 1995. Greenland palaeotemperatures derived from GRIP bore hole temperature and ice core isotope profiles. Tellus, 47B, 624-629. 
+Larsen, E., Sejrup, H.P., Johnsen, S.J. & Knudsen, K.L. 1995. Do Greenland ice cores reflect NW European interglacial climate variations? Quaternary Research, 43, 125-132. 
+Legrand, M. & de Angelis, M. 1995. Origins and variations of light carboxylic acids in polar precipitation. Journal of Geophysical Research, 100, 1445-1462. 
+Pauer, F., Kipfstuhl, J. & Kuhs, W.F. 1995. Raman spectroscopic study on the nitrogen/oxygen ratio in natural ice clathrates in the GRIP ice core. Geophysical Research Letters, 22, 969-971.
+Peel, D.A. 1995. Profiles of the past. Nature, 378, 234-235. 
+Souchez, R., Janssens, L., Lemmens, M. & Stauffer, B. 1995. Very low oxygen concentration in basal ice from Summit, Central Greenland. Geophysical Research Letters, 22, 2001-2004. 
+Souchez, R., Lemmens, M. & Chappellaz, J. 1995. Flow-induced mixing in the GRIP basal ice deduced from the CO{-2} and CH{-4} records. Geophysical Research Letters, 22, 41-44. 
+Thorsteinsson, T., Kipfstuhl, J., Eicken, H., Johnsen, S. & Fuhrer, K. 1995. Crystal size variations in Eemian-age ice from the GRIP ice core, Central Greenland. Earth and Planetary Science Letters, 131, 381-394. 
+Wolff, E.W., Moore, J.C., Clausen, H.B., Hammer, C.U., Kipfstuhl, J. & Fuhrer, K. 1995. Long-term changes in the acid and salt concentrations of the GRIP Greenland ice core from electrical stratigraphy. Journal of Geophysical Research, 100, 16249-16264. 
+Yiou, P., Jouzel, J., Johnsen, S. & Rognvaldsson, O.E. 1995. Rapid oscillations in Vostok and GRIP ice cores. Geophysical Research Letters, 22, 2179-2182. 
+de Angelis, M. & Legrand, M. 1994. Origins and variations of fluoride in Greenland precipitation. Journal of Geophysical Research, 99, 1157-1172. 
+Gundestrup, N.S., Clausen, H.B. & Hansen, B.L. 1994. The UCPH borehole logger. Memoirs of National Institute of Polar Research, 49, 224-233. 
+Gundestrup, N.S., Clausen, H.B., Hansen, S.B. & Johnsen, S.J. 1994. Hole liquids and gaskets for the ISTUK deep ice core drill. Memoirs of National Institute of Polar Research, 49, 327-334. 
+Gundestrup, N.S., Steffensen, J.P. & Schwander, J. 1994. The GRIP deep drilling camp. Memoirs of National Institute of Polar Research, 49, 358-370. 
+Hong, S., Candelone, J.P. & Boutron, C.F. 1994. Greenland ice history of the pollution of the atmosphere of the northern hemisphere for lead during the last three millenia. Analusis, 22, M38-40. 
+Hong, S., Candelone, J.-P., Patterson, C.C. & Boutron, C.F. 1994. Greenland ice evidence of hemispheric lead pollution two millenia ago by Greek and Roman civilizations. Science, 265, 1841-1843. 
+Johnsen, S.J., Gundestrup, N.S., Hansen, S.B., Schwander, J. & Rufli, H. 1994. The new improved version of the ISTUK ice core drill. Memoirs of National Institute of Polar Research, 49, 9-23. 
+Jouzel, J. 1994. Ice cores north and south. Nature, 372, 612-613. 
+Jouzel, J., Lorius, C., Johnsen, S. & Grootes, P. 1994. Climate instabilities: Greenland and Antarctic records. Comptes Rendus de l'Academie de Science de Paris, 319, 65-77. 
+Keigwin, L.D., Curry, W.B., Lehman, S.J. & Johnsen, S. 1994. The role of the deep ocean in North Atlantic climate change between 70 and 130 kyr ago. Nature, 371, 323-326. 
+McManus, J.F., Bond, G.C., Broecker, W.S., Johnsen, S., Labeyrie, L. & Higgins, S. 1994. High-resolution climate records from the North Atlantic during the last interglacial. Nature, 371, 326-329. 
+Moore, J.C., Wolff, E.W., Clausen, H.B., Hammer, C.U., Legrand, M.R. & Fuhrer, K. 1994. Electrical response of the Summit-Greenland ice core to ammonium, sulphuric acid, and hydrochloric acid. Geophysical Research Letters, 21, 565-568. 
+Sigg, A., Fuhrer, K., Anklin, M., Staffelbach, T. & Zurmuhle, D. 1994. A continuous analysis technique for trace species in ice cores. Environmental Science and Technology, 28, 204-210.
+ 
+Souchez, R., Tison, J.-L., Lorrain, R., Lemmens, M., Janssens, L., Stievenard, M., Jouzel, J., Sveinbjornsdottir, A. & Johnsen, S.J. 1994. Stable isotopes in the basal silty ice preserved in the Greenland Ice Sheet at Summit; environmental implications. Geophysical Research Letters, 21, 693-696.
+Sveinbjornsdottir, A.E. & Johnsen, S.J. 1994. Nyr iskjarni fra Graenlandsjokli. Natturufraedingurinn, 64, 83-96.
+Thouveny, N., de Beaulieu, J.-L., Bonifay, E., Creer, K.M., Guiot, J., Icole, M., Johnsen, S., Jouzel, J., Reille, M., Williams, T. & Williamson, D. 1994. Climate variations in Europe over the past 140 kyr deduced from rock magnetism. Nature, 371, 503-506.
+Tison, J.-L., Thorsteinsson, T., Lorrain, R. & Kipfstuhl, J. 1994. Origin and development of textures and fabrics in basal ice at Summit, Central Greenland. Earth and Planetary Science Letters, 125, 421-437. 
+Wolff, E.W. & Reid, A.P. 1994. Capture and scanning electron microscopy of individual snow crystals. Journal of Glaciology, 40, 195-197. 
+Bond, G., Broecker, W., Johnsen, S., McManus, J., Labeyrie, L., Jouzel, J. & Bonani, G. 1993. Correlations between climate records from North Atlantic sediments and Greenland ice. Nature, 365, 143-147. 
+Chappellaz, J., Blunier, T., Raynaud, D., Barnola, J.M., Schwander, J. & Stauffer, B. 1993. Synchronous changes in atmospheric CH4 and Greenland climate between 40 and 8 kyr BP. Nature, 366, 443-445. 
+Dahl-Jensen, D. 1993. Reconstruction of palaeo climate from temperature measurements in bore holes on the Greenland Ice Sheet. In Mosegaard, K., ed. Proceedings of the Interdisciplinary Inversion Workshop 2, Copenhagen. Copenhagen: University of Copenhagen, 11-14. 
+Dahl-Jensen, D., Johnsen, S.J., Hammer, C.U., Clausen, H.B. & Jouzel, J. 1993. Past accumulation rates derived from observed annual layers in the GRIP ice core from Summit, central Greenland. In Peltier, W.R., ed. Ice in the Climate System. Berlin Heidelberg: Springer-Verlag, 517-532. 
+Dansgaard, W. & Gundestrup, N. 1993. Greenland: a temptation and a challenge. Endeavour, 17, 12-16.
+Dansgaard, W., Johnsen, S.J., Clausen, H.B., Dahl-Jensen, D., Gundestrup, N.S., Hammer, C.U., Hvidberg, C.S., Steffensen, J.P., Sveinbjornsdottir, A.E., Jouzel, J. & Bond, G. 1993. Evidence for general instability of past climate from a 250-kyr ice-core record. Nature, 364, 218-220. 
+Fuhrer, K., Neftel, A., Anklin, M. & Maggi, V. 1993. Continuous measurements of hydrogen peroxide, formaldehyde, calcium and ammonium concentrations along the new GRIP core from Summit, central Greenland. Atmospheric Environment, 27A, 1873-1880. 
+GRIP Project Members 1993. Climate instability during the last interglacial period recorded in the GRIP ice core. Nature, 364, 203-207. 
+Grootes, P.M., Stuiver, M., White, J.W.C., Johnsen, S. & Jouzel, J. 1993. Comparison of oxygen isotope records from the GISP2 and GRIP Greenland ice cores. Nature, 366, 552-554.
+Gundestrup, N.S., Dahl-Jensen, D., Johnsen, S.J. & Rossi, A. 1993. Bore-hole survey at dome GRIP 1991. Cold Regions Science and Technology, 21, 399-402. 
+Hammer, C.U. & Meese, D.A. 1993. Dating ice cores. Nature, 363, 666. 
+ 
+
+

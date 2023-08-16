@@ -1,0 +1,211 @@
+GRIP Acidity
+
+REFERENCES: 
+
+Clausen, H.B., C.U. Hammer, C.S. Hvidberg, D. Dahl-Jensen, J.P. Steffensen,
+J. Kipfstuhl, and M.R. Legrand. 1997. A comparison of the volcanic records
+over the past 4000 years from the Greenland Ice Core Project and Dye 3
+Greenland ice cores. Journal of Geophysical Research 102:26707-26723.
+
+Wolff, E.W., J.C. Moore, H.B. Clausen, and C.U. Hammer. 1997. Climatic
+implications of background acidity and other chemistry derived from
+electrical studies of the Greenland Ice Core Project ice core. Journal of
+Geophysical Research 102:26325-26332.
+
+Clausen, H.B., C.U. Hammer, J. Christensen, C.S. Hvidberg, D. Dahl-Jensen,
+M.R. Legrand, and J.P. Steffensen. 1995. 1250 years of global volcanism as
+revealed by central Greenland ice cores. Ice Core Studies of Global
+Biogeochemical cycles, annecy, France, R. Delmas (ed.). NATO Advanced
+Sciences Institutes Series 1, 30:175-194.
+
+Wolff, E.W., J.C. Moore, H.B. Clausen, C.U. Hammer, J. Kipfstuhl, and K.
+Fuhrer. 1995. Long-term changes in the acid and salt concentrations of the
+Greenland Ice Core Project ice core from electrical stratigraphy. Journal
+of Geophysical Research 100:16249-16263.
+
+Moore, J.C., E.W. Wolff, H.B. Clausen, C.U. Hammer, M.R. Legrand, and K.
+Fuhrer. 1994. Electrical response of the Summit-Greenland ice core to
+ammonium, sulphuric acid, and hydrochloric acid. Geophysical Research
+Letters 21:565-568.
+
+Moore, J.C., R. Mulvaney, and J.G. Paren. 1989. Dielectric stratigraphy of
+ice: a new technique for determining total ionic concentrations in polar
+ice cores. Geophysical Research Letters 16:1177-1180.
+
+DATA DESCRIPTION: 
+
+This file contains the GRIP acidity record, as calculated from electrical 
+conductivity measurements.
+
+The sample resolution of the record is 1 cm. 
+
+Explanation of columns
+
+1) Depth in m below the snow surface at a local maximum in the ECM record. 
+
+2) Age at the local acid peak in years BP 1950
+
+3) Number of years of high acidity at the local acid peak.
+
+4,5) The mean acid concentration and background concentration in the years
+of high acidity in micro equivalent H+ per kg of ice (ueq/kg).  The data
+for the past 2000 years are shown on Fig. 3b in Clausen,et al. (1997).
+Hammer, (1980) and Clausen et al., (1995) describe how the current
+measured by ECM is converted into concentration of acid. 
+
+6) These data are the difference between the data of #4 and #5. The
+concentrations above the background are of course not all of volcanic
+origin but they contain the candidates for the major acid producing
+volcanism. 
+
+7) The peak concentration value of strong acid detected in a 1cm sample. 
+
+8) The amount of the volcanic acid deposited at the surface during the
+years of high acidity (called VAD). The amount is calculated as kg
+sulphuric acid per square kilometer over the time period of enhanced
+acidity from the concentration in #6 and corrected for the effect of the
+thinning of the annual layers due to glacier flow.  The VAD is calculated
+as sulphuric acid, irrespective of the actual anion.  Sulphate is the
+dominant anion in acid volcanic fall-out, but in some cases hydrochloric
+acid and more seldom hydrofluoric acid are present, and in the case of Dye
+3 presence of nitric acid, which does not have a volcanic origin. These
+data are shown on Fig.  4a - 4d in Clausen et al., (1997). 
+
+9) The magnitude of the eruption (the released amount of acid gases into
+the atmosphere) is expressed in Mtons of sulphuric acid. The magnitude is
+calculated by comparing the VAD to the deposited amount of total
+beta-activity from known atmospheric thermonuclear tests at high northern
+latitude (HNL) and low northern latitude (LNL), Refs. 4 and 5. The
+calculation assumes an eruption site at HNL for comparative reasons. Some
+of the data are shown in column (10) of Table 3 in Clausen et al., (1997).
+
+DATA:
+
+Depth (m)	Age (yr BP)	Length (yrs)	total	background	diff.	peak	deposition	
+magnitude
+
+2.66	-34	0.5	2.71	0.78	1.93	4.07	11	15
+3.42	-33	0.1	3.26	1.22	2.04	3.7	1	2
+4.27	-32	0.4	3.37	1.16	2.21	5.97	8	11
+4.74	-31	0.4	3.54	1.07	2.47	7.56	8	12
+5.25	-30	0.9	2.64	1.38	1.26	4.33	12	17
+6.95	-26	0.3	2.77	1.39	1.38	3.53	5	7
+8.62	-22	0.8	2.56	1.52	1.04	3.26	9	14
+10.12	-18	0.9	2.35	1.41	0.94	3.09	7	10
+13.84	-9	0.2	2.07	1.26	0.81	2.94	2	2
+18.27	3	0.4	1.83	1.08	0.75	2.54	3	4
+30.36	38	1	2.45	1.02	1.43	3.82	15	22
+32.27	43	0.7	2.32	0.93	1.39	2.83	8	11
+41.4	72	0.1	1.66	0.99	0.67	2.19	1	1
+58.46	134	1.1	2.23	1.1	1.13	2.56	13	19
+60.03	140	0.8	2.52	1.22	1.3	3.1	11	16
+67.21	167	1.6	5.26	1.24	4.02	13.84	70	101
+80.12	218	0.3	2.25	1.26	0.99	2.76	4	5
+80.31	219	0.7	2.17	1.41	0.76	2.92	3	4
+80.92	222	0.8	2.2	1.48	0.72	2.72	7	11
+82.05	225	0.5	2.21	1.46	0.75	2.76	5	7
+95.66	283	1.2	2.43	1.48	0.95	3.72	11	16
+101.8	308	0.3	2.69	0.76	1.93	6.03	9	13
+103.02	313	1.8	2.19	0.92	1.27	3.83	13	19
+105.7	325	0.7	1.95	0.99	0.96	3.93	4	6
+108.15	336	0.4	5.15	0.99	4.16	9.5	12	17
+110.98	349	2.3	2.8	1.17	1.63	6.4	36	52
+116.16	370	0.9	1.97	1.16	0.81	3.83	8	11
+121.63	396	1.5	2.15	1.23	0.92	4.22	17	25
+131.19	438	2.7	2.87	1.32	1.55	7.72	53	77
+132.17	442	0.7	2.75	1.14	1.61	4.12	12	17
+133.53	447	0.2	3.36	1.22	2.14	4.36	6	9
+138.65	470	2.4	2.72	1.32	1.4	4.08	30	44
+139.39	473	2.2	3.07	1.75	1.32	6.7	34	48
+142.99	490	0.4	3.45	1.68	1.77	4.17	9	13
+147.25	509	2.9	2.86	1.56	1.3	4	39	56
+154.17	540	1.4	2.44	2.02	0.42	3.95	7	10
+159.08	560	0.1	2.68	1.61	1.07	5.06	2	2
+159.33	561	0.7	3.4	1.93	1.47	5.98	17	24
+160.89	568	1	4.07	1.84	2.23	7.9	20	29
+168.88	605	0.5	2.59	1.28	1.31	3.27	8	11
+169.77	609	0.8	3.05	1.3	1.75	5.06	10	14
+172.04	619	1.4	2.42	1.33	1.09	3.78	14	20
+185.21	681	2.1	2.35	1.46	0.89	3.67	18	27
+187.28	691	3	6.83	1.45	5.38	14.44	161	232
+193.31	721	2.9	4.37	1.41	2.96	6.39	73	105
+201.04	758	0.5	2.79	1.12	1.67	4.17	8	12
+201.24	759	0.5	2.72	1.75	0.97	4.46	7	10
+201.66	761	0.5	2.97	1.84	1.13	3.97	6	9
+203.78	771	0.7	6.52	1.58	4.94	10.25	43	62
+205.98	781	0.7	2.79	1.15	1.64	3.76	11	16
+219.55	844	1.5	3.37	1.49	1.88	5.32	35	50
+222.73	859	0.6	3.18	1.41	1.77	3.95	13	19
+238.22	933	1.4	2.81	1.66	1.15	4.46	7	10
+242.4	954	9.5	3.11	1.66	1.45	6.18	14	20
+243	956	0.5	3.29	1.61	1.68	5.86	14	20
+243.29	957	0.7	3.38	1.63	1.75	4.06	17	25
+244.74	964	0.3	2.9	1.63	1.27	4.01	4	5
+254.34	1007	2.5	2.63	1.24	1.39	3.87	37	53
+256.14	1016	1.7	16.66	1.34	15.32	49.47	261	375
+263.79	1052	1	4.39	1.41	2.98	7.28	34	49
+269.41	1079	1.5	4.78	1.39	3.39	13.35	51	74
+274.49	1103	0.3	2.84	1.25	1.59	4.33	5	7
+275.09	1106	0.1	4.3	1.26	3.04	4.89	3	4
+293.12	1193	0.6	4.39	1.31	3.08	7.44	20	29
+294.88	1202	0.4	3.16	1.76	1.4	4.01	8	11
+295.58	1206	1.5	3	1.51	1.49	4.65	22	32
+309.68	1275	0.9	3.65	1.19	2.46	5.06	25	36
+316.2	1305	3.1	2.29	1.02	1.27	4.26	40	58
+320.85	1328	1.7	3.37	1.1	2.27	5.32	37	54
+328.33	1366	0.8	3.25	1.35	1.9	4.8	18	25
+330.3	1378	1.4	2.73	1.48	1.25	4.93	15	21
+331.91	1386	0.7	3.06	1.37	1.69	4.47	8	11
+338.89	1418	1.2	3.37	1.96	1.41	4.75	19	27
+339.83	1423	2.1	4.64	1.63	3.01	11.52	73	105
+342.63	1436	1.1	5.58	1.42	4.16	13.19	45	65
+353.84	1464	0.5	3.81	1.11	2.7	6.1	14	20
+413.25	1791	1	5.96	1.21	4.75	12.69	46	66
+424.22	1849	0.1	3.52	1.15	2.37	4.46	4	6
+429.09	1871	0.5	4.9	1.17	3.73	8.15	26	38
+444.76	1947	1.5	2.92	1.68	1.24	4.42	19	27
+455.36	1999	2.7	6.06	1.05	5.01	16.6	135	194
+455.85	2002	1.4	2.7	1.43	1.27	5.47	19	27
+469.41	2069	1.3	3.52	1.41	2.11	7.3	26	37
+474.28	2097	2.1	2.96	1.78	1.18	5.76	36	52
+493.04	2194	0.9	16.39	1	15.39	33.94	129	186
+513.36	2300	1.1	2.83	0.84	1.99	5.3	22	32
+526.7	2371	3.5	4.84	1.12	3.72	8.25	99	143
+534.12	2411	0.4	2.19	0.78	1.41	2.9	8	12
+538.89	2436	1.1	2.88	1.41	1.47	3.55	16	23
+553.47	2519	1.7	4.24	1.15	3.09	8.5	52	74
+567	2596	0.9	2.53	1.12	1.41	3.7	11	17
+567.62	2599	0.7	2.31	1.31	1	3.05	4	6
+569.37	2610	1.4	2.43	1.24	1.19	3.75	14	20
+572.2	2626	1.4	2.43	1.23	1.2	3.18	17	25
+586.02	2703	1.1	4.6	1.03	3.57	7.35	44	64
+586.4	2705	2.1	4.14	1.51	2.63	7.53	53	76
+586.87	2707	1	5.9	1.15	4.75	13.35	53	77
+610.49	2838	2	4.75	1.07	3.68	15.52	50	73
+620.55	2894	2	2.45	1.24	1.21	3.79	25	37
+640.39	3013	1.4	2.38	0.93	1.45	3.33	28	40
+641.74	3023	1.2	9.76	1.34	8.42	19.39	61	88
+659.35	3132	1.6	2.73	0.99	1.74	3.3	30	43
+661.49	3143	0.6	2.58	1.12	1.46	3.47	13	19
+664.36	3158	0.6	3.15	1.14	2.01	4.39	12	18
+680.83	3252	0.8	4.94	0.98	3.96	7.97	27	39
+689.89	3308	0.7	2.49	1.09	1.4	3.26	11	16
+691.99	3319	0.5	2.07	0.94	1.13	2.34	5	7
+701.88	3375	3.1	3.66	0.87	2.79	9.09	98	141
+706.35	3400	1	2.62	0.97	1.65	3.92	17	24
+725.48	3516	1.9	2.79	1.02	1.77	3.58	27	39
+729.52	3543	0.6	3.03	0.97	2.06	4.3	10	15
+733.58	3568	1.3	5.61	1.14	4.47	13.34	37	53
+736.47	3586	2.3	5.69	1.28	4.41	13.35	96	139
+743.43	3627	0.9	2.37	1.26	1.11	4.42	19	28
+743.89	3629	1	2.4	1.14	1.26	3.43	14	20
+748.53	3657	0.3	1.86	1.11	0.75	2.09	3	4
+753.76	3688	2.3	2.04	1.16	0.88	3.05	17	25
+754.85	3695	1.6	2.94	1.51	1.43	3.77	26	37
+761.89	3741	4.8	2.73	1.79	0.94	4.38	45	65
+768.65	3780	1.2	2.13	1.17	0.96	3.06	13	19
+777.02	3842	0.9	2.79	1.33	1.46	4.65	14	21
+779.71	3860	0.4	3.55	1.22	2.33	5.03	9	13
+784.41	3888	1.3	3.61	1.26	2.35	4.83	33	47
+788.5	3914	1.9	3.32	1.28	2.04	5.53	40	58
+802.73	3995	2.5	4.58	1.12	3.46	9.59	91	132

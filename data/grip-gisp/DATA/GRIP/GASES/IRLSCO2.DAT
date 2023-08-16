@@ -1,0 +1,109 @@
+GRIP Carbon Dioxide
+
+REFERENCES: 
+
+Anklin, M., J. Schwander, B. Stauffer, J. Tschumi, A. Fuchs, J.M. Barnola,
+and D. Raynaud. 1997. CO2 record between 40 and 8kyr B.P. from the
+Greenland Ice Core Project ice core. Journal of Geophysical Research
+102:26539-26545.
+
+Anklin, M., J.M. Barnola, J. Schwander, B. Stauffer, and D. Raynaud. 1995.
+Processes affecting the CO2 concentrations measured in Greenland ice.
+Tellus 47B:461-470.
+
+Barnola, J.M., M. Anklin, J. Porcheron, D. Raynaud, J. Schwander, and B.
+Stauffer. 1995. CO2 evolution during the last millennium as recorded by
+Antarctic and Greenland ice. Tellus 47B:264-272.
+
+DATA DESCRIPTION: 
+
+The CO2 concentration was measured with an infrared laser absorption
+spectrometer (IRLS). CO2 measurements were performed on 0.55m long
+sections. For each section, several samples of size 2.5cm along these
+sections were measured and averaged. The weight of one sample was
+approximately 5g. The file contains the mean depth (m) (column 1) and the
+mean CO2 concentration (ppmv) (column 2) of these samples within one
+section. 
+ 	
+
+DATA:	
+
+Depth (m)	CO2
+Midpoint	(ppmv)
+
+1320.903	291.6
+1343.068	207.8
+1364.600	230.5
+1386.600	226
+1409.088	248
+1431.075	256.2
+1458.100	276.8
+1469.096	244.9
+1480.100	250
+1491.573	271.9
+1502.104	271.8
+1513.096	267.4
+1524.08	263.3
+1535.1	257.9
+1546.1	273.2
+1557.1	294.4
+1568.1	307.8
+1579.1	301.7
+1590.1	303.1
+1601.1	303
+1612.1	308.7
+1621.45	288.1
+1628.6	275
+1639.6	289.3
+1650.75	232.8
+1662.15	266.7
+1672.6	291.8
+1683.6	275.1
+1695.15	263.1
+1705.6	295.2
+1716.6	251.4
+1728.15	274.4
+1738.6	261.8
+1749.6	255.4
+1760.6	256.4
+1771.588	230
+1782.595	231.3
+1793.6	231
+1804.6	226.5
+1816.142	229.2
+1827.163	218.3
+1837.6	210.5
+1848.6	197.6
+1859.6	220.1
+1870.6	215.5
+1882.7	202.7
+1892.6	213.1
+1903.6	217.8
+1915.15	191.3
+1925.05	205.9
+1937.15	211.4
+1947.6	211.2
+1958.6	201.8
+1969.6	199.6
+1981.7	178
+1992.15	202.4
+2002.6	230.1
+2013.6	229.1
+2024.6	271.2
+2035.848	225.4
+2046.613	210.4
+2058.15	244.7
+2068.6	218.2
+2079.6	202.1
+2101.613	218.1
+2112.838	262.9
+2124.15	213.2
+2157.15	219.3
+2178.6	249.6
+2189.588	288.3
+2201.15	230.6
+2266.6	256.9
+2269.342	297.7
+2271	235.2
+2272.888	216
+2277.613	236.6

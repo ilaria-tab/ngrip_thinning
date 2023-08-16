@@ -1,0 +1,101 @@
+GRIP Oxygen-18 of Atmospheric Oxygen
+
+REFERENCES: 
+
+Chappellaz, J.A., E.J. Brook, T. Blunier, and B. Malaizé. 1997. CH4 and
+d18O of O2 records from Antarctic and Greenland ice: A clue for
+stratigraphic disturbance in the bottom part of the Greenland Ice Core
+Project and the Greenland Ice Sheet Project 2 ice cores. Journal of
+Geophysical Research 102:26547-26557.
+
+Leuenberger, M.C. 1997. Modeling of the signal transfer of seawater d18O to
+the d18O of atmospheric oxygen using a diagnostic box model for the
+terrestrial and marine biosphere. Journal of Geophysical Research 102:26841
+26850.
+
+Sowers, T., E.J. Brook, D. Etheridge, T. Blunier, A. Fuchs, M.C.
+Leuenberger, J.A. Chappellaz, J.M. Barnola, M. Wahlen, B. Deck, and C.
+Weyhenmeyer. 1997. An interlaboratory comparison of techniques for
+extracting and analyzing trapped gases in ice cores. Journal of Geophysical
+Research 102:26527-26538.
+
+Fuchs, A., and M.C. Leuenberger. 1996. d18O of atmospheric oxygen measured
+on the GRIP ice core document stratagraphic disturbances in the lowest 10%
+of the core. Geophysical Research Letters 9:1049-1052.
+
+DATA DESCRIPTION:
+
+See also the file d18Ogas.dat, which shows similar data from the Bern
+laboratory for comparison. The file contains two columns:  
+
+Column 1: Depth (meters below the surface).
+Column 2: d18O values (permil against modern air taken in Normandie, 
+	  France, in 1995).
+
+d18O measured on oxygen in the bubble air from ice cores is a proxy for
+continental ice volume and is used to synchronize cores from Greenland and
+Antarctica (Bender et al., 1985, Sowers et al., 1993). A record measured
+on ice samples from the Central Greenland deep ice core GRIP, spanning the
+Last Glacial Maximum and the Holocene, shows that d18O of atmospheric
+oxygen is in good agreement with measurements on the Vostok, Byrd and
+GISP2 ice cores (Bender et al., 1994, Sowers and Bender, 1995). The smooth
+isotope record of atmospheric oxygen represents a steady ice sheet decay
+within the time resolution of about 2000 to 3000 years for atmospheric
+oxygen. 
+
+The Emian records as shown here documents the potential of d18O
+measurements for tracing stratigraphic disturbances. Measurements
+performed on ice from the GRIP core older than 100 kyrs (about 2700 mbs)
+do not correlate with the corresponding Vostok record and show transitions
+too fast to be typical for ice sheet build-up or decay. Furthermore, the
+expected time lag between d18Oatm and d18O of seawater or d18O of ice is
+absent or has even turned into a lead. Climatic interpretation of the fast
+d18Oice transitions is not consistent with our d18Oatm results. By
+combining our d18Oatm record with the methane (CH4) record at the same
+depth levels and by comparing them to their Antarctic counterpart from
+Vostok, we constrain the possible age of the ice in the disturbed region.
+The combination suggests that the layers with heavy d18Oice correspond
+indeed to ice from the last Interglacial (stage 5e) whereas layers with
+light d18Oice correspond to ice either from stage 5d or from the
+penultimate glaciation, mechanically inserted into the ice from stage 5e. 
+
+DATA:
+
+Depth (m)	del18O
+Midpoint	(per mil)
+
+2781.35	0.68
+2785.2	0.46
+2786.85	0.35
+2789.05	0.32
+2792.35	-0.07
+2798.4	-0.11
+2799.5	0.11
+2801.15	0.67
+2803.9	0.25
+2808.3	0.35
+2809.95	-0.21
+2811.6	0.02
+2816	0.11
+2819.85	0.31
+2824.8	0.19
+2828.65	0.51
+2830.3	0.57
+2834.15	0.52
+2836.9	0.85
+2838	0.21
+2847.9	0.49
+2848.45	-0.31
+2853.4	-0.25
+2854.5	0.4
+2856.15	-0.47
+2857.8	-0.59
+2860	0.21
+2863.3	0.12
+2864.4	0.01
+2871.55	-0.33
+2874.85	0.04
+2880.9	0.08
+2901.25	0.64
+2908.4	-0.28
+2910.05	-0.32

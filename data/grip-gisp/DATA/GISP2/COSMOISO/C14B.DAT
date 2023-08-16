@@ -1,0 +1,44 @@
+GISP2 14-C (radiocarbon) Measurements (Table 2).
+
+REFERENCE:
+
+Lal, D., A.J.T. Jull, G.S. Burr, and D.J. Donahue. 1997. Measurements of in
+situ 14C concentrations in Greenland Ice Sheet Project 2 ice covering a 17
+kyr time span: Implications to ice flow dynamics. Journal of Geophysical
+Research 102:26505-26510.
+
+DATA DESCRIPTION:
+
+This file contains the data in Table 2 (calculated in-situ 14C
+concentrations) from Lal and Jull (1997). 
+
+Expected in-situ 14C is based on 14C production rate at surface for the
+present altitude (3.2 km), 200 atoms 14C/g ice/y (Jull et al., 1994), and
+model ice accumulation rates estimated by Cutler et al. (1995).  The
+estimates are for in-situ cosmogenic 14C (i.e. excluding trapped 14C). 
+
+For total - trapped CO2, the amount of trapped 14CO2 is estimated from
+the amount of air in the ice (see Table 1) and assuming 250 ppm CO2 in
+air.
+
+Depth: Mean sample depth in meters.
+Age: Age of ice in years.
+Total: Decay-corrected 14C (atoms/g).
+In situ produced: Decay-corrected 14C (atoms/g).
+Total-Trapped CO2:  thickness model for Expected in-situ 14C.
+Constant Variable:  thickness model for Expected in-situ 14C.
+
+DATA:								
+
+depth	age	Total	+/-	In situ	+/-	Total-trapped CO2	Constant 	Variable
+							
+88	225	1440	90	910	90	1370	1380	
+100.7	275	1190	80	670	90	1370	1380	
+101.1	275	2190	90	1370	100	1370	1380	
+125.8	375	2070	80	1460	90	1370	1380	
+126.2	375	1960	100	1350	120	1370	1380	
+1518.5	9470	5720	250	5130	270	1540	1700	
+1623.4	10770	3480	270	2870	300	1820	2110	
+1698.5	12390	3580	350	2960	400	4380	5230
+1749.4	13750	4180	450	3510	500	2330	2810
+1837.4	16200	6295	650	5660	600	3965	4985

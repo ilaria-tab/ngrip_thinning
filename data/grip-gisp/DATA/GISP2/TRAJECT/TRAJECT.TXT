@@ -1,0 +1,37 @@
+GISP2 Atmospheric Trajectory Data
+
+REFERENCES: 
+
+Kahl, J.D.W., D.A. Martinez, H.D. Kuhns, C.I. Davidson, J.L. Jaffrezo, and
+J.M. Harris. 1997. Air mass trajectories to Summit, Greenland: A 44-year
+climatology and some episodic events. Journal of Geophysical Research
+102:26861-26875.
+
+DATA DESCRIPTION: 
+
+The included data sets are files for 500 mb and 700 mb atmospheric
+trajectories for the Greenland Summit.  Each data set contains a month's
+worth of data.  Each file is a backward trajectory for each month in the
+year in both the 500 mb and 700 mb pressure fields.  Within each monthly
+data file, the trajectory data are given as day/time followed by 241
+latitude/longitude pairs (the first being the location of Summit,
+Greenland, the trajectory arrival location).  Both latitude and longitude
+are given in decimal degrees, with longitude in degrees E.  Each
+latitude/longitude pair represents the trajectory position (at either 500
+or 700 mb) at consecutive 1 hour times, extending backward in time 10 days
+from the arrival time. Analytical details can be found in Kahl et al. 
+(1997).
+
+In summary: 
+
+Monthly trajectory files for Summit, Greenland: 500 and 700 mb pressure 
+levels.
+
+Format of data:
+	day/time    -     followed by 241 lat/long pairs (decimal degrees)
+
+The time step is one hour for each lat/long pair.
+The duration of each back trajectory is 10 days.  
+
+The data files are located in two directories 500TRAJ  (500 mb 
+trajectory fields) and 700TRAJ (700 mb trajectory fields).  

@@ -1,0 +1,698 @@
+<HTML><HEAD>
+<TITLE>GISP2/GRIP Ice Core CD - Data Search</TITLE>
+<STYLE>
+<!--
+  BODY  {font-family: "Verdana, Arial, Helvetica"; font-size: 10pt; color: 000000}
+  A:link {font-family: "Verdana, Arial, Helvetica"; font-size: 10pt; color: 003366; font-weight: bold}
+  A:visited {font-family: "Verdana, Arial, Helvetica"; font-size: 10pt; color: 800080; font-weight: bold}
+  H1 {font-family: "Verdana, Arial, Helvetica"; font-size: 16pt; color: 003366; font-weight: bold; font-style: italic; text-decoration: none}
+  H2 {font-family: "Verdana, Arial, Helvetica"; font-size: 14pt; color: 003366; font-weight: bold; font-style: italic; text-decoration: none}
+  H3 {font-family: "Verdana, Arial, Helvetica"; font-size:  9pt; color: 000000; font-weight: medium; text-decoration: none}
+  H4 {font-family: "Verdana, Arial, Helvetica"; font-size:  9pt; color: 000000; font-weight: medium; text-decoration: none}
+  H5 {font-family: "Verdana, Arial, Helvetica"; font-size:  7pt; color: 000000; font-weight: medium; text-decoration: none}
+  BIG {font-family: "Verdana, Arial, Helvetica"; font-size: 8pt; color: 000000; text-decoration: none}
+-->
+</STYLE>
+
+<!-------------
+Project: GISP2/GRIP Ice Core CD - Data Search
+Author:  jkeltner
+--------------->
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide this script from old browsers ---------------
+
+TOTAL_FILES = 96;  //total data files we are processing
+
+HEAD_TAG = "<HTML><HEAD><TITLE>GISP2/GRIP Ice Core CD-ROM</TITLE>" +
+           "<STYLE><!--" +
+           "BODY  {font-family: \"Verdana, Arial, Helvetica\"; font-size: 10pt; color: 000000}" +
+           "A:link {font-family: \"Verdana, Arial, Helvetica\"; font-size: 10pt; color: 003366; font-weight: bold}" +
+           "A:visited {font-family: \"Verdana, Arial, Helvetica\"; font-size: 10pt; color: 800080; font-weight: bold}" +
+           "H1 {font-family: \"Verdana, Arial, Helvetica\"; font-size: 16pt; color: 003366; font-weight: bold; font-style: italic; text-decoration: none}" +
+           "H2 {font-family: \"Verdana, Arial, Helvetica\"; font-size: 14pt; color: 003366; font-weight: bold; font-style: italic; text-decoration: none}" +
+           "H3 {font-family: \"Verdana, Arial, Helvetica\"; font-size:  9pt; color: 000000; font-weight: medium; text-decoration: none}" +
+           "H4 {font-family: \"Verdana, Arial, Helvetica\"; font-size:  9pt; color: 000000; font-weight: medium; text-decoration: none}" +
+           "H5 {font-family: \"Verdana, Arial, Helvetica\"; font-size:  7pt; color: 000000; font-weight: medium; text-decoration: none}" +
+           "BIG {font-family: \"Verdana, Arial, Helvetica\"; font-size: 8pt; color: 000000; text-decoration: none}" +
+           "--></STYLE>" +
+           "</HEAD>";
+BODY_TAG = "<BODY" +
+           " BGCOLOR='#FFFFFF' TEXT='#000000' LINK='#0000FF'" +
+           "  VLINK='#808080' ALINK='#FF0000' TOPMARGIN=0>";
+TAIL_TAG = "</BODY></HTML>";
+
+//=================================================
+function MakeArray(n) {
+  this.length = n;
+  return this;
+}  // end MakeArray
+
+//=================================================
+function Hits() {
+  this.href = "";
+  this.descript = "";
+}  // end Hits
+
+//=================================================
+function InitializeHitsArray() {
+  hits = new MakeArray(TOTAL_FILES);
+  for (var i = 0; i < TOTAL_FILES; i++) {
+    hits[i] = new Hits();
+  }
+}
+
+//=================================================
+function MetaData(descript, fname, path, sbits, pi, vars, dtop, dbot, atop, abot) {
+  var BASE_PATH = "../data/";
+
+  this.descript = descript;      // description of the file contents
+  this.fname = fname;            // filename
+  this.path = BASE_PATH + path;  // path
+  this.sbits = sbits;            // bit field specifying source (grip or gisp2)
+  this.pi = pi;                  // string field specifying pi ids
+  this.vars = vars;              // string field specifying variable ids
+  this.dtop = dtop;              // depth of top
+  this.dbot = dbot;              // depth of bottom
+  this.atop = atop;              // age of top
+  this.abot = abot;              // age of bottom
+}  // end MetaData
+
+//=================================================
+function InitializeMetaData() {
+  meta = new MakeArray(TOTAL_FILES);
+  meta[0] = new MetaData("ATM Aerosol Concentrations", "aerosol.dat", "gisp2/chem/", 2, "X000X013X036X038X042X071X073X077X089X094X105X107X129X145X169", "X000X006X013X015X031X034X038X042X044X046X048X049X055", -999, -999, -999, -999);
+  meta[1] = new MetaData("ATM Concentration of H2O2 in Atmosphere", "perxair.dat", "gisp2/chem/", 2, "X000X008X030X042X056X077X083X089X101X115X124X163X190", "X000X015X032X034", -999, -999, -999, -999);
+  meta[2] = new MetaData("GISP2 10Be Concentration, 719 - 2253 m", "ber10.dat", "gisp2/cosmoiso/", 2, "X000X002X003X022X037X052X067X102X114X118X121X125X126X134X142X153X157X176X180X195", "X000X001X019X034", 720.76, 2251.905, 3298, 39995);
+  meta[3] = new MetaData("GISP2 Accumulation Rate History", "accum.dat", "gisp2/physical/", 2, "X000X002X029X032X146X167X181", "X000X004X034X053", -999, -999, -37.5, 49972.5);
+  meta[4] = new MetaData("GISP2 Ar, Kr, and Xe Data", "noblegas.dat", "gisp2/gases/", 2, "X000X031X059", "X000X005X031X034X039X061", 2321.11, 3052, -999, -999);
+  meta[5] = new MetaData("GISP2 Atmospheric Trajectory Data", "traject.txt", "gisp2/traject/", 2, "X000X036X066X077X083X089X110", "X000X007X017X054", -999, -999, -999, -999);
+  meta[6] = new MetaData("GISP2 B Core Depth Age Scale", "bcoreage.dat", "gisp2/depthage/", 2, "X000X002X016X051X057X058X061X075X114X117X122X135X153X167X171X181X187X193X195", "X000X025X034X040X053", 0.42, 193.99, -38, 680);
+  meta[7] = new MetaData("GISP2 Bidecadal Oxygen Isotope Data", "d18o20y.dat", "gisp2/isotopes/", 2, "X000X002X018X051X057X058X061X075X114X117X122X135X165X167X171X193X195", "X000X022X034X037", 6.04, 1844.42, -30, 16490);
+  meta[8] = new MetaData("GISP2 CO2 concentrations", "co2.dat", "gisp2/gases/", 2, "X000X001X039X069X112X114X155X171X182", "X000X018X031X034", 1583, 2603.525, -999, -999);
+  meta[9] = new MetaData("GISP2 Concentration of H2O2 in Atmosphere", "perxsnow.dat", "gisp2/chem/", 2, "X000X008X030X042X056X077X083X089X101X115X124X163X190", "X000X006X015X032", -999, -999, -999, -999);
+  meta[10] = new MetaData("GISP2 D Core Borehole Depth", "depth.dat", "gisp2/physical/", 2, "X000X027X029X063X065X146X181", "X000X010X011X053", 3056.5, 3056.6, -999, -999);
+  meta[11] = new MetaData("GISP2 D Core Borehole Diameter", "diameter.dat", "gisp2/physical/", 2, "X000X027X029X063X065X146X181", "X000X010X011X053", -999, -999, -999, -999);
+  meta[12] = new MetaData("GISP2 D Core Borehole Geometry", "geometry.dat", "gisp2/physical/", 2, "X000X027X029X063X065X146X181", "X000X010X011X053", 0, 3056.48, -999, -999);
+  meta[13] = new MetaData("GISP2 D Core Methane Sulfonic Acid Concentrations", "msacored.dat", "gisp2/chem/", 2, "X000X002X032X036X042X054X063X077X094X114X147X159X189", "X000X015X034X044", 94.6, 1654.195, 253.5, 11239);
+  meta[14] = new MetaData("GISP2 D Core Temperature", "tempertr.dat", "gisp2/physical/", 2, "X000X002X027X029X032X063X065X146X167X181", "X000X010X011X012X053", -999, -999, -999, -999);
+  meta[15] = new MetaData("GISP2 Electrical Conductivity Measurements (Combined)", "ecmage.dat", "gisp2/ecm/", 2, "X000X002X009X026X028X034X045X051X061X080X093X114X159X171X177X187X188", "X000X027X028X034", 4.11, 3040.55, -33.8, 110932);
+  meta[16] = new MetaData("GISP2 Electrical Conductivity Measurements", "ecminfo.txt", "gisp2/ecm/", 2, "X000X002X009X026X028X034X045X051X061X080X093X114X159X171X177X187X188", "X000X027X028X034", 3.02, 3.02, -999, -999);
+  meta[17] = new MetaData("GISP2 F Core Methane Sulfonic Acid Concentrations", "msacoref.dat", "gisp2/chem/", 2, "X000X002X032X036X042X054X063X077X094X114X147X159X189", "X000X015X034X044", 0.5, 100.5, -999, -999);
+  meta[18] = new MetaData("GISP2 H2O2 Snow Pit Data", "perxpits.dat", "gisp2/chem/", 2, "X000X008X030X042X056X077X083X089X101X115X124X163X190", "X000X006X015X022X032X034X037", 0.015, 1.68, -45.414, -42.934);
+  meta[19] = new MetaData("GISP2 Insoluble Microparticles", "particd.dat", "gisp2/dust/", 2, "X000X014X026X028X034X039X062X070X072X080X090X114X118X140X171X178X179X182X195", "X000X009X015X020X026X034X053", 0.75, 774.125, -40, 3616.5);
+  meta[20] = new MetaData("GISP2 Ions: B (Shallow) Core", "ionb.dat", "gisp2/chem/", 2, "X000X020X042X097X104X114X116X122X133X159X169X171X177X188X193", "X000X013X015X016X034X038X042X046X048X049X055", 0.75, 199.811, -37.3, 678.85);
+  meta[21] = new MetaData("GISP2 Ions: B (Shallow) Core (Detailed)", "detionb.dat", "gisp2/chem/", 2, "X000X020X042X097X104X114X116X122X133X159X169X171X177X188X193", "X000X013X015X016X032X034X038X042X046X048X049X055", 5.0179, 189.9901, -29.885, 659.165);
+  meta[22] = new MetaData("GISP2 Ions: D (Deep) Core", "iond.dat", "gisp2/chem/", 2, "X000X020X042X097X104X114X116X122X133X159X169X171X177X188X193", "X000X013X015X016X034X038X042X046X048X049X055", 3.19, 3040.26, -35.3, 999999);
+  meta[23] = new MetaData("GISP2 Ions: D (Deep) Core (Detailed)", "detiond.dat", "gisp2/chem/", 2, "X000X020X042X097X104X114X116X122X133X159X169X171X177X188X193", "X000X013X015X016X034X038X042X046X048X049X055", 96.0465, 3041.993, 258.95, 100449.2);
+  meta[24] = new MetaData("GISP2 Isotope Concentrations in Trapped Air", "gas.dat", "gisp2/gases/", 2, "X000X010X012X015X019X024X039X043X050X055X061X096X114X117X127X158X182X185", "X000X003X005X018X022X031X034X050", 72.85, 2235.05, 169.815, 38642.6);
+  meta[25] = new MetaData("GISP2 Isotope Extraction Methods", "gascomp.dat", "gisp2/gases/", 2, "X000X010X015X019X024X039X050X055X096X158X182X185", "X000X003X018X022X031X034X050", 72.9, 197.5, -999, -999);
+  meta[26] = new MetaData("GISP2 Laser Light Scattering (LLS) 1 Meter and 1/2 Meter Averages", "lightall.dat", "gisp2/dust/", 2, "X000X075X084X087X135X183", "X000X034X041X053", 1700, 3037.9, 12437, 110977);
+  meta[27] = new MetaData("GISP2 Laser Light Scattering (LLS) Detailed", "lightinf.txt", "gisp2/dust/", 2, "X000X075X084X087X135X183", "X000X034X041X053", 1700.002, 2200.002, -999, -999);
+  meta[28] = new MetaData("GISP2 Layer Counted Timescale", "countage.dat", "gisp2/depthage/", 2, "X000X002X016X051X057X058X061X075X114X117X122X135X153X167X171X181X187X193X195", "X000X025", 1.51, 3037, -39, 163164);
+  meta[29] = new MetaData("GISP2 Meese/Sowers Timescale", "gisp2age.dat", "gisp2/depthage/", 2, "X000X002X012X051X057X058X061X064X075X081X088X091X111X114X117X122X131X135X137X138X149X153X158X167X171X181X187X193X195", "X000X025X030X031X034", 1.51, 2808, -38, 110977);
+  meta[30] = new MetaData("GISP2 Methane Concentrations", "gispch4.dat", "gisp2/gases/", 2, "X000X019X127X158", "X000X014X030X031X034", 116.3, 2808, 337, 112545);
+  meta[31] = new MetaData("GISP2 Mineralogy and Isotope Chemistry of Potential Source Area Samples", "srcmin.dat", "gisp2/chem/", 2, "X000X014X062X090X140X178X179X195", "X000X015X034X043X047X052X056", -999, -999, -999, -999);
+  meta[32] = new MetaData("GISP2 Mineralogy and Isotope Chemistry Samples", "gisp2min.dat", "gisp2/chem/", 2, "X000X014X062X090X140X178X179X195", "X000X009X013X015X026X034X043X047X052X053X056", 1984.25, 2030.3, 23340, 26180);
+  meta[33] = new MetaData("GISP2 Oxygen Isotope Data (1 Year Averages)", "d18o1yr.dat", "gisp2/isotopes/", 2, "X000X002X018X051X057X058X061X075X079X081X114X117X122X135X165X167X171X187X193X195", "X000X022X034X037", 2.04, 299.9, -37, 1132);
+  meta[34] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 13", "del13.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 16.22, -37.69, 0.32);
+  meta[35] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 15", "del15.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 16.64, -37.64, 10.44);
+  meta[36] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 31", "del31.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 16.45, -37.64, -7.79);
+  meta[37] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 37", "del37.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 14.2, -37.46, -2.1);
+  meta[38] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 44", "del44.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 8.546, -37.44, -3.22);
+  meta[39] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 51", "del51.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 16.505, -37.42, -9.04);
+  meta[40] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 57", "del57.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 11.01, -37.85, -13.58);
+  meta[41] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 571", "del571.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 14.825, -37.68, -1.5);
+  meta[42] = new MetaData("GISP2 Oxygen Isotopes - Snowpit Site 73", "del73.dat", "gisp2/isotopes/", 2, "X000X016X166", "X000X022X024X034X036X037X053", 0, 16.935, -37.67, -5.66);
+  meta[43] = new MetaData("GISP2 Radiocarbon Measurements (Table 1)", "c14a.dat", "gisp2/cosmoiso/", 2, "X000X021X044X082X092", "X000X002X019X031X034X058", 16.5, 1837.4, 50, 16200);
+  meta[44] = new MetaData("GISP2 Radiocarbon Measurements (Table 2)", "c14b.dat", "gisp2/cosmoiso/", 2, "X000X021X044X082X092", "X000X002X019X031X034", 88, 1837.4, 225, 16200);
+  meta[45] = new MetaData("GISP2 Radiocarbon Measurements (Table 3)", "c14c.dat", "gisp2/cosmoiso/", 2, "X000X021X044X082X092", "X000X002X019X004X031X034X053", 125.8, 1837.4, 375, 16200);
+  meta[46] = new MetaData("GISP2 Stable Isotopes (Deuterium)", "deltad.dat", "gisp2/isotopes/", 2, "X000X009X011X061X143X151X165X186X187", "X000X023X034X037", 1.1105, 199, -36.79, 679.94);
+  meta[47] = new MetaData("GISP2 Stable Isotopes (Deuterium, Annual Averages)", "deld1yr.dat", "gisp2/isotopes/", 2, "X000X009X011X027X053X061X079X081X143X151X165X167X186X187", "X000X023X034X037", 2.55, 187.97, -34.52, 650.35);
+  meta[48] = new MetaData("GISP2 Stable Isotopes (Oxygen)", "gispd18o.dat", "gisp2/isotopes/", 2, "X000X002X018X051X057X058X061X075X079X081X114X117X122X135X165X167X171X187X193X195", "X000X022X034X037", 2.13, 3038, -37, 110977);
+  meta[49] = new MetaData("GISP2 Stratigraphy", "strat.dat", "gisp2/physical/", 2, "X000X002X003X016X032X048X054X058X061X085X114X117X135X147X153X160X171X181X187X195", "X000X024X034X040X053", -999, -999, 247, 1266);
+  meta[50] = new MetaData("GISP2 Thin Sections", "thinsec.dat", "gisp2/physical/", 2, "X000X002X003X016X054X058X117X181X192", "X000X034X035X053", -999, -999, -999, -999);
+  meta[51] = new MetaData("GISP2 Visual Stratigraphy", "visual.dat", "gisp2/physical/", 2, "X000X002X003X032X048X054X058X061X117X135X153X160X171X195", "X000X004X034X053", 0.99, 1867, -38, 17441);
+  meta[52] = new MetaData("GISP2 Volcanic Markers", "volcano.dat", "gisp2/chem/", 2, "X000X049X051X057X061X068X114X116X118X128X171X173X177X188X194X195", "X000X006X015X034X055", -999, -999, -35.26, 110345);
+  meta[53] = new MetaData("GISP2/GRIP Climate Data - 71.68N 38.20W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[54] = new MetaData("GISP2/GRIP Climate Data - 71.68N 38.20W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[55] = new MetaData("GISP2/GRIP Climate Data - 72.28N 38.80W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[56] = new MetaData("GISP2/GRIP Climate Data - 72.28N 38.80W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[57] = new MetaData("GISP2/GRIP Climate Data - 72.30N 38.00W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[58] = new MetaData("GISP2/GRIP Climate Data - 72.30N 38.00W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[59] = new MetaData("GISP2/GRIP Climate Data - 72.35N 40.50W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[60] = new MetaData("GISP2/GRIP Climate Data - 72.35N 40.50W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[61] = new MetaData("GISP2/GRIP Climate Data - 72.57N 34.63W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X054X057X059X060", -999, -999, -999, -999);
+  meta[62] = new MetaData("GISP2/GRIP Climate Data - 72.57N 34.63W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X054X057X059X060", -999, -999, -999, -999);
+  meta[63] = new MetaData("GISP2/GRIP Climate Data - 72.58N 38.46W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[64] = new MetaData("GISP2/GRIP Climate Data - 72.58N 38.46W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[65] = new MetaData("GISP2/GRIP Climate Data - 73.48N 37.62W (24h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[66] = new MetaData("GISP2/GRIP Climate Data - 73.48N 37.62W (3h)", "climate.txt", "gisp2/climate/", 2, "X000X163X184", "X000X007X017X033X054X057X059X060", -999, -999, -999, -999);
+  meta[67] = new MetaData("GRIP Accumulation Rates", "gripacum.dat", "grip/physical/", 1, "X000X004X027X033X035X063X064X074X076X079X081", "X000X004X034X040X053", 0, 2983.2, -39, 248763);
+  meta[68] = new MetaData("GRIP Acidity", "gripacid.dat", "grip/chem/", 1, "X000X025X027X033X056X064X074X086X094X120X123X130X164X191", "X000X015X034X055", 2.66, 802.73, -34, 3995);
+  meta[69] = new MetaData("GRIP Ammonium Concentrations", "nh4.dat", "grip/chem/", 1, "X000X027X038X040X056X064X079X094X113X124X148X161X162X164", "X000X015X034X048", 102.025, 3021.425, 307.9, 248190.5);
+  meta[70] = new MetaData("GRIP Basal Ice Gas Concentrations", "gasbas.dat", "grip/gases/", 1, "X000X078X095X156X162", "X000X014X018X031X034X045X050X058", 3022.285, 3028.525, -999, -999);
+  meta[71] = new MetaData("GRIP Basal Ice Oxygen-18 of Atmospheric Oxygen", "oxygas.dat", "grip/gases/", 1, "X000X010X015X019X024X039X050X055X096X108X158X182X185", "X000X022X034X037", 2781.35, 2910.05, -999, -999);
+  meta[72] = new MetaData("GRIP Basal Ice: Crystal Sizes", "xlsize.dat", "grip/physical/", 1, "X000X047X056X079X086X139X172X191", "X000X020X034X053", 3022.26, 3028.28, -999, -999);
+  meta[73] = new MetaData("GRIP Basal Ice: Debris Content", "debris.dat", "grip/physical/", 1, "X000X086X100X156X172X174", "X000X008X021X034X053", 3022.28, 3028.53, -999, -999);
+  meta[74] = new MetaData("GRIP C-Axis Orientations", "caxis.dat", "grip/physical/", 1, "X000X086X100X119X172X174", "X000X020X034X053", 109.08, 3022.25, 375, 111000);
+  meta[75] = new MetaData("GRIP Calcium Concentrations", "ca.dat", "grip/chem/", 1, "X000X027X038X040X056X064X079X094X113X124X148X161X162X164", "X000X013X015X034", 1300.475, 2999.975, 7800.6, 248190.5);
+  meta[76] = new MetaData("GRIP Carbon Dioxide", "gcco2.dat", "grip/gases/", 1, "X000X007X010X055X132X138X150X162X175", "X000X018X031X034", 1332.1, 2151.6, -999, -999);
+  meta[77] = new MetaData("GRIP Carbon Dioxide - IRLS", "irlsco2.dat", "grip/gases/", 1, "X000X007X010X055X132X138X150X162X175", "X000X018X031X034", 1320.903, 2277.613, -999, -999);
+  meta[78] = new MetaData("GRIP Depth Age by Stratigraphy", "gripstrt.dat", "grip/depthage/", 1, "X000X004X005X027X033X035X053X063X064X074X076X079X081X152X164X168X170X187", "X000X025X004X034X053", 1620.025, 2438.7, -999, -999);
+  meta[79] = new MetaData("GRIP Depth Age Scale from Flow Modeling", "gripage.dat", "grip/depthage/", 1, "X000X004X005X027X033X035X053X063X064X074X079X081X117X152X164X168X187", "X000X025", 0, 2983.2, -39, 248763);
+  meta[80] = new MetaData("GRIP Dielectric Profiling (DEP) Data", "depinfo.txt", "grip/ecm/", 1, "X000X002X025X027X033X056X058X060X063X064X074X086X094X120X123X130X164X171X181X191", "X000X027X028X034", 137.98, 137.98, -999, -999);
+  meta[81] = new MetaData("GRIP Dielectric Profiling and ECM Data (Averaged)", "gripdep.dat", "grip/ecm/", 1, "X000X002X025X027X033X056X058X060X063X064X074X086X094X120X123X130X164X171X181X191", "X000X027X028X034", 138.05, 3021.7, 466, 247618);
+  meta[82] = new MetaData("GRIP Electrical Conductivity", "gripecm.dat", "grip/ecm/", 1, "X000X002X025X027X033X056X058X060X063X064X074X086X094X120X123X130X164X171X181X191", "X000X027X028X034", 0, 999.35, -39, 5348);
+  meta[83] = new MetaData("GRIP Formaldehyde Concentrations", "hcho.dat", "grip/chem/", 1, "X000X027X038X064X094X124X154X161X164", "X000X015X034X051", 1302.675, 2817.925, 7821.5, 120658);
+  meta[84] = new MetaData("GRIP Hydrogen Peroxide Concentrations", "h2o2.dat", "grip/chem/", 1, "X000X027X038X064X094X124X154X161X164", "X000X015X032X034", 1300.475, 1753.125, 7800.6, 14487);
+  meta[85] = new MetaData("GRIP Ice Fabric", "fabric.dat", "grip/physical/", 1, "X000X086X100X119X172X174", "X000X034X035X053", -999, -999, -999, -999);
+  meta[86] = new MetaData("GRIP Ion Concentrations", "gripion.dat", "grip/chem/", 1, "X000X027X038X040X056X064X079X094X113X124X148X161X162X164", "X000X004X013X015X016X022X029X034X037X038X040X042X044X046X048X049X051X053X055", 25, 3016, 329, 386373);
+  meta[87] = new MetaData("GRIP Methane Data", "gripch4.dat", "grip/gases/", 1, "X000X010X015X024X041X088X099X138X150X162", "X000X014X031X034", 111.11, 1219.34, 129, 6910);
+  meta[88] = new MetaData("GRIP Mineralogy of Atmospheric Micro-particles (Detailed)", "mineral1.dat", "grip/chem/", 1, "X000X106", "X000X015X034X043", 1766.5, 2860.55, -999, -999);
+  meta[89] = new MetaData("GRIP Mineralogy of Atmospheric Micro-particles (Specific Ages)", "mineral2.dat", "grip/chem/", 1, "X000X106", "X000X015X034X043", -999, -999, 20000, 130500);
+  meta[90] = new MetaData("GRIP Oxygen Isotopes", "gripd18o.dat", "grip/isotopes/", 1, "X000X004X005X017X027X033X035X053X060X061X063X064X074X079X081X152X164X167X168X187", "X000X022X034X037", 0, 2983.2, -39, 248763);
+  meta[91] = new MetaData("GRIP Oxygen-18 of Atmospheric Oxygen", "d18ogas.dat", "grip/gases/", 1, "X000X010X015X019X024X039X050X055X096X158X182X185", "X000X022X034X037", 987.25, 2949.1, -999, -999);
+  meta[92] = new MetaData("GRIP Stable Isotope Data from Basal Ice", "isobas.dat", "grip/isotopes/", 1, "X000X055X078X095X096X100X156X174", "X000X008X022X023X034X037", 3022.267, 3028.633, -999, -999);
+  meta[93] = new MetaData("GRIP Temperature Profile", "griptemp.dat", "grip/physical/", 1, "X000X027X033X035X063X065X079X144", "X000X010X012X053", 1.1, 3027.6, -999, -999);
+  meta[94] = new MetaData("GRIP Total Air Content", "gripair.dat", "grip/gases/", 1, "X000X006X010X023X024X046X096X098X103X109X136X138X141X150X162", "X000X031X034X058", 122.07, 2909.6, 167, 40851);
+  meta[95] = new MetaData("GRIP/GISP2 Stable Isotopes Stacked Record", "stacked.dat", "gisp2/isotopes/", 3, "X000X009X018X027X053X061X079X081X165X167X187", "X000X022X034X037", -999, -999, -36, 178);
+}  // end InitializeMetaData
+
+//=================================================
+function LoadInstructions() {
+  self.parent.DisplayPane.location = "srchinst.htm";
+}  // end LoadInstructions
+
+//==================================================
+function MatchingFiles() {
+  var f = document.ControlForm;
+  var n = 0;
+  var sbits, s;
+
+  // search each file for matching criteria
+  for (var i = 0; i < TOTAL_FILES; i++) {
+    // check source
+    sbits = 0;
+    if (f.grip_data.checked) {
+      sbits += 1;
+    }
+    if (f.gisp2_data.checked) {
+      sbits += 2;
+    }
+    if ((meta[i].sbits & sbits) == 0) {
+      continue;
+    }
+
+    // check pi
+    s = "000" + f.pi_list.selectedIndex;
+    s = "X" + s.substring(s.length - 3, s.length);
+    if ((meta[i].pi.indexOf(s) % 4) != 0) {
+      continue;
+    }
+
+    // check variables
+    s = "000" + f.var_list.selectedIndex;
+    s = "X" + s.substring(s.length - 3, s.length);
+    if ((meta[i].vars.indexOf(s) % 4) != 0) {
+      continue;
+    }
+
+    // check depth/age
+    if (f.rad_depthage[0].checked) {
+      // depth
+      if (f.txt_gt.value != "") {
+        if (meta[i].dbot == -999) { continue; }
+        if (meta[i].dbot <= parseFloat(f.txt_gt.value)) { continue; }
+      }
+      if (f.txt_lt.value != "") {
+        if (meta[i].dtop == -999) { continue; }
+        if (meta[i].dtop >= parseFloat(f.txt_lt.value)) { continue; }
+      }
+    } else {
+      // age
+      if (f.txt_gt.value != "") {
+        if (meta[i].abot == -999) { continue; }
+        if (meta[i].abot <= parseFloat(f.txt_gt.value)) { continue; }
+      }
+      if (f.txt_lt.value != "") {
+        if (meta[i].atop == -999) { continue; }
+        if (meta[i].atop >= parseFloat(f.txt_lt.value)) { continue; }
+      }
+    }
+
+    //got a hit!
+    hits[n].href = meta[i].path + meta[i].fname;
+    hits[n].descript = meta[i].descript;
+    n = n + 1
+  }
+
+  return n;
+}  // end MatchingFiles
+
+//==================================================
+function RunQuery() {
+  var nHits = 0;
+  var doc = self.parent.DisplayPane.document;
+
+  // get list of hits
+  nHits = MatchingFiles();
+
+  // write results html
+  doc.clear();
+  doc.open("text/html");
+  doc.writeln(HEAD_TAG);
+  doc.writeln(BODY_TAG);
+  doc.writeln("<H1>Search Results</H1>");
+  doc.writeln("<HR COLOR=#FF0000 SIZE=2>");
+  if (nHits > 0) {
+    // display the hits
+    doc.writeln("<UL>");
+    for (var i = 0; i < nHits; i++) {
+      doc.writeln("<LI><A HREF='" + hits[i].href + "'>" + hits[i].descript + "</A>");
+    }
+    doc.writeln("</UL>");
+  } else {
+    // display no hits message
+    doc.writeln("There were no files matching your search criteria...");
+  }
+  doc.writeln("<P>");
+
+  doc.writeln(TAIL_TAG);
+  doc.close();
+}  // end RunQuery
+
+//=================================================================
+
+<!-- done hiding from old browsers ---------------- -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BACKGROUND="../image/bg2.jpg" TEXT="#000000" LINK="#0000FF"
+ VLINK="#808080" ALINK="#FF0000" TOPMARGIN=0>
+
+<TABLE NOBORDER>
+ <TR>
+  <TD COLSPAN=2>
+    <H1>GISP2/GRIP</H1>
+  </TD>
+ </TR>
+ <TR>
+  <TD WIDTH=30>
+    <BR>
+  </TD>
+  <TD>
+    <H2>...Data Search</H2>
+  </TD>
+ </TR>
+</TABLE>
+<HR COLOR=#FF0000 SIZE=2>
+<FORM NAME="ControlForm" Method=GET>
+    <table noborder cellspacing=10>
+    <tr>
+    <td>
+      <input  type=checkbox
+        Name = gisp2_data
+        checked>
+      </input>
+      <b>GISP2</b>
+    </td>
+    <td>
+      <input  type=checkbox
+        Name = grip_data
+        checked>
+      </input>
+      <b>GRIP</b>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan=2>
+      <b>Author/Authors</b>
+    </td>
+    </tr>
+    <tr>
+    <td colspan=2>
+      <select  name=pi_list>
+      <option selected>All
+      <option>Allen, D.
+      <option>Alley, R.B.
+      <option>Anandakrishnan, S.
+      <option>Andersen, K.K.
+      <option>Andersen, U.
+      <option>Andrie, C.
+      <option>Anklin, M.
+      <option>Bales, R.C.
+      <option>Barlow, L.K.
+      <option>Barnola, J.M.
+      <option>Barry, R.G.
+      <option>Bender, M.
+      <option>Bergin, M.H.
+      <option>Biscaye, P.E.
+      <option>Blunier, T.
+      <option>Bolzan, J.F.
+      <option>Bond, G.C.
+      <option>Braziunas, T.F.
+      <option>Brook, E.J.
+      <option>Buck, C.F.
+      <option>Burr, G.S.
+      <option>Caffee, M.W.
+      <option>Candaudap, F.
+      <option>Chappellaz, J.A.
+      <option>Christensen, J.
+      <option>Chylek, P.
+      <option>Clausen, H.B.
+      <option>Clement, P.
+      <option>Clow, G.D.
+      <option>Conklin, M.H.
+      <option>Craig, H.C.
+      <option>Cuffey, K.M.
+      <option>Dahl-Jensen, D.
+      <option>Damiano, P.A.
+      <option>Dansgaard, W.
+      <option>Davidson, C.I.
+      <option>Davis, J.C.
+      <option>De Angelis, M.
+      <option>Deck, B.
+      <option>Delmas, R.
+      <option>Desperts, T.
+      <option>Dibb, J.E.
+      <option>Dickson, M.L.
+      <option>Donahue, D.J.
+      <option>Doyle, G.A.
+      <option>Dulac, E.
+      <option>Eicken, H.
+      <option>Elder, B.C.
+      <option>Endo, K.
+      <option>Etheridge, D.
+      <option>Fiacco, R.J.
+      <option>Finkel, R.C.
+      <option>Fisher, D.
+      <option>Fitzpatrick, J.J.
+      <option>Fuchs, A.
+      <option>Fuhrer, K.
+      <option>Germani, M.S.
+      <option>Gow, A.J.
+      <option>Graf, T.
+      <option>GRIP Members
+      <option>Grootes, P.M.
+      <option>Grousset, F.E.
+      <option>Gundestrup, N.S.
+      <option>Hammer, C.U.
+      <option>Hansen, B.L.
+      <option>Harris, J.M.
+      <option>Heikkinen, D.W.
+      <option>Hempel, L.
+      <option>Herchenroder, A.
+      <option>Higuchi, K.
+      <option>Hillamo, R.
+      <option>Holdsworth, G.
+      <option>Huhns, H.D.
+      <option>Hvidberg, C.S.
+      <option>Illing, M.
+      <option>Iversen, P.
+      <option>Jaffrezo, J.L.
+      <option>Janssens, L.
+      <option>Johnsen, S.J.
+      <option>Johnson, B.
+      <option>Jouzel, J.
+      <option>Jull, A.J.T.
+      <option>Kahl, J.D.W.
+      <option>Kaplan, M.
+      <option>Kapsner, W.R.
+      <option>Kipfstuhl, J.
+      <option>Koenig, G.
+      <option>Korotkevich, Y.S.
+      <option>Kuhns, H.D.
+      <option>Kukla, G.
+      <option>Labeyrie, L.
+      <option>Lal, D.
+      <option>Lamorey, G.W.
+      <option>Legrand, M.R.
+      <option>Lemmens, M.
+      <option>Leuenberger, M.C.
+      <option>Linder, E.
+      <option>Lipenkov, B.
+      <option>Lorius, C.
+      <option>Lorrain, R.D.
+      <option>Losleben, M.V.
+      <option>Loyd, D.H.
+      <option>Ludin, A.
+      <option>Lyons, W.B.
+      <option>Maenhaut, W.
+      <option>Maggi, V.
+      <option>Makela, T.
+      <option>Malaiz&eacute;, B.
+      <option>Martinerie, P.
+      <option>Martinez, D.A.
+      <option>Martinson, D.
+      <option>Mastroianni, D.
+      <option>Maupetit, F.
+      <option>Mayewski, P.A.
+      <option>McConnell, J.R.
+      <option>Meeker, L.D.
+      <option>Meese, D.A.
+      <option>Mershon, G.R.
+      <option>Miller, H.
+      <option>Moore, J.C.
+      <option>Moore, T.L.
+      <option>Morrison, M.C.
+      <option>Mulvaney, R.
+      <option>Neftel, A.
+      <option>Nelson, D.E.
+      <option>Nishiizumi, K.
+      <option>Orchardo, J.
+      <option>Palais, J.M.
+      <option>Pandis, S.N.
+      <option>Paren, J.G.
+      <option>Pichon, J.J.
+      <option>Porcheron, J.
+      <option>Prentice, M.
+      <option>Proctor, I.D.
+      <option>Ram, M.
+      <option>Ravoire, J.
+      <option>Raymond, C.F.
+      <option>Raynaud, D.
+      <option>Reid, A.P.
+      <option>Revel, M.
+      <option>Ritz, C.
+      <option>Roberts, M.L.
+      <option>Rogers, J.C.
+      <option>Rossi, A.
+      <option>Russell, A.G.
+      <option>Saltus, R.W.
+      <option>Saltzman, E.S.
+      <option>Savarino, J.
+      <option>Schott, C.
+      <option>Schwander, J.
+      <option>Serreze, M.C.
+      <option>Shoji, H.
+      <option>Shuman, C.A.
+      <option>Sigg, A.
+      <option>Smith, H.J.
+      <option>Souchez, R.
+      <option>Southon, J.R.
+      <option>Sowers, T.
+      <option>Spencer, M.J.
+      <option>Spinelli, G.
+      <option>Staffelbach, T.
+      <option>Stauffer, B.
+      <option>Stearns, C.R.
+      <option>Steffensen, J.P.
+      <option>Steig, E.J.
+      <option>Strobel, M.
+      <option>Stuiver, M.
+      <option>Sveinbj&ouml;rnsd&oacute;ttir, A.E.
+      <option>Talbot, R.W.
+      <option>Tauber, H.
+      <option>Taylor, K.C.
+      <option>Thorsteinsson, T.
+      <option>Thyssen, F.
+      <option>Tison, J.L.
+      <option>Tschumi, J.
+      <option>Turteltaub, K.W.
+      <option>Twickler, M.S.
+      <option>Vaars, A.
+      <option>Van der Gaast, S.
+      <option>Vogel, J.S.
+      <option>Waddington, E.D.
+      <option>Wahlen, M.
+      <option>Weber, P.
+      <option>Weidner, G.A.
+      <option>Weyhenmeyer, C.
+      <option>White, D.E.
+      <option>White, J.W.C.
+      <option>Whitlow, S.I.
+      <option>Whung, P.-Y.
+      <option>Winterle, J.R.
+      <option>Wolff, E.W.
+      <option>Woods, G.A.
+      <option>Yang, Q.
+      <option>Yasui, M.
+      <option>Zielinski, G.A.
+      </select>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan=2>
+      <b>Variables</b>
+    </td>
+    </tr>
+    <tr>
+    <td colspan=2>
+      <select  name=var_list>
+      <option selected>All
+      <option>10-Be
+      <option>14-C
+      <option>15-N
+      <option>Accumulation Rate
+      <option>Ar
+      <option>Atmosphere
+      <option>AWS
+      <option>Basal Ice
+      <option>beta
+      <option>Borehole
+      <option>Borehole Geometry
+      <option>Borehole Temperature
+      <option>Ca
+      <option>CH4
+      <option>Chemistry
+      <option>Cl
+      <option>Climate
+      <option>CO2
+      <option>Cosmogenic Isotopes
+      <option>Crystal Size
+      <option>Debris Content
+      <option>delta 18-O
+      <option>delta D
+      <option>Density
+      <option>Depth/Age Scale
+      <option>Dust
+      <option>ECM
+      <option>Electrical Properties
+      <option>F
+      <option>Gas Age
+      <option>Gases
+      <option>H2O2
+      <option>Humidity
+      <option>Ice Core
+      <option>Ice Fabric
+      <option>Ice-Equivalent Depth
+      <option>Isotopes
+      <option>K
+      <option>Kr
+      <option>Layer Thickness
+      <option>LLS
+      <option>Mg
+      <option>Mineralogy
+      <option>MSA
+      <option>N
+      <option>Na
+      <option>Nd
+      <option>NH4
+      <option>NO3
+      <option>O2
+      <option>Organic Compounds
+      <option>Pb
+      <option>Physical Properties
+      <option>Pressure
+      <option>SO4
+      <option>Sr
+      <option>Temperature
+      <option>Total Gas Content
+      <option>Wind direction
+      <option>Wind speed
+      <option>Xe
+      </select>
+    </td>
+    </tr>
+    </table>
+   
+    <table noborder cellspacing=6>
+    <tr>
+    <td colspan=2>
+      <input  type="radio"
+        Name = "rad_depthage"
+        Value = "depth"
+        checked
+        onClick ="">
+        <b>Depth (m)</b>
+      </input>
+    </td>
+
+    <td colspan=2>
+      <input  type="radio"
+        Name = "rad_depthage"
+        Value = "age"
+        onClick ="">
+        <b>Age (yBP)</b>
+      </input>
+    </td>
+    </tr>
+
+    <tr>
+    <td ALIGN=CENTER>
+      <b>&gt;</b>
+    </td>
+
+    <td VALIGN=TOP>
+      <input  type=text
+        Name = txt_gt
+        Value = ""
+        maxlength = 6
+        Size = 6
+        onBlur = "">
+      </input>
+    </td>
+
+    <td ALIGN=CENTER>
+      <b>&lt;</b>
+    </td>
+
+    <td VALIGN=TOP>
+      <input  type=text
+        Name = txt_lt
+        Value = ""
+        maxlength = 6
+        Size = 6
+        onBlur = "">
+      </input>
+    </td>
+    </tr>
+    </table>
+    <p>
+
+    <input  type="button"
+      Name = "submit_button"
+      Value = "Search"
+      onClick ="RunQuery()">
+    </input>
+
+    <input  type="reset"
+      Value = "Reset">
+    </input>
+
+    <input  type="button"
+      Name = "InstructionButton"
+      Value = "Instructions"
+      onClick ="LoadInstructions()">
+    </input>
+
+    <br>
+</form>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide this script from old browsers ---------------
+    InitializeHitsArray()
+    InitializeMetaData()
+<!-- done hiding from old browsers ---------------- -->
+</SCRIPT>
+
+<HR COLOR=#FF0000 SIZE=2>
+<A TARGET="_top" HREF="pubsmain.htm">Publications Search</A>
+<BR>
+<A TARGET="_top" HREF="../tablecon.htm">Back to the Table of Contents</A>
+<P>
+</BODY></HTML>

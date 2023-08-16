@@ -1,0 +1,71 @@
+Data Formats for the Greenland Summit Ice Cores CD-ROM
+
+All data files related to the ice cores on this CD-ROM are in a consistent 
+format. The name of the data file and it's directory name can help you 
+decipher what the data file is.  For example, the data file detiond.dat is in 
+the directory "data/gisp2/chem".. This file refers to the GISP2 ions from 
+the deep "D" ice core.  The exception to this format are the files related to 
+atmospheric variables (directories "climate" and "traject") which have their 
+own format. Please refer to the data file description associated with each 
+of these data sets.
+
+When reading the data file one will first see the title (eg. "GISP2 
+Ions: Deep ("D") Core (Detailed)").  Next there will be a reference 
+list, a detailed data description, and finally data values.  All data 
+values will have an associated depth and age and are consistent across 
+the entire data collection.  An example is given below.
+
+NOTE: The data record has been truncated for use in the example only.  
+Please refer to the data file on this CD-ROM to acquire the entire data 
+record.
+
+
+                             FORMAT EXAMPLE 
+
+Data file uw2md18o.dat in the directory "data/gisp/isotopes"
+
+***********
+GISP2 Oxygen Isotope Data
+
+REFERENCES:
+
+Grootes, P.M., Stuiver, M., White, J.W.C., Johnsen, S., and Jouzel,
+J.  1993.  Comparison of oxygen isotope records from the GISP2 and GRIP
+Greenland ice cores. Nature.  366:552-554.
+
+Stuiver, M., Grootes, P.M., and Braziunas, T.F.  1995.  The GISP2 delta 18O
+climate record of the past 16,500 years and the role of the sun, ocean,
+and volcanoes. Quaternary Research.  44:341-354.
+
+DATA DESCRIPTION:
+
+This file contains the GISP2 delta 18O vs. depth as well as age (2m
+intervals).  The ages are interpolated from annual layer counts to 2431 m
+(50 ka), from a correlated age model based on the delta 18O atm records
+from GISPII and Vostok for 2482-2808 m (55.6 ka-111 ka), and from a
+weighted average of the two age estimate methods for 2431-2482 m 
+(50-55.6 ka) with a 100% weighting on the Meese estimate at 50 ka and 
+100% on the Sowers estimate at 55.6 ka (references above).  Depth refers 
+to the TOP depth of each delta 18O sample.  Unless there is a missing sample
+specified below, these are continuous samples (e.g. sample #1 is a 2 m
+delta 18O average covering 4 m to 6 m).  Standard deviation of the delta
+18O measurements (sample equilibration plus mass spec determination) is
+0.14 o/oo and the file delta 18O values have been corrected for minor
+enrichment during storage (Stuiver et al. reference).
+
+All ages are in kyr B.P. (A.D. 1950 = 0 yr B.P.).
+
+DATA:
+
+DEPTH   d18O    AGE
+TOP     per mil kyr BP
+4.0     -35.24  -0.034
+6.0     -36.10  -0.030
+8.0     -34.44  -0.026
+10.0    -35.03  -0.022
+12.0    -34.37  -0.017
+14.0    -33.76  -0.012
+16.0    -35.08  -0.008
+18.0    -34.76  -0.003
+20.0    -34.72  0.002
+*********************

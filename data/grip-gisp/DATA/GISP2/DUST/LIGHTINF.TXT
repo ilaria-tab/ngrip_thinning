@@ -1,0 +1,68 @@
+GISP2 Laser Light Scattering Data Files. 
+
+REFERENCES: 
+
+Ram, M., and G. Koenig. 1997. Continuous dust concentration profile of pre
+Holocene ice from the Greenland Ice Sheet Project 2 ice core: Dust
+stadials, interstadials, and the Eemian. Journal of Geophysical Research
+102:26641-26648.
+
+Ram, M., M. Illing, P. Weber, G. Koenig, and M. Kaplan. 1995. Polar ice
+stratigraphy from laser-light scattering: Scattering from ice. Geophysical
+Research Letters 22:3525-3527.
+
+Ram, M., and M. Illing. 1994. Polar ice stratigraphy from laser-light
+scattering: scattering from meltwater. Journal of Glaciology 40:504-508.
+
+DATA DESCRIPTION: 
+
+Laser light scattering (LLS) provides a fast, non-destructive, high-
+resolution method for obtaining particle concentrations in bubble-free ice
+cores.  LLS from meltwater was used to obtain dust concentrations along
+the shallow portions of the core (<1650 m) before it was replaced by LLS
+from the solid core. Some meltwater measurements were still made between
+1650m and 2150 m.  Meltwater LLS data are given in the files m****.dat. 
+Solid LLS data are given in the files s****.dat.  Each file contains 50
+meters (not continuous) of relative intensity data. A compilation of all
+of the solid LLS data, in approximately 1/2 meter averages, is given in
+the file lightall.dat. 
+
+DATA: 
+
+All files have the following two columns: Column 1 = Depth (m) Column 2 =
+Laser Light Scattering relative intensity. 
+
+The parameters for the LLS from solid ice were as follows: 
+
+		Beam diameter
+Depth Range(m)	at center of ice (mm)	Step Size (mm)
+1658 - 1987	8			2
+1987 - 1988	1			1
+1988 - 2251	1			1.5
+2251 - 2551	8			1
+2551 - 2817	1			1
+2817 - 2820	8			1
+2820 - 2832	3			1
+2832 - 3040.35	1			1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

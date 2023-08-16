@@ -1,0 +1,65 @@
+GISP2 14-C (radiocarbon) measurements (Table 1).
+
+REFERENCES:
+
+Lal, D., A.J.T. Jull, G.S. Burr, and D.J. Donahue. 1997. Measurements of in
+situ 14C concentrations in Greenland Ice Sheet Project 2 ice covering a 17
+kyr time span: Implications to ice flow dynamics. Journal of Geophysical
+Research 102:26505-26510.
+
+DATA DESCRIPTION:
+
+This file contains the radiocarbon (14C) data from Table 1 of Lal and Jull
+(1997) (14C concentrations in CO and CO2 for selected depths in the GISP2
+ice core). 
+
+Approximate age of ice is based on layer counting and delta 18O data for
+trapped air (Grootes et al., 1993; Sowers et al., 1993; Meese et al.,
+1994a; Stuiver et al., 1995).  Tube #'s 16-34 are in the firn. Tube # 89
+was not measured (see below).  Trapped air concentration was not measured
+for tube #'s 16, 18, and 34. 
+
+Typical errors in determination of 14C concentration in recent samples are
+~ 50-60 atoms/g, which includes statistical errors and uncertainties in
+line blanks.  The larger errors in the case of samples from tubes 18 and
+34 arise from multiple extractions, and in samples from depths 100.4 to
+1518 from 14C-decay corrections. 
+
+For Tube # 89:  Result of Wilson and Donahue (1992). In this experiment,
+CO2 was recovered by sublimation of ice from 90.6 m and 91.4 m depth in
+the GISP2 ice core. 
+
+Note:  Value for trapped air in sample for tube #127 is questionable.
+
+999999 = no data.
+
+Columns are as follows:
+
+Tube: ice core tube #
+depth top: depth top in meters
+depth bottom: depth bottom in meters
+age: approximate age in years
+mass: mass of sample in kg
+Air: volume of trapped air in sample (cm^3 air/liter sample)
+14C(CO): decay-corrected 14C concentration (atoms/g) in CO
+14C(CO2): decay-corrected 14C concentration (atoms/g) in CO2
+
+DATA:
+
+Tube	depth top (m)	depth bottom (m)	age (yr)	mass (kg)	Air	14C(CO)	+/-	14C(CO2)	+/-		
+
+16	16	17	50	3.1	999999	1280	90	0	30
+18	18	19	50	2.9	999999	510	100	1910	150
+31	31	32	50	3.4	4.3	460	100	100	100
+34	34	35	50	1.7	999999	995	60	1965	200	
+88	87.0	87.8	225	3.1	67.6	180	70	1260	60
+89	90.6	91.4	225	999999	999999	999999	999999	900	999999	
+101	100.4	100.99	275	2.3	66.7	80	70	1113	60
+102	100.99	101.2	275	0.58	104.1	655	60	1533	60
+126	125.50	126	375	1.5	77.9	120	70	1950	50
+127	126.00	126.30	275	0.98	136.5	100	70	1860	60
+1519	1518.00	1518.8	9470	2.6	75.1	3860	180	1860	180
+1624	1623.00	1623.8	10770	2.5	76.7	940	190	2540	190
+1699	1698.13	1698.89	12390	2.8	77.9	50	250	3530	250
+1750	1749.00	1749.8	13750	2.7	86.1	915	325	3270	320
+1838	1837.00	1837.8	16200	2.8	80.9	2235	470	4060	470

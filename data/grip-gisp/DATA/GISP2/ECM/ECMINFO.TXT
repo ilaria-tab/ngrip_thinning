@@ -1,0 +1,93 @@
+GISP2 Electrical Conductivity Measurements
+
+REFERENCES: 
+
+Taylor, K.C., R.B. Alley, G.W. Lamorey, and P.A. Mayewski. 1997. Electrical
+measurements on the Greenland Ice Sheet Project 2 core. Journal of
+Geophysical Research 102:26511-26517.
+
+Taylor, K.C., P.A. Mayewski, M.S. Twickler, and S.I. Whitlow. 1996. Biomass
+burning recorded in the GISP2 ice core: A record from eastern Canada? The
+Holocene 6(1):1-6.
+
+Chylek, P., B. Johnson, P.A. Damiano, K.C. Taylor, and P. Clement. 1995.
+Biomass burning record and black carbon in the GISP2 ice core. Geophysical
+Research Letters 22:89-92.
+
+Taylor, K.C., G.W. Lamorey, G.A. Doyle, R.B. Alley, P.M. Grootes, P.A.
+Mayewski, J.W.C. White, and L.K. Barlow. 1993. The 'flickering switch' of
+late Pleistocene climate change. Nature 361:432-436.
+
+Taylor, K.C., R.B. Alley, R.J. Fiacco, P.M. Grootes, G.W. Lamorey, P.A.
+Mayewski, and M.J. Spencer. 1992. Ice core dating and chemistry by direct
+current electrical conductivity. Journal of Glaciology 38:325-332.
+
+DATA DESCRIPTION: 
+
+The electrical conductivity measurement (ECM) measures the direct current
+between two electrodes with a potential difference of 2,100 volts. The
+electrodes have a surface area of 1 x 2 mm and are 1 cm apart. The
+electrodes are made of bronze.  The current flowing through the electrodes
+is digitally recorded every millimeter. In an aqueous solution, all the
+ions can participate in the conduction of an electrical charge. In ice the
+movement of the ions is restricted by the ice lattice which reduces the
+ability of the ions to conduct a direct current. The direct current is
+conducted by the movement of protons associated with the H+ of strong
+acids; hence, the ECM current is considered to be a measure of the acidity
+of the ice. The ECM has a spatial resolution of <1 centimeter (cm), yet is
+rapid enough that it is practical to measure it continuously along the
+entire core. These attributes make the ECM ideally suited for
+investigation of short duration phenomena which influence the acid/base
+balance of the ice. 
+
+Two-meter sections of the core were passed under a horizontal bandsaw to
+remove a 5 cm wide slab along the axis of the core. A rail mounted
+microtome knife or milling machine was used to shave the saw cut surface
+to remove surface contamination and surface irregularities. A computer
+controlled the motion of electrodes along the axis of the core and
+recorded the ECM current for each millimeter of travel. The operator used
+a hand switch to identify locations where the electrodes encountered
+fractures in the core. These data were removed from the data set. A
+similar system was used on the GRIP core. 
+
+Instrument related artifacts adversely influence some aspects of the GISP2
+ECM record. The ECM current is influenced by the temperature of the ice
+when the measurement was made. A correction based on the surface
+temperature of the ice was made to determine what the ECM current would be
+at a temperature of -20_C. When an ice core was undergoing a temperature
+transition, the surface temperature did not represent the temperature of
+the volume being measured.  There may be sections two to 50 m in length
+that have a several percent variation from the correct ECM current because
+of the temperature uncertainty. We now hold the ice at a constant
+temperature for 24 hours prior to measurement to avoid this complication.
+An error of several percent over hundreds of meters may have occurred due
+to variations in the surface conditions of the electrodes.  Between 1100 m
+and 1400 m, the core quality was low and there were numerous small pieces
+of ice per 2 m segment of core. There was also an intermittent problem
+with the electrical grounding of the system. Both of these factors reduced
+the data quality in this section. Better methods of maintaining consistent
+electrode surface conditions have been instituted. The preamplifier was
+changed at a depth of 2250 m, which appears to have altered the response
+of the ECM instrumentation at levels below 0.1 microamps. This results in
+an artifact which incorrectly suggests that stadial periods have a
+slightly lower ECM current above 2250 m than below 2250 m. The design of
+the preamplifier has been stabilized to prevent this from recurring. 
+
+The data is saved in files, each of which contains 50 m of data. The first
+letter of the file indicates the core which the data is from. The 4 digits
+which follow is the depth at the top of the file. 
+
+The extension of .dat indicates that it is an ecm file versus depth (i.e.
+The file d0200.dat is the ecm data for the GISP2 D core (which is the main
+deep core) from a depth of 200 m to 250 m.) These files have two columns.
+The first column is the depth, the second column is the ECM current in
+microamps. 
+
+The extension of .a indicates that it is an ecm file versus age (i.e. the
+file d0200.a is the ecm data for the GISP2 D core from a depth of 200 m to
+250 m. These files have two columns.  The first column is age (years B.P.
+1950 on the Meese/Sowers timescale), the second column is the ECM current
+in microamps. 
+
+The ECM file ecmage.dat represents approximately 0.5 meter averages of the
+data in the b****.dat and d****.dat files.  

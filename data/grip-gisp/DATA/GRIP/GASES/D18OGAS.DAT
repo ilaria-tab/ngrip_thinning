@@ -1,0 +1,127 @@
+GRIP Oxygen-18 of Atmospheric Oxygen
+
+REFERENCES:
+
+Leuenberger, M.C. 1997. Modeling of the signal transfer of seawater d18O to
+the d18O of atmospheric oxygen using a diagnostic box model for the
+terrestrial and marine biosphere. Journal of Geophysical Research 102:26841
+26850.
+
+Sowers, T., E.J. Brook, D. Etheridge, T. Blunier, A. Fuchs, M.C.
+Leuenberger, J.A. Chappellaz, J.M. Barnola, M. Wahlen, B. Deck, and C.
+Weyhenmeyer. 1997. An interlaboratory comparison of techniques for
+extracting and analyzing trapped gases in ice cores. Journal of Geophysical
+Research 102:26527-26538.
+
+Fuchs, A., and M.C. Leuenberger. 1996. d18O of atmospheric oxygen measured
+on the GRIP ice core document stratagraphic disturbances in the lowest 10%
+of the core. Geophysical Research Letters 9:1049-1052.
+
+DATA DESCRIPTION:
+
+The file contains two columns:
+Column 1: Depth (meters below the surface)
+Column 2: d18O values (permil against modern air taken at Bern in 1994). 
+
+The measurements presented here have been performed in Bern using a dry
+extraction technique developed by Moor and Stauffer, (1984) and at LMCE
+with a wet extraction (Sowers et al., 1989). The extracted air samples are
+analyzed for isotopic oxygen content on a MAT 250 (Bern) and a MAT 252
+(LMCE), respectively. The results are given as permil deviations from the
+isotopic composition of modern atmospheric oxygen (air 1994). As part of
+the inter-laboratory comparison of techniques for extracting and analyzing
+trapped gases in ice cores, we have compared the scales used by Bender and
+Sowers and the Bern group (Sowers et al., 1996). The overall analytical
+precisions are similar in both labs and amount to 0.13o/oo in Bern and
+0.15o/oo at LMCE for the gravitation corrected values, which are given
+here. The gravitation correction has been made using measured d15N2 values
+of the corresponding samples. 
+ 
+d18O measured on oxygen in the bubble air from ice cores is a proxy for
+continental ice volume and is used to synchronize cores from Greenland and
+Antarctica (Bender et al., 1985, Sowers et al., 1993). A record measured
+on ice samples from the Central Greenland deep ice core GRIP, spanning the
+Last Glacial Maximum and the Holocene, shows that d18O of atmospheric
+oxygen is in good agreement with measurements on the Vostok, Byrd and
+GISP2 ice cores (Bender et al., 1994, Sowers and Bender, 1995). The smooth
+isotope record of atmospheric oxygen represents a steady ice sheet decay
+within the time resolution of about 2000 to 3000 years for atmospheric
+oxygen. 
+
+The Emian records as shown here documents the potential of d18O
+measurements for tracing stratigraphic disturbances. Measurements
+performed on ice from the GRIP core older than 100 kyrs (about 2700 mbs)
+do not correlate with the corresponding Vostok record and show transitions
+too fast to be typical for ice sheet build-up or decay. Furthermore, the
+expected time lag between d18Oatm and d18O of seawater or d18O of ice is
+absent or has even turned into a lead. Climatic interpretation of the fast
+d18Oice transitions is not consistent with our d18Oatm results. By
+combining our d18Oatm record with the methane (CH4) record at the same
+depth levels and by comparing them to their Antarctic counterpart from
+Vostok, we constrain the possible age of the ice in the disturbed region.
+The combination suggests that the layers with heavy d18Oice correspond
+indeed to ice from the last Interglacial (stage 5e) whereas layers with
+light d18Oice correspond to ice either from stage 5d or from the
+penultimate glaciation, mechanically inserted into the ice from stage 5e. 
+
+DATA:	
+
+Depth (m)	del18O
+Midpoint	(per mil)
+
+987.25	0.01
+1069.2	-0.08
+1182.5	-0.29
+1219.35	-0.18
+1319.45	-0.37
+1343.1	-0.19
+1400.85	-0.19
+1431.1	-0.2
+1491.6	0.04
+1546.6	0.14
+1590.6	0.33
+1651.1	0.61
+1717.1	0.83
+1761.1	1.07
+1816.65	0.95
+1860.1	0.93
+1893.1	0.95
+1937.65	0.85
+1952.5	0.79
+1970.1	0.87
+1999.8	0.76
+2058.65	0.59
+2124.65	0.4
+2157.65	0.44
+2190.1	0.46
+2201.65	0.56
+2267.1	0.44
+2319.9	0.46
+2390.3	0.28
+2762.65	0.67
+2770.35	0.95
+2778.6	0.67
+2789.6	0.43
+2807.2	0.69
+2811.6	0.1
+2811.6	-0.12
+2827	0.6
+2830.3	0.63
+2835.25	0.82
+2835.8	0.77
+2840.2	-0.33
+2842.95	-0.07
+2855.6	-0.11
+2868.25	0.34
+2871.55	0.29
+2880.9	0.28
+2883.65	1.07
+2884.2	0.94
+2885.85	0.86
+2891.9	1.04
+2901.25	1.02
+2908.4	0.18
+2910.6	0.04
+2915.55	0.45
+2933.7	0.34
+2949.1	0.35

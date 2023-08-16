@@ -1,0 +1,490 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Author" content="NOAA Paleoclimatology Program">
+<meta name="Description"
+content="paleoclimatology, paleoclimate, paleoecology, palaeoclimate, palaeoecology">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>NOAA Paleoclimatology Program</title>
+<STYLE>
+<!--
+	BODY  {font-family: "Verdana, Arial, Helvetica"; font-size: 8pt; color: 000000}
+	A:link {font-family: "Verdana, Arial, Helvetica"; font-size: 9pt; color: 336699; font-weight: bold}
+	A:visited {font-family: "Verdana, Arial, Helvetica"; font-size: 9pt; color: 800080; font-weight: bold}
+	BIG  {font-family: "Verdana, Arial, Helvetica"; font-size: 15pt; color: 006699; font-style: italic; font-weight: bold}
+	H3  {font-family: "Verdana, Arial, Helvetica"; font-size: 12pt; color: 006699; font-weight: medium}
+-->
+</STYLE>
+</head>
+
+<body background="back.gif" text="#000000" link="#336699"
+vlink="#808080" alink="#FF0000" topmargin="0" leftmargin="0">
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top"><img src="1pix.gif" hspace="10"
+        width="1" height="1"><!--webbot bot="ImageMap" startspan
+        rectangle=" (230,83) (357, 97)  pvcont.htm"
+        rectangle=" (375,83) (461, 97)  http://www.ngdc.noaa.gov/paleo/paleo.html"
+        rectangle=" (477,83) (547, 97)  http://www.ngdc.noaa.gov/paleo/staff.html"
+        rectangle=" (78,83) (213, 97)  http://www.ngdc.noaa.gov/paleo/softlib.html"
+        src="topnav.gif" border="0" width="592" height="100" --><MAP NAME="FrontPageMap0"><AREA SHAPE="RECT" COORDS="230, 83, 357, 97" HREF="pvcont.htm"><AREA SHAPE="RECT" COORDS="375, 83, 461, 97" HREF="http://www.ngdc.noaa.gov/paleo/paleo.html"><AREA SHAPE="RECT" COORDS="477, 83, 547, 97" HREF="http://www.ngdc.noaa.gov/paleo/staff.html"><AREA SHAPE="RECT" COORDS="78, 83, 213, 97" HREF="http://www.ngdc.noaa.gov/paleo/softlib.html"></MAP><img src="topnav.gif" border="0" width="592" height="100" usemap="#FrontPageMap0"><!--webbot
+        bot="ImageMap" i-checksum="29677" endspan --><a
+        name="top"></a><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        <img src="1pix.gif" hspace="5" width="1" height="1"><font
+        color="#000080" size="4" face="Verdana">Appendix B</font><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="30"><img src="1pix.gif" hspace="30" width="1"
+        height="1"></td>
+        <td valign="top"><h3><font color="#000080" size="4"
+        face="Verdana"><tt>B.1.Operator Precedence</tt></font></h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><tt>Operator</tt></b></font></td>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><tt>Order</tt></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>(</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>NOT</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>right</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>* /</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>+ -</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt><<=> &gt;=</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>= != <></tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>AND</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>OR</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>left</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="10" width="1" height="1"><br>
+        In the operator precedence table, operators at the same
+        level have the same precedence. Operators at the top of
+        the table have the highest precedence. In other words, in
+        expressions with no parenthesizes, these operations would
+        be performed first before a operator with lower
+        precedence.<br>
+        Order determines whether an operation is performed left
+        to right or right to left.<br>
+        </tt></font></p>
+        <h3><font color="#000080" size="3" face="Verdana"><tt>B.2
+        Operand Types</tt></font></h3>
+        <p><font size="3" face="Verdana"><tt>There are 4 types of
+        operands in PaleoVu - Float, Long, Variable, and Boolean.
+        Mixing these types and certain operations can produce
+        valid results or errors. Following is a list of tables
+        indicating operator, operand types and resulting value
+        types.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operators +, -, *</tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td colspan="4" bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Right Operand</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt><img
+                src="1pix.GIF" width="1" height="1"></tt></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Long</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False
+                a</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Error</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Where Boolean return types have a value, it does not
+        matter what the operand values are, this is the value
+        that is returned.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operators / a</tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td colspan="4" bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Right Operand</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><b><tt><img
+                src="1pix.GIF" width="1" height="1"></tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Long</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Error</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False
+                b</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Error</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Error</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Divide by 0 errors are returned as an error.<br>
+        <img src="1pix.gif" vspace="5" width="1" height="1"><br>
+        b. Where Boolean return types have a value, it does not
+        matter what the operand values are, this is the value
+        that is returned.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operators OR, AND</tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td colspan="4" bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Right Operand</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt><img
+                src="1pix.GIF" width="1" height="1"></tt></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True
+                a</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Right
+                b</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Right</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/True</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Right</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Left</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Left</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/Left</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Where Boolean return types have a value , it does not
+        matter what the operand values are, this is the value
+        that is returned.<br>
+        <img src="1pix.gif" vspace="5" width="1" height="1"><br>
+        b. When Left of Right are indicated for a Boolean value,
+        the value of the left or right operand is returned
+        regardless of the other operand value.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operator =, <></tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td colspan="4" bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Right Operand</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt><img
+                src="1pix.GIF" width="1" height="1"></tt></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False
+                a</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Error</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Where Boolean return types have a value, it does not
+        matter what the operand values are, this is the value
+        that is returned.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operators <, <=",">, &gt;=</tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td colspan="4" bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Right Operand</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt><img
+                src="1pix.GIF" width="1" height="1"></tt></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Long</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False
+                a</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Float</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Variable</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+            <tr>
+                <td bgcolor="#66CCFF"><font size="3"
+                face="Verdana"><b><tt>Boolean</tt></b></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Where Boolean return types have a value, it does not
+        matter what the operand values are, this is the value
+        that is returned.<br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"><br>
+        </tt><b><tt>Operator - (unary)</tt></b><tt><br>
+        <img src="1pix.gif" vspace="10" width="1" height="1"></tt></font></p>
+        <table border="1" cellpadding="2" cellspacing="0"
+        bordercolor="#660033">
+            <tr>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Left Operand</tt></i></b></font></td>
+                <td bgcolor="#FFFFCC"><font size="3"
+                face="Verdana"><b><i><tt>Return Type</tt></i></b></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>Long</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Long</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Float</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Variable</tt></font></td>
+            </tr>
+            <tr>
+                <td><font size="3" face="Verdana"><tt>Boolean</tt></font></td>
+                <td><font size="3" face="Verdana"><tt>Boolean/False</tt></font></td>
+            </tr>
+        </table>
+        <p><font size="3" face="Verdana"><tt><img src="1pix.gif"
+        vspace="5" width="1" height="1"><br>
+        a. Where Boolean return types have a value, it does not
+        matter what the operand values are, this is the value
+        that is returned.</tt></font></p>
+        </td>
+        <td width="30"><img src="1pix.gif" hspace="30" width="1"
+        height="1"></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="3"><a href="#top"><img
+        src="top.gif" border="0" vspace="10" width="45"
+        height="68"></a></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="3">
+	<img src="1pix.gif" width="100" height="5"><br>
+        <a href="1intro.htm">
+	<img src="int.gif" border="0" width="157" height="23"></a><nobr>
+	<a href="2main.htm">
+	<img src="main.gif" border="0" width="157" height="23"></a><nobr>
+        <a href="window.htm">
+	<img src="geo.gif" border="0" width="157" height="23"></a><nobr>
+	<a href="query.htm">
+	<img src="q.gif" border="0" width="157" height="23"></a><br>
+        <a href="plot.htm">
+	<img src="plot.gif" border="0" width="157" height="23"></a><nobr>
+	<a href="export.htm">
+	<img src="ex.gif" border="0" width="157" height="23"></a><nobr>
+        <a href="apxa.htm">
+	<img src="a.gif" border="0" width="157" height="23"></a><nobr>
+	<img src="blueb.gif" width="157" height="23"><br>
+        <img src="1pix.gif" width="100" height="5"></td>
+    </tr>
+</table>
+</body>
+</html>

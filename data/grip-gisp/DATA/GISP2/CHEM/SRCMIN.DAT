@@ -1,0 +1,38 @@
+Mineralogy and Isotope Chemistry of Potential Source Area Samples
+
+REFERENCES: 
+
+Biscaye, P.E., F.E. Grousset, M. Revel, S. Van der Gaast, G.A. Zielinski,
+A. Vaars, and G. Kukla. 1997. Asian provenance of glacial dust (stage 2) in
+the Greenland Ice Sheet Project 2 ice core, Summit, Greenland. Journal of
+Geophysical Research 102:26765-26781.
+
+DATA DESCRIPTION: 
+
+This file is contains clay mineralogy, Nd/Sm and Pb isotope data from
+possible source regions for GISP2 dust, from Biscaye et al.  (1997). 
+Details are given in the reference and in the file gisp2min.dat.  '999999'
+refers is used for non-measured parameters.
+
+Data on possible dust source regions are given in the companion file 
+gisp2min.dat.
+
+DATA:
+
+Sample	Location	Type	Smectite (%)	Illite (%)	Kaolinite (%)	Chlorite (%)	87Sr/86Sr,	143Nd/144Nd,	epsilon Nd	206Pb/204Pb	207Pb/204Pb	208Pb/204Pb	206Pb/207Pb	208Pb/206Pb
+
+248-1	Gobi Desert, Minkhen-Teg	desert sand	0	60	10	30	0.714903	0.512191	-8.7	18.836	15.653	38.782	1.203	2.059
+248-2	Gobi Desert, Naran Bulak	desert sand	0	36	25	38	0.714087	0.51234	-5.8	18.744	15.621	38.568	1.2	2.048
+248-3	Gobi Desert, Ukhaa Tolgod	desert sand	0	28	25	48	0.714147	0.512336	-5.9	18.942	15.64	38.574	1.211	2.036
+251-3	Fairbanks, AK, Moose Mt. -3m  	loess	1	45	17	37	0.71256	0.511752	-17.2	19.253	15.672	39.065	1.228	2.029
+251-4	Fairbanks, AK Moose Mt. -2m 	loess	2	43	22	33	0.717731	0.511547	-21.2	19.283	15.69	39.18	1.229	2.032
+251-5	Fairbanks, AK, Coyote Trail -3m	loess	1	44	19	35	0.716344	0.511677	-18.7	19.207	15.673	39.052	1.225	2.033
+251-6	Fairbanks, AK, Coyote Trail -2m	loess	1	47	21	31	0.716875	0.511748	-17.3	19.271	15.667	39.095	1.23	2.029
+248-8	U.S., Illinois, Pancake Hollow	loess	8	38	42	12	0.730225	0.511871	-14.9	19.318	15.711	39.153	1.23	2.027
+245-5	U.S., Washington, Pullman	loess	0	95	5	1	0.726278	0.51183	-15.7	19.141	15.69	39.182	1.22	2.047
+245-6	Canada, Toronto, Scarborough Bluffs	lake silt	0	47	10	44	0.71811	0.511956	-13.3	18.581	15.544	38.412	1.195	2.068
+248-6	China, Luochuan	loess	3	58	10	28	0.726795	0.512109	-10.3	18.737	15.647	38.869	1.197	2.071
+248-4	China, Lantian	loess	1	59	14	26	0.72642	0.512158	-9.3	18.765	15.648	38.913	1.199	2.074
+248-5	China, Yulin Hotel	loess	1	56	17	26	0.727639	0.512048	-11.3	18.817	15.653	38.929	1.202	2.069
+248-7	Ukraine, Muzichi (near Kiev)	loess	0	33	49	18	0.732562	0.511969	-13	19.742	15.75	39.361	1.253	1.994
+

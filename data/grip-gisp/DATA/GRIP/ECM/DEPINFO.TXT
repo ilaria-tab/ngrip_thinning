@@ -1,0 +1,67 @@
+GRIP Dielectric Profiling (DEP) Data
+
+REFERENCES:
+
+Wolff, E.W., J.C. Moore, H.B. Clausen, and C.U. Hammer. 1997. Climatic
+implications of background acidity and other chemistry derived from
+electrical studies of the Greenland Ice Core Project ice core. Journal of
+Geophysical Research 102:26325-26332.
+
+Clausen, H.B., C.U. Hammer, J. Christensen, C.S. Hvidberg, D. Dahl-Jensen,
+M.R. Legrand, and J.P. Steffensen. 1995. 1250 years of global volcanism as
+revealed by central Greenland ice cores. Ice Core Studies of Global
+Biogeochemical cycles, annecy, France, R. Delmas (ed.). NATO Advanced
+Sciences Institutes Series 1, 30:175-194.
+
+Wolff, E.W., J.C. Moore, H.B. Clausen, C.U. Hammer, J. Kipfstuhl, and K.
+Fuhrer. 1995. Long-term changes in the acid and salt concentrations of the
+Greenland Ice Core Project ice core from electrical stratigraphy. Journal
+of Geophysical Research 100:16249-16263.
+
+Moore, J.C., E.W. Wolff, H.B. Clausen, C.U. Hammer, M.R. Legrand, and K.
+Fuhrer. 1994. Electrical response of the Summit-Greenland ice core to
+ammonium, sulphuric acid, and hydrochloric acid. Geophysical Research
+Letters 21:565-568.
+
+GRIP Members. 1993. Climate instability during the last interglacial period
+recorded in the GRIP ice core. Nature 364:203-207.
+
+Taylor, K.C., C.U. Hammer, R.B. Alley, H.B. Clausen, D. Dahl-Jensen, A.J.
+Gow, N.S. Gundestrup, J. Kipfstuhl, J.C. Moore, and E.D. Waddington. 1993.
+Electrical conductivity measurements from the GISP2 and GRIP Greenland ice
+cores. Nature 366:549-552.
+
+Moore, J.C., R. Mulvaney, and J.G. Paren. 1989. Dielectric stratigraphy of
+ice: a new technique for determining total ionic concentrations in polar
+ice cores. Geophysical Research Letters 16:1177-1180.
+
+Moore, J.C., and J.G. Paren. 1987. A new technique for dielectric logging
+of Antarctic ice cores. Journal de Physique 48:C1/155-C1/160.
+
+DATA DESCRIPTION:
+
+The files dep1.dat, dep2.dat, etc. contain DEP (dielectric profiling) data
+from the GRIP ice core drilled at Summit, Greenland at 2 cm resolution.
+The data are in two columns, depth (m) and sigma infinity
+(microsiemens/m).  Sigma infinity is the high-frequency limit of the
+conductivity, corrected to -15 degrees C.  The data start at 138 metres
+below the surface, and continue to the bottom of the core, including
+several metres of silty basal ice. 
+
+The file gripdep.dat contains averages over a 55 cm interval (the depth
+given is the mid-point of the interval).  There are a few missing
+datapoints.  The data have all the corrections described in Wolff et al., 
+(1995), except that large peaks from volcanic eruptions have not been
+removed from this dataset (although they are generally not seen clearly in
+these 55 cm averages).  Note that the level changes between 730 and 930 m
+are believed to be spurious (Wolff, et al., 1995) due to poor temperature 
+correction. 
+
+Sigma infinity has a pure ice background of 9 microsiemens/m, and responds
+to the chemistry of the ice. The only components known to cause an
+increased sigma infinity are acidity, ammonium and chloride (Wolff et 
+al., 1995; Moore, et al., 1994). A calibration is given in Wolff et al., 
+(1995). During warm periods, the DEP is mainly a record of acidity, while 
+during cold (glacial) periods it is responding mainly to ammonium and/or 
+chloride. 
+

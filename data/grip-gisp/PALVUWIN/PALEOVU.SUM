@@ -1,0 +1,92 @@
+#  19980303 PaleoVu GISP2 GRIP Icecore CD-ROM Version summary file
+#  Aug 4, 1995  1:00
+#  PaleoVu main summary file.  The root is always "ALL".  
+#  
+#  PaleoVu knows that the following types of data are possible:
+#      GEOREFERENCE
+#      TIMESLICE
+#  Under each of these entries are the categories of data of
+#  that type.
+#
+#  The fields are as follows:
+#      :C=#:            - number of children of this node
+#      :SF=<file_name>: - file name for the summary file for this leaf
+#                         of the tree
+#      :FL=<file_name>: - file name for the file id lookup file for
+#                         the summary file associated with this leaf
+#                         of the tree
+#
+#  A '#' at the beginning of a line signals a comment line.
+#  The string EOF marks the last line of the file.
+#
+#
+# Category Tree Definition
+#1:ALL:C=2:
+1:ALL:C=1:
+   2:GEOREFERENCE:C=2:
+      3:Ice Core:C=0:SF=ice_core.sum:FL=ice_core.flp:
+      3:Instrumental:C=0:SF=instrum.sum:FL=instrum.flp:
+#   2:TIMESLICE:C=0:
+ILEVEL=1:Root:CHILDNODES=3:
+ ILEVEL=2:Base Maps:CHILDNODES=0:
+      FILENAME=greenbak.cdf:
+      FILENAME=npolebak.cdf:
+      FILENAME=world.cdf:
+ ILEVEL=2:Ice Extent & Topography:CHILDNODES=2:
+   ILEVEL=3:Peltier 1994 Reconstructions(ICE4G):CHILDNODES=2:
+     ILEVEL=4:Ice Extent:CHILDNODES=0:
+         FILENAME=pelice0.gpl:
+         FILENAME=pelice3.gpl:
+         FILENAME=pelice6.gpl:
+         FILENAME=pelice9.gpl:
+         FILENAME=pelice12.gpl:
+         FILENAME=pelice15.gpl:
+         FILENAME=pelice18.gpl:
+         FILENAME=pelice21.gpl:
+     ILEVEL=4:Paleotopography:CHILDNODES=0:
+         FILENAME=topout0.gpl:
+         FILENAME=topout3.gpl:
+         FILENAME=topout6.gpl:
+         FILENAME=topout9.gpl:
+         FILENAME=topout12.gpl:
+         FILENAME=topout15.gpl:
+         FILENAME=topout18.gpl:
+         FILENAME=topout21.gpl:
+
+   ILEVEL=3:CLIMAP Reconstructions:CHILDNODES=2:
+     ILEVEL=4:Ice Extent:CHILDNODES=0:
+         FILENAME=climice.gpl:
+         FILENAME=clipice.gpl:
+     ILEVEL=4:Paleotopography:CHILDNODES=0:
+         FILENAME=cliptop.gpl:
+
+                
+ ILEVEL=2:Sea Surface Temperatures:CHILDNODES=3:
+   ILEVEL=3:CLIMAP:CHILDNODES=0:
+           FILENAME=clip8sst.gpl:
+           FILENAME=clap8sst.gpl:
+           FILENAME=clip2sst.gpl:
+           FILENAME=clap2sst.gpl:
+   ILEVEL=3:Modern-Levitus 1982:CHILDNODES=0:
+           FILENAME=lev8sst.gpl:
+           FILENAME=lev2sst.gpl:
+   ILEVEL=3:World Ocean Atlas 1994:CHILDNODES=0:
+           FILENAME=woat00.gpl:
+           FILENAME=woat13.gpl:
+           FILENAME=woat14.gpl:
+           FILENAME=woat15.gpl:
+           FILENAME=woat16.gpl:
+           FILENAME=woat01.gpl:
+           FILENAME=woat02.gpl:
+           FILENAME=woat03.gpl:
+           FILENAME=woat04.gpl:
+           FILENAME=woat05.gpl:
+           FILENAME=woat06.gpl:
+           FILENAME=woat07.gpl:
+           FILENAME=woat08.gpl:
+           FILENAME=woat09.gpl:
+           FILENAME=woat10.gpl:
+           FILENAME=woat11.gpl:
+           FILENAME=woat12.gpl:
+
+EOF

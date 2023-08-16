@@ -1,0 +1,114 @@
+GISP2 Concentration of H2O2 in surface snow.
+
+REFERENCES:
+
+Dibb, J.E., and J.L. Jaffrezo. 1997. Air-snow exchange investigations at
+Summit, Greenland: An overview. Journal of Geophysical Research 102:26795
+26807.
+
+McConnell, J.R., R.C. Bales, J.R. Winterle, H.D. Kuhns, and C.R. Stearns.
+1997. A lumped parameter model for the atmosphere-to-snow transfer function
+for hydrogen peroxide. Journal of Geophysical Research 102:26809-26818.
+
+Bales, R.C., J.R. McConnell, M.V. Losleben, M.H. Conklin, K. Fuhrer, A.
+Neftel, J.E. Dibb, J.D.W. Kahl, and C.R. Stearns. 1995. Diel variations of
+H2O2 in Greenland: A discussion of the cause and effect relationship.
+Journal of Geophysical Research 100:18661-18668.
+
+Bales, R.C., M.V. Losleben, and J.R. McConnell. 1995. H2O2 in snow, air and
+open pore sapce in firn at Summit, Greenland. Geophysical Research Letters
+22:1261-1264.
+
+DATA DESCRIPTION:
+
+This file has concentration data for H2O2 in surface snow for the 1993
+summer season.  Samples were collected from the top few millimeters of
+snow from a 10 x 10 cm area.  Samples were generally melted and analyzed
+within 1 to 3 hours after collection.  Analysis was by the peroxidase
+method of Sigg et al. (1992). See Bales et al. (1995) for more details. 
+
+DATA:
+
+day of year	H2O2 concentration (um/l)
+
+147.3958	18.3529
+148.4063	22.5735
+150.4063	15.3353
+151.4063	16.3588
+152.3958	15.3353
+153.3958	15.1176
+154.2813	14.4706
+154.5208	13.4412
+154.7813	14.0882
+155.0208	14.6412
+155.2813	15.4059
+155.5313	17.1765
+155.7813	16.8588
+156.0139	15.9059
+156.3542	16.4059
+157.3646	15.8941
+158.4375	16.0706
+159.4063	15.9647
+160.4167	18.4265
+161.3542	16.7990
+162.3750	17.5941
+163.3854	17.4353
+164.3646	16.6000
+165.3542	19.1059
+166.3542	15.9588
+167.3542	20.5471
+168.3750	17.8412
+169.4028	16.2882
+170.3958	11.2412
+171.2917	20.6324
+171.5278	21.6471
+171.7847	21.0000
+172.0313	23.2500
+172.3021	23.5147
+172.5278	22.5441
+172.7778	24.5000
+173.2813	32.0000
+173.5208	27.6324
+173.8125	25.8824
+174.0208	24.6618
+174.3333	25.1765
+175.3125	23.7059
+176.3542	22.7941
+177.3542	18.4706
+179.3646	12.1912
+181.3542	10.1765
+182.3542	9.3824
+183.3542	11.5515
+184.3750	16.8824
+185.3542	17.4902
+186.5313	21.6471
+186.7778	15.1176
+186.9896	18.1765
+187.2813	18.9412
+187.5208	17.1765
+187.7813	17.9412
+188.0208	15.3824
+188.2813	15.3824
+188.5208	15.8824
+188.7708	15.3824
+189.0208	14.8529
+189.2917	14.8529
+189.5208	14.8529
+189.7708	14.8529
+190.3333	23.3235
+191.3646	20.7353
+192.3646	22.7941
+193.3646	18.4412
+194.3646	16.3824
+195.3646	17.4118
+199.3229	15.5882
+199.5139	15.5882
+199.6944	15.8824
+199.8785	16.0294
+200.2951	17.2353
+200.4826	16.7059
+200.6910	16.2059
+200.8924	16.2647
+201.2993	15.5882
+201.4826	15.7059
+201.6736	14.1176

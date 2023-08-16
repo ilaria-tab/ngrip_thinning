@@ -1,0 +1,111 @@
+        Welcome to The Greenland Summit Ice Cores CD-ROM!    
+  
+  
+This CD-ROM provides information, data, search capabilities, graphics,  
+and bibliography listings for the Greenland Ice Sheet Project Two  
+(GISP2) and the Greenland Ice Core Project (GRIP).  The recommended  
+way to access all of the features listed above is to use the built-in  
+interactive interface.  If you have a net browser on your machine  
+(Netscape, Internet Explorer,  Mosaic, etc.) access the file "start.htm"  
+to start the web-based interface.  The interface should be compatible  
+with all browsers.  The overall structure of this CD-ROM is listed below:  
+  
+- readme.1st - the file you are reading now!  
+- start.htm - main html file for accessing data and information  
+- tablecon.htm - table of contents  
+  
+The "data" directory contains all data and information from the GRIP  
+and GISP2 cores.  You can directly access the file "format.txt" in the  
+"data" directory to acquire information on the format of the data and  
+information files.  The "document" directory contains project descriptions,  
+web interface  pages for the data, citations, and JGR author listings for  
+each coring project.  Contained in the "image" directory are logos,  
+backgrounds, and pictures of the coring projects.  The "search" directory  
+contains the WWW search engine interface files and executables.  The  
+PaleoVu graphical interface files and visualization software executables
+(Macintosh and Windows only) are in the "palvumac" and "palvuwin" 
+directories.  
+  
+  
+Citing the National Snow and Ice Data Center (NSIDC) and Contribution   
+Series Reports in Publications:  
+  
+Citation of the original authors of published papers and reports is  
+required of all using data and information from this CD-ROM.   
+  
+In general, the list of references given with each file is in reverse  
+chronological order. Not all of the references need necessarily be cited,  
+unless specifically stated, but in general both the primary reference  
+(usually the earliest) and the most up-to-date reference should be used.  
+Also, papers describing the development of the timescale, where  
+appropriate, should be included. An example of the citation of data used  
+from this CD-ROM:   
+  
+Dansgaard, W., J.W.C. White, and S.J. Johnsen. 1989. The abrupt  
+termination of the Younger Dryas climate event. Nature 339:532-533.   
+  
+Where appropriate, users should also cite this CD-ROM. Citations in  
+reference lists accompanying published work are stated:   
+  
+The Greenland Summit Ice Cores CD-ROM. 1997. Available from the  
+National Snow and Ice Data Center, University of Colorado at Boulder,  
+and the World Data Center-A for Paleoclimatology, National  
+Geophysical Data Center, Boulder, Colorado.   
+  
+An example of a statement within a publication acknowledging data  
+might read:   
+  
+"Data provided by the National Snow and Ice Data Center, University of  
+Colorado at Boulder, and the WDC-A for Paleoclimatology, National  
+Geophysical Data Center, Boulder, Colorado."   
+  
+  
+Acknowledgments:  
+ 
+This CD-ROM was constructed with funding from the National Science  
+Foundation/Office of Polar Programs grant "Arctic System Science Data  
+Coordination Center at NSIDC", grant number OPP-9321416; funding  
+from the NOAA Office of Global Programs grant "Establishment of an  
+International Ice Core Data Cooperative", grant number NA56GP0355;  
+and NOAA Office of Global Programs support to the National  
+Geophysical Data Center (NGDC) Paleoclimatology Program, Boulder,  
+Colorado. 
+ 
+We would like to thank the Office of Polar Programs, National Science  
+Foundation, the Executive Committee and Management Group Committee  
+members from GISP2 and GRIP, the GISP2 Science Management Office  
+and the GRIP Steering Committee for all of their support, encouragement  
+and enthusiasm for this project.  Special thanks go to Jonathan Overpeck,  
+Robert Webb, Eric Wolff, Mark Twickler and David McGinnis for their  
+insight and guidance. Thanks go out to Chris Haggerty for the design  
+of the CD-ROM artwork and Rachel Hauser for her text review and  
+suggestions on design. 
+ 
+The following team from the National Snow and Ice Data Center (NSIDC) 
+at the University of Colorado, the World Data Center A (WDC-A) for   
+for Paleoclimatology at NOAA-NGDC and the Institute of Arctic and  
+Alpine Research (INSTAAR) worked together to construct this CD-ROM. 
+The individuals, and the tasks each took a lead in, are listed by  
+institution in alphabetical order as follows: INSTAAR: Eric Steig,  
+James White and David White - Scientific oversight, data solicitation 
+and quality control.  NGDC: Bruce Bauer - Data archival and distribution;  
+Ed Gille - Data and information conversion to netCDF format; Wendy 
+Gross - PaleoVu development and software engineering; John Kelter -  
+Search engine development and relational data base design.  NSIDC: 
+Matthew Cross - Web interface development, CD-ROM mastering, archiving
+and data distribution.   
+ 
+  
+For assistance and CD-ROM ordering information please contact:  
+  
+NSIDC User Services		E-mail: nsidc@kryos.colorado.edu  
+CIRES, Campus Box 449		Phone:  303-492-6199  
+University of Colorado		Fax:  303-492-2468  
+Boulder, CO 80309-0449 USA  
+  
+  
+WDC-A for Paleoclimatology	E-mail: paleo@ngdc.noaa.gov   
+NOAA/NGDC Code E/GC4		Phone:  303-497-6160  
+325 Broadway			Fax:  303-497-6513  
+Boulder, CO  80303 USA
+
